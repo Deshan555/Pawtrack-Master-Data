@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "pig",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "large_white",
+      "name": "Large White",
+      "aliases": [
+        "Yorkshire Pig",
+        "Large White Yorkshire"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "landrace",
+      "name": "Landrace",
+      "aliases": [
+        "Landrace Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "duroc",
+      "name": "Duroc",
+      "aliases": [
+        "Duroc Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "hampshire",
+      "name": "Hampshire",
+      "aliases": [
+        "Hampshire Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "berkshire",
+      "name": "Berkshire",
+      "aliases": [
+        "Berkshire Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "pietrain",
+      "name": "Pietrain",
+      "aliases": [
+        "Piétrain"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "tamworth",
+      "name": "Tamworth",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "gloucestershire_old_spots",
+      "name": "Gloucestershire Old Spots",
+      "aliases": [
+        "GOS",
+        "Gloucester Old Spots"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mangalica",
+      "name": "Mangalica",
+      "aliases": [
+        "Mangalitsa",
+        "Mangalitza"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "kunekune",
+      "name": "Kunekune",
+      "aliases": [
+        "Kune Kune"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "vietnamese_pot_bellied",
+      "name": "Vietnamese Pot-bellied",
+      "aliases": [
+        "Pot-bellied Pig",
+        "Vietnamese Potbellied Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "meishan",
+      "name": "Meishan",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "chester_white",
+      "name": "Chester White",
+      "aliases": [
+        "Chester White Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "poland_china",
+      "name": "Poland China",
+      "aliases": [
+        "Poland China Pig"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbred Pig"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

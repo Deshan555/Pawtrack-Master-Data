@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "other",
+  "classificationType": "custom_type",
+  "classificationLabel": "Animal Type",
+  "entries": [
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

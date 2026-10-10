@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "horse",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "arabian",
+      "name": "Arabian",
+      "aliases": [
+        "Arabian Horse"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "thoroughbred",
+      "name": "Thoroughbred",
+      "aliases": [
+        "TB"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "quarter_horse",
+      "name": "Quarter Horse",
+      "aliases": [
+        "American Quarter Horse",
+        "AQH"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "appaloosa",
+      "name": "Appaloosa",
+      "aliases": [
+        "Appy"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "morgan",
+      "name": "Morgan",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "friesian",
+      "name": "Friesian",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "andalusian",
+      "name": "Andalusian",
+      "aliases": [
+        "Pure Spanish Horse",
+        "PRE"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "lipizzaner",
+      "name": "Lipizzaner",
+      "aliases": [
+        "Lipizzan"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "clydesdale",
+      "name": "Clydesdale",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "shire",
+      "name": "Shire",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "percheron",
+      "name": "Percheron",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "shetland_pony",
+      "name": "Shetland Pony",
+      "aliases": [
+        "Shetland"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "welsh_pony",
+      "name": "Welsh Pony",
+      "aliases": [
+        "Welsh Mountain Pony"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "haflinger",
+      "name": "Haflinger",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "icelandic_horse",
+      "name": "Icelandic Horse",
+      "aliases": [
+        "Icelandic"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mustang",
+      "name": "Mustang",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "tennessee_walking_horse",
+      "name": "Tennessee Walking Horse",
+      "aliases": [
+        "Tennessee Walker"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "standardbred",
+      "name": "Standardbred",
+      "aliases": [
+        "American Standardbred"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "akhal_teke",
+      "name": "Akhal-Teke",
+      "aliases": [
+        "Akhal Teke"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "connemara_pony",
+      "name": "Connemara Pony",
+      "aliases": [
+        "Connemara"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbred Horse"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

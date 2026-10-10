@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "releaseId": "2026-10-10.2",
+  "updatedAt": "2026-10-10T12:00:00Z",
+  "minimumAppVersion": "1.0.0",
+  "files": [
+    {
+      "path": "species/species.json",
+      "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
+      "bytes": 3112
+    },
+    {
+      "path": "breeds/bird.json",
+      "sha256": "5aa2897bef618f6a570b44bfa56c12541ce57fe3d50553b48deec8c13c0344da",
+      "bytes": 3729
+    },
+    {
+      "path": "breeds/cat.json",
+      "sha256": "923d9cae8678674bff6e399b3529429ab63cbf368ca1bd85483b951ce545eb95",
+      "bytes": 3705
+    },
+    {
+      "path": "breeds/cow.json",
+      "sha256": "e8de4b1d6cfba7c197086edcaafa043835a024b3240f86819d8a3c656923fb21",
+      "bytes": 3651
+    },
+    {
+      "path": "breeds/dog.json",
+      "sha256": "eb99a44135c92ebd6f09cb540c9fd5c913864889186fd090969310f31f340dd5",
+      "bytes": 8864
+    },
+    {
+      "path": "breeds/fish.json",
+      "sha256": "553f553a38aec6c0b78c3892dc30ac3051ca1fcd374bedee68d36fa8c8a8505a",
+      "bytes": 4529
+    },
+    {
+      "path": "breeds/horse.json",
+      "sha256": "bc3b8e523ec66ca25cdbbe67eb46d46ac3cc7c6c3a3cbce34a8aae82072e8c9d",
+      "bytes": 3918
+    },
+    {
+      "path": "breeds/other.json",
+      "sha256": "fbe0f2042ac8f22a454797a5bfcb8fc77568d39d5d51a30dffad5bc08f11e04f",
+      "bytes": 546
+    },
+    {
+      "path": "breeds/pig.json",
+      "sha256": "c5b3996cab67dd4a23dcb269fe052b6a9508536e18f7a3c21a1479739192b1b8",
+      "bytes": 3152
+    },
+    {
+      "path": "breeds/rabbit.json",
+      "sha256": "079477627e3d2e2334d06492ff920de8655e5b0583dc135683f4c865333938e9",
+      "bytes": 3633
+    },
+    {
+      "path": "breeds/rodent.json",
+      "sha256": "84b824552a8a4b761c69a9d48b664655c2531e0e231f769a659f2617b36eca31",
+      "bytes": 2968
+    },
+    {
+      "path": "breeds/snake.json",
+      "sha256": "307fc6574562b8dd8b9a9d1524993871fdef51031d591853b86f60d3a203dc73",
+      "bytes": 3417
+    },
+    {
+      "path": "breeds/spider.json",
+      "sha256": "44c80850f90129f495f6817144f5e0e2abd6e0ef612743a5ad05d838e30f1ac3",
+      "bytes": 2732
+    }
+  ]
+}

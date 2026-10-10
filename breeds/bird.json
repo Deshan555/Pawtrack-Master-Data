@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "bird",
+  "classificationType": "species_variety",
+  "classificationLabel": "Species / Variety",
+  "entries": [
+    {
+      "id": "budgerigar",
+      "name": "Budgerigar",
+      "aliases": [
+        "Budgie",
+        "Common Parakeet"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cockatiel",
+      "name": "Cockatiel",
+      "aliases": [
+        "Weiro"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "african_grey_parrot",
+      "name": "African Grey Parrot",
+      "aliases": [
+        "African Grey",
+        "Grey Parrot",
+        "Psittacus erithacus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "indian_ringneck_parakeet",
+      "name": "Indian Ringneck Parakeet",
+      "aliases": [
+        "Indian Ringneck",
+        "Rose-ringed Parakeet",
+        "Psittacula krameri"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "lovebird",
+      "name": "Lovebird",
+      "aliases": [
+        "Agapornis"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "canary",
+      "name": "Canary",
+      "aliases": [
+        "Domestic Canary"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "zebra_finch",
+      "name": "Zebra Finch",
+      "aliases": [
+        "Taeniopygia guttata"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "java_sparrow",
+      "name": "Java Sparrow",
+      "aliases": [
+        "Java Finch",
+        "Padda oryzivora"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "sun_conure",
+      "name": "Sun Conure",
+      "aliases": [
+        "Sun Parakeet",
+        "Aratinga solstitialis"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "green_cheeked_conure",
+      "name": "Green-cheeked Conure",
+      "aliases": [
+        "Green Cheek Conure",
+        "Pyrrhura molinae"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "macaw",
+      "name": "Macaw",
+      "aliases": [
+        "Macaws"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cockatoo",
+      "name": "Cockatoo",
+      "aliases": [
+        "Cockatoos"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "domestic_pigeon",
+      "name": "Domestic Pigeon",
+      "aliases": [
+        "Rock Dove",
+        "Columba livia domestica"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "domestic_chicken",
+      "name": "Domestic Chicken",
+      "aliases": [
+        "Chicken",
+        "Gallus gallus domesticus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "domestic_duck",
+      "name": "Domestic Duck",
+      "aliases": [
+        "Duck"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "domestic_goose",
+      "name": "Domestic Goose",
+      "aliases": [
+        "Goose"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "quail",
+      "name": "Quail",
+      "aliases": [
+        "Quails"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

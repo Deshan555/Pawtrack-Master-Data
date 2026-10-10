@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "spider",
+  "classificationType": "species",
+  "classificationLabel": "Species",
+  "entries": [
+    {
+      "id": "chilean_rose_tarantula",
+      "name": "Chilean Rose Tarantula",
+      "aliases": [
+        "Chilean Rose Hair Tarantula",
+        "Grammostola rosea"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mexican_redknee_tarantula",
+      "name": "Mexican Redknee Tarantula",
+      "aliases": [
+        "Mexican Red Knee",
+        "Brachypelma hamorii"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "brazilian_black_tarantula",
+      "name": "Brazilian Black Tarantula",
+      "aliases": [
+        "Grammostola pulchra"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "curly_hair_tarantula",
+      "name": "Curly Hair Tarantula",
+      "aliases": [
+        "Curlyhair Tarantula",
+        "Tliltocatl albopilosus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "pinktoe_tarantula",
+      "name": "Pinktoe Tarantula",
+      "aliases": [
+        "Pink Toe Tarantula",
+        "Avicularia avicularia"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "greenbottle_blue_tarantula",
+      "name": "Greenbottle Blue Tarantula",
+      "aliases": [
+        "GBB",
+        "Chromatopelma cyaneopubescens"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "gooty_sapphire_ornamental_tarantula",
+      "name": "Gooty Sapphire Ornamental Tarantula",
+      "aliases": [
+        "Gooty Sapphire",
+        "Poecilotheria metallica"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "regal_jumping_spider",
+      "name": "Regal Jumping Spider",
+      "aliases": [
+        "Phidippus regius"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bold_jumping_spider",
+      "name": "Bold Jumping Spider",
+      "aliases": [
+        "Bold Jumper",
+        "Phidippus audax"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "giant_house_spider",
+      "name": "Giant House Spider",
+      "aliases": [
+        "Eratigena atrica"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

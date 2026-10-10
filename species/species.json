@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "species": [
+    {
+      "id": "bird",
+      "name": "Bird",
+      "classificationType": "species_variety",
+      "classificationLabel": "Species / Variety",
+      "assetPath": "assets/images/species/bird.svg",
+      "dataPath": "breeds/bird.json",
+      "isActive": true
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/cat.svg",
+      "dataPath": "breeds/cat.json",
+      "isActive": true
+    },
+    {
+      "id": "cow",
+      "name": "Cow",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/cow.svg",
+      "dataPath": "breeds/cow.json",
+      "isActive": true
+    },
+    {
+      "id": "dog",
+      "name": "Dog",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/dog.svg",
+      "dataPath": "breeds/dog.json",
+      "isActive": true
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "classificationType": "species_variety",
+      "classificationLabel": "Species / Variety",
+      "assetPath": "assets/images/species/fish.svg",
+      "dataPath": "breeds/fish.json",
+      "isActive": true
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/horse.svg",
+      "dataPath": "breeds/horse.json",
+      "isActive": true
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "classificationType": "custom_type",
+      "classificationLabel": "Animal Type",
+      "assetPath": "assets/images/species/other.svg",
+      "dataPath": "breeds/other.json",
+      "isActive": true
+    },
+    {
+      "id": "pig",
+      "name": "Pig",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/pig.svg",
+      "dataPath": "breeds/pig.json",
+      "isActive": true
+    },
+    {
+      "id": "rabbit",
+      "name": "Rabbit",
+      "classificationType": "breed",
+      "classificationLabel": "Breed",
+      "assetPath": "assets/images/species/rabbit.svg",
+      "dataPath": "breeds/rabbit.json",
+      "isActive": true
+    },
+    {
+      "id": "rodent",
+      "name": "Rodent",
+      "classificationType": "species_variety",
+      "classificationLabel": "Species / Variety",
+      "assetPath": "assets/images/species/rodent.svg",
+      "dataPath": "breeds/rodent.json",
+      "isActive": true
+    },
+    {
+      "id": "snake",
+      "name": "Snake",
+      "classificationType": "species_morph",
+      "classificationLabel": "Species / Morph",
+      "assetPath": "assets/images/species/snake.svg",
+      "dataPath": "breeds/snake.json",
+      "isActive": true
+    },
+    {
+      "id": "spider",
+      "name": "Spider",
+      "classificationType": "species",
+      "classificationLabel": "Species",
+      "assetPath": "assets/images/species/spider.svg",
+      "dataPath": "breeds/spider.json",
+      "isActive": true
+    }
+  ]
+}

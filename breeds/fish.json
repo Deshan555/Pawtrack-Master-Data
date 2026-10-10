@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "fish",
+  "classificationType": "species_variety",
+  "classificationLabel": "Species / Variety",
+  "entries": [
+    {
+      "id": "goldfish",
+      "name": "Goldfish",
+      "aliases": [
+        "Carassius auratus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "betta_splendens",
+      "name": "Betta splendens",
+      "aliases": [
+        "Betta",
+        "Siamese Fighting Fish"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "guppy",
+      "name": "Guppy",
+      "aliases": [
+        "Millionfish",
+        "Poecilia reticulata"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "molly",
+      "name": "Molly",
+      "aliases": [
+        "Molly Fish"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "platy",
+      "name": "Platy",
+      "aliases": [
+        "Platyfish"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "swordtail",
+      "name": "Swordtail",
+      "aliases": [
+        "Green Swordtail",
+        "Xiphophorus hellerii"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "neon_tetra",
+      "name": "Neon Tetra",
+      "aliases": [
+        "Paracheirodon innesi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cardinal_tetra",
+      "name": "Cardinal Tetra",
+      "aliases": [
+        "Paracheirodon axelrodi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "zebra_danio",
+      "name": "Zebra Danio",
+      "aliases": [
+        "Zebrafish (common name)"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "angelfish",
+      "name": "Angelfish",
+      "aliases": [
+        "Freshwater Angelfish",
+        "Pterophyllum scalare"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "discus",
+      "name": "Discus",
+      "aliases": [
+        "Discus Fish"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar",
+      "aliases": [
+        "Oscar Cichlid",
+        "Astronotus ocellatus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "koi",
+      "name": "Koi",
+      "aliases": [
+        "Nishikigoi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "common_carp",
+      "name": "Common Carp",
+      "aliases": [
+        "Cyprinus carpio"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "clownfish",
+      "name": "Clownfish",
+      "aliases": [
+        "Anemonefish"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "corydoras_catfish",
+      "name": "Corydoras Catfish",
+      "aliases": [
+        "Cory Catfish",
+        "Corydoras"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bristlenose_pleco",
+      "name": "Bristlenose Pleco",
+      "aliases": [
+        "Bristlenose Catfish",
+        "Ancistrus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cherry_barb",
+      "name": "Cherry Barb",
+      "aliases": [
+        "Puntius titteya"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "harlequin_rasbora",
+      "name": "Harlequin Rasbora",
+      "aliases": [
+        "Trigonostigma heteromorpha"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "dwarf_gourami",
+      "name": "Dwarf Gourami",
+      "aliases": [
+        "Trichogaster lalius"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "blue_tang",
+      "name": "Blue Tang",
+      "aliases": [
+        "Palette Surgeonfish",
+        "Paracanthurus hepatus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "zebrafish",
+      "name": "Zebrafish",
+      "aliases": [
+        "Danio rerio"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "cat",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "domestic_shorthair",
+      "name": "Domestic Shorthair",
+      "aliases": [
+        "DSH",
+        "Domestic Short Hair",
+        "Shorthaired Domestic Cat"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "domestic_longhair",
+      "name": "Domestic Longhair",
+      "aliases": [
+        "DLH",
+        "Domestic Long Hair"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "persian",
+      "name": "Persian",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "maine_coon",
+      "name": "Maine Coon",
+      "aliases": [
+        "Maine Coon Cat"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "siamese",
+      "name": "Siamese",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "ragdoll",
+      "name": "Ragdoll",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "british_shorthair",
+      "name": "British Shorthair",
+      "aliases": [
+        "British Short Hair",
+        "BSH"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bengal",
+      "name": "Bengal",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "sphynx",
+      "name": "Sphynx",
+      "aliases": [
+        "Sphynx Cat",
+        "Canadian Sphynx"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "scottish_fold",
+      "name": "Scottish Fold",
+      "aliases": [
+        "Fold"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "russian_blue",
+      "name": "Russian Blue",
+      "aliases": [
+        "Archangel Blue"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "abyssinian",
+      "name": "Abyssinian",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "birman",
+      "name": "Birman",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "burmese",
+      "name": "Burmese",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "norwegian_forest_cat",
+      "name": "Norwegian Forest Cat",
+      "aliases": [
+        "Wegie"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "american_shorthair",
+      "name": "American Shorthair",
+      "aliases": [
+        "American Short Hair"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "oriental_shorthair",
+      "name": "Oriental Shorthair",
+      "aliases": [
+        "Oriental Short Hair"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "turkish_angora",
+      "name": "Turkish Angora",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbreed",
+        "Mixed Cat"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

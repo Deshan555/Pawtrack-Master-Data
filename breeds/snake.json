@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "snake",
+  "classificationType": "species_morph",
+  "classificationLabel": "Species / Morph",
+  "entries": [
+    {
+      "id": "ball_python",
+      "name": "Ball Python",
+      "aliases": [
+        "Royal Python",
+        "Python regius"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "corn_snake",
+      "name": "Corn Snake",
+      "aliases": [
+        "Pantherophis guttatus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "california_kingsnake",
+      "name": "California Kingsnake",
+      "aliases": [
+        "Lampropeltis californiae"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mexican_black_kingsnake",
+      "name": "Mexican Black Kingsnake",
+      "aliases": [
+        "MBK"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "milk_snake",
+      "name": "Milk Snake",
+      "aliases": [
+        "Milksnake",
+        "Lampropeltis triangulum"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "boa_constrictor",
+      "name": "Boa Constrictor",
+      "aliases": [
+        "Common Boa"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "rosy_boa",
+      "name": "Rosy Boa",
+      "aliases": [
+        "Lichanura trivirgata"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "kenyan_sand_boa",
+      "name": "Kenyan Sand Boa",
+      "aliases": [
+        "East African Sand Boa",
+        "Eryx colubrinus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "western_hognose_snake",
+      "name": "Western Hognose Snake",
+      "aliases": [
+        "Plains Hognose Snake",
+        "Heterodon nasicus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "garter_snake",
+      "name": "Garter Snake",
+      "aliases": [
+        "Gartersnake",
+        "Thamnophis"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "children_s_python",
+      "name": "Children’s Python",
+      "aliases": [
+        "Children's Python",
+        "Antaresia childreni"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "carpet_python",
+      "name": "Carpet Python",
+      "aliases": [
+        "Morelia spilota"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "green_tree_python",
+      "name": "Green Tree Python",
+      "aliases": [
+        "Morelia viridis"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "blood_python",
+      "name": "Blood Python",
+      "aliases": [
+        "Python brongersmai"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "burmese_python",
+      "name": "Burmese Python",
+      "aliases": [
+        "Python bivittatus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

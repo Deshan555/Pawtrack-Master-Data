@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "rabbit",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "holland_lop",
+      "name": "Holland Lop",
+      "aliases": [
+        "Holland Lop Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mini_lop",
+      "name": "Mini Lop",
+      "aliases": [
+        "Miniature Lop"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "french_lop",
+      "name": "French Lop",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "english_lop",
+      "name": "English Lop",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "netherland_dwarf",
+      "name": "Netherland Dwarf",
+      "aliases": [
+        "ND Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "lionhead",
+      "name": "Lionhead",
+      "aliases": [
+        "Lionhead Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "rex",
+      "name": "Rex",
+      "aliases": [
+        "Rex Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mini_rex",
+      "name": "Mini Rex",
+      "aliases": [
+        "Mini Rex Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "flemish_giant",
+      "name": "Flemish Giant",
+      "aliases": [
+        "Flemish Giant Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "english_angora",
+      "name": "English Angora",
+      "aliases": [
+        "English Angora Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "french_angora",
+      "name": "French Angora",
+      "aliases": [
+        "French Angora Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "dutch",
+      "name": "Dutch",
+      "aliases": [
+        "Dutch Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "new_zealand",
+      "name": "New Zealand",
+      "aliases": [
+        "New Zealand Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "californian",
+      "name": "Californian",
+      "aliases": [
+        "Californian Rabbit"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "himalayan",
+      "name": "Himalayan",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "harlequin",
+      "name": "Harlequin",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "polish",
+      "name": "Polish",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "american_fuzzy_lop",
+      "name": "American Fuzzy Lop",
+      "aliases": [
+        "AFL"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbred Rabbit"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

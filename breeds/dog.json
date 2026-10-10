@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "dog",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "german_shepherd",
+      "name": "German Shepherd",
+      "aliases": [
+        "GSD",
+        "Alsatian",
+        "German Shepherd Dog"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "labrador_retriever",
+      "name": "Labrador Retriever",
+      "aliases": [
+        "Labrador",
+        "Lab"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "golden_retriever",
+      "name": "Golden Retriever",
+      "aliases": [
+        "Golden"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "french_bulldog",
+      "name": "French Bulldog",
+      "aliases": [
+        "Frenchie"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "english_bulldog",
+      "name": "English Bulldog",
+      "aliases": [
+        "Bulldog"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "poodle",
+      "name": "Poodle",
+      "aliases": [
+        "Standard Poodle",
+        "Miniature Poodle",
+        "Toy Poodle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "beagle",
+      "name": "Beagle",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "rottweiler",
+      "name": "Rottweiler",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "dachshund",
+      "name": "Dachshund",
+      "aliases": [
+        "Sausage Dog",
+        "Wiener Dog"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "boxer",
+      "name": "Boxer",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "doberman_pinscher",
+      "name": "Doberman Pinscher",
+      "aliases": [
+        "Doberman"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "border_collie",
+      "name": "Border Collie",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "australian_shepherd",
+      "name": "Australian Shepherd",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "siberian_husky",
+      "name": "Siberian Husky",
+      "aliases": [
+        "Husky"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "alaskan_malamute",
+      "name": "Alaskan Malamute",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "shih_tzu",
+      "name": "Shih Tzu",
+      "aliases": [
+        "Shih-Tzu"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "pomeranian",
+      "name": "Pomeranian",
+      "aliases": [
+        "Pom"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "chihuahua",
+      "name": "Chihuahua",
+      "aliases": [
+        "Chi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "great_dane",
+      "name": "Great Dane",
+      "aliases": [
+        "German Mastiff"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cane_corso",
+      "name": "Cane Corso",
+      "aliases": [
+        "Italian Mastiff"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "dalmatian",
+      "name": "Dalmatian",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cocker_spaniel",
+      "name": "Cocker Spaniel",
+      "aliases": [
+        "Cocker"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "english_springer_spaniel",
+      "name": "English Springer Spaniel",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "jack_russell_terrier",
+      "name": "Jack Russell Terrier",
+      "aliases": [
+        "JRT",
+        "Jack Russell"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "yorkshire_terrier",
+      "name": "Yorkshire Terrier",
+      "aliases": [
+        "Yorkie"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "maltese",
+      "name": "Maltese",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "samoyed",
+      "name": "Samoyed",
+      "aliases": [
+        "Sammy"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "akita",
+      "name": "Akita",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "shiba_inu",
+      "name": "Shiba Inu",
+      "aliases": [
+        "Shiba"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "belgian_malinois",
+      "name": "Belgian Malinois",
+      "aliases": [
+        "Malinois"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bernese_mountain_dog",
+      "name": "Bernese Mountain Dog",
+      "aliases": [
+        "Berner"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "newfoundland",
+      "name": "Newfoundland",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "weimaraner",
+      "name": "Weimaraner",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "basset_hound",
+      "name": "Basset Hound",
+      "aliases": [
+        "Basset"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "pug",
+      "name": "Pug",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "boston_terrier",
+      "name": "Boston Terrier",
+      "aliases": [
+        "Boston"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "miniature_schnauzer",
+      "name": "Miniature Schnauzer",
+      "aliases": [
+        "Mini Schnauzer"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "saint_bernard",
+      "name": "Saint Bernard",
+      "aliases": [
+        "St Bernard"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "american_pit_bull_terrier",
+      "name": "American Pit Bull Terrier",
+      "aliases": [
+        "APBT",
+        "Pit Bull Terrier"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bull_terrier",
+      "name": "Bull Terrier",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "papillon",
+      "name": "Papillon",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "whippet",
+      "name": "Whippet",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "greyhound",
+      "name": "Greyhound",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "rhodesian_ridgeback",
+      "name": "Rhodesian Ridgeback",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "vizsla",
+      "name": "Vizsla",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "lhasa_apso",
+      "name": "Lhasa Apso",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "bichon_frise",
+      "name": "Bichon Frise",
+      "aliases": [
+        "Bichon"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "cavalier_king_charles_spaniel",
+      "name": "Cavalier King Charles Spaniel",
+      "aliases": [
+        "Cavalier",
+        "CKCS"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "pembroke_welsh_corgi",
+      "name": "Pembroke Welsh Corgi",
+      "aliases": [
+        "Corgi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "west_highland_white_terrier",
+      "name": "West Highland White Terrier",
+      "aliases": [
+        "Westie"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbreed",
+        "Mutt"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

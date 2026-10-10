@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "rodent",
+  "classificationType": "species_variety",
+  "classificationLabel": "Species / Variety",
+  "entries": [
+    {
+      "id": "syrian_hamster",
+      "name": "Syrian Hamster",
+      "aliases": [
+        "Golden Hamster",
+        "Mesocricetus auratus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "campbell_s_dwarf_hamster",
+      "name": "Campbell’s Dwarf Hamster",
+      "aliases": [
+        "Campbell's Dwarf Hamster",
+        "Campbells Dwarf Hamster"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "winter_white_dwarf_hamster",
+      "name": "Winter White Dwarf Hamster",
+      "aliases": [
+        "Djungarian Hamster",
+        "Phodopus sungorus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "roborovski_hamster",
+      "name": "Roborovski Hamster",
+      "aliases": [
+        "Robo Hamster"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "chinese_hamster",
+      "name": "Chinese Hamster",
+      "aliases": [
+        "Chinese Striped Hamster"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "fancy_rat",
+      "name": "Fancy Rat",
+      "aliases": [
+        "Domestic Rat",
+        "Rattus norvegicus domestica"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "fancy_mouse",
+      "name": "Fancy Mouse",
+      "aliases": [
+        "Domestic Mouse",
+        "Mus musculus domesticus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "guinea_pig",
+      "name": "Guinea Pig",
+      "aliases": [
+        "Cavy",
+        "Cavia porcellus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mongolian_gerbil",
+      "name": "Mongolian Gerbil",
+      "aliases": [
+        "Gerbil",
+        "Meriones unguiculatus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "chinchilla",
+      "name": "Chinchilla",
+      "aliases": [
+        "Long-tailed Chinchilla"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "degu",
+      "name": "Degu",
+      "aliases": [
+        "Common Degu",
+        "Octodon degus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "african_pygmy_dormouse",
+      "name": "African Pygmy Dormouse",
+      "aliases": [
+        "African Dormouse"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}

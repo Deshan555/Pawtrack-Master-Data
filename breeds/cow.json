@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 2,
+  "speciesId": "cow",
+  "classificationType": "breed",
+  "classificationLabel": "Breed",
+  "entries": [
+    {
+      "id": "holstein_friesian",
+      "name": "Holstein Friesian",
+      "aliases": [
+        "Holstein",
+        "Friesian",
+        "HF"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "jersey",
+      "name": "Jersey",
+      "aliases": [
+        "Jersey Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "brown_swiss",
+      "name": "Brown Swiss",
+      "aliases": [
+        "Braunvieh"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "guernsey",
+      "name": "Guernsey",
+      "aliases": [
+        "Guernsey Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "ayrshire",
+      "name": "Ayrshire",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "angus",
+      "name": "Angus",
+      "aliases": [
+        "Aberdeen Angus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "hereford",
+      "name": "Hereford",
+      "aliases": [
+        "Hereford Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "brahman",
+      "name": "Brahman",
+      "aliases": [
+        "Brahman Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "sahiwal",
+      "name": "Sahiwal",
+      "aliases": [
+        "Sahiwal Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "gir",
+      "name": "Gir",
+      "aliases": [
+        "Gyr"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "red_sindhi",
+      "name": "Red Sindhi",
+      "aliases": [
+        "Sindhi"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "tharparkar",
+      "name": "Tharparkar",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "hariana",
+      "name": "Hariana",
+      "aliases": [],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "limousin",
+      "name": "Limousin",
+      "aliases": [
+        "Limousin Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "charolais",
+      "name": "Charolais",
+      "aliases": [
+        "Charolais Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "simmental",
+      "name": "Simmental",
+      "aliases": [
+        "Simmental Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "belgian_blue",
+      "name": "Belgian Blue",
+      "aliases": [
+        "Belgian Blue Cattle"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "zebu",
+      "name": "Zebu",
+      "aliases": [
+        "Humped Cattle",
+        "Bos indicus"
+      ],
+      "isActive": true,
+      "kind": "standard"
+    },
+    {
+      "id": "mixed",
+      "name": "Mixed / Crossbreed",
+      "aliases": [
+        "Mixed Breed",
+        "Crossbred Cattle"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown",
+      "aliases": [
+        "Not Sure",
+        "Not Known"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    },
+    {
+      "id": "other",
+      "name": "Other / Custom",
+      "aliases": [
+        "Other",
+        "Custom",
+        "Not Listed"
+      ],
+      "isActive": true,
+      "kind": "selection"
+    }
+  ]
+}
