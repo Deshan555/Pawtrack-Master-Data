@@ -1,15 +1,10 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 2,
-  "releaseId": "2026-10-10.2",
-  "updatedAt": "2026-10-10T12:00:00Z",
+  "dataVersion": 3,
+  "releaseId": "2026-10-11.1",
+  "updatedAt": "2026-10-11T00:00:00Z",
   "minimumAppVersion": "1.0.0",
   "files": [
-    {
-      "path": "species/species.json",
-      "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
-      "bytes": 3112
-    },
     {
       "path": "breeds/bird.json",
       "sha256": "5aa2897bef618f6a570b44bfa56c12541ce57fe3d50553b48deec8c13c0344da",
@@ -69,6 +64,71 @@
       "path": "breeds/spider.json",
       "sha256": "44c80850f90129f495f6817144f5e0e2abd6e0ef612743a5ad05d838e30f1ac3",
       "bytes": 2732
+    },
+    {
+      "path": "health/vaccinations/bird.json",
+      "sha256": "24d6e07a046edc5b0d7826bd1022aa57fe32161c0059c99b6f09d91e5bda0148",
+      "bytes": 3681
+    },
+    {
+      "path": "health/vaccinations/cat.json",
+      "sha256": "7f77bf7749531d635bbc0f48a49e88b6de224559636a1bee70fd8fc52308f598",
+      "bytes": 6081
+    },
+    {
+      "path": "health/vaccinations/cow.json",
+      "sha256": "57b89649457674ea8c09e4c4cd5e7462b3ae4e3d3670c057b3983445726172f7",
+      "bytes": 4969
+    },
+    {
+      "path": "health/vaccinations/dog.json",
+      "sha256": "bf2cbff6ef8e82d74f7fb1c90adad01092342851d5697314bafcf068025b0984",
+      "bytes": 7220
+    },
+    {
+      "path": "health/vaccinations/fish.json",
+      "sha256": "420c8c693c37c0f3f392a78b73c333c597d418b6bbcb051b621ba4ee2b78e2e4",
+      "bytes": 2614
+    },
+    {
+      "path": "health/vaccinations/horse.json",
+      "sha256": "1fcfe71ca1a6170b5c08e7cae51250e4c610184a6b6e8681f6f10fd88aaaefc1",
+      "bytes": 8135
+    },
+    {
+      "path": "health/vaccinations/other.json",
+      "sha256": "e69ec01e24a502bba45d286a803106e1c858039b3d3716baeb25ed26741d40ef",
+      "bytes": 292
+    },
+    {
+      "path": "health/vaccinations/pig.json",
+      "sha256": "594bffbe05628632f59f317b9eea0c16e6353a130a41a900649cfe48e8c979ab",
+      "bytes": 4954
+    },
+    {
+      "path": "health/vaccinations/rabbit.json",
+      "sha256": "f028d8ac5c3a5247453209b2ee0510e0a212ee1f5e2934f4568d8fe0f74af3d3",
+      "bytes": 2700
+    },
+    {
+      "path": "health/vaccinations/rodent.json",
+      "sha256": "2676375d1279aad99b16604ee8aa4ce07f7b3efd221790f69b1cf5709bf3c353",
+      "bytes": 293
+    },
+    {
+      "path": "health/vaccinations/snake.json",
+      "sha256": "af23952b9137df868218ee8da481a1e24b1542f50be3e729d3608c7091dec7a5",
+      "bytes": 292
+    },
+    {
+      "path": "health/vaccinations/spider.json",
+      "sha256": "fb9e5d9ff000073defc6c5b53b18c03eb116f4a4613ad653b91d184fe706a6cf",
+      "bytes": 293
+    },
+    {
+      "path": "species/species.json",
+      "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
+      "bytes": 3112
     }
   ]
 }
