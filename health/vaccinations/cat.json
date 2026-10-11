@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "cat",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "cat_rabies",
+      "speciesId": "cat",
+      "name": "Rabies",
+      "aliases": [
+        "Anti-rabies"
+      ],
+      "disease": "Rabies",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Rabies.",
+        "whyGiven": "Helps protect cats against rabies.",
+        "benefits": [
+          "Protects cats and supports public health."
+        ]
+      },
+      "applicability": "region_or_law_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA/AAFP Feline Vaccination Guidelines",
+          "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cat_fvrcp",
+      "speciesId": "cat",
+      "name": "FVRCP",
+      "aliases": [
+        "Feline distemper combination",
+        "RCP"
+      ],
+      "disease": "Feline herpesvirus, calicivirus, panleukopenia",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Feline herpesvirus, calicivirus, panleukopenia.",
+        "whyGiven": "Helps protect against major contagious feline viral diseases.",
+        "benefits": [
+          "Reduces risk of severe respiratory and systemic illness."
+        ]
+      },
+      "applicability": "core",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA/AAFP Feline Vaccination Guidelines",
+          "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cat_felv",
+      "speciesId": "cat",
+      "name": "Feline Leukemia Virus",
+      "aliases": [
+        "FeLV"
+      ],
+      "disease": "Feline leukemia virus",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Feline leukemia virus.",
+        "whyGiven": "Helps protect against feline leukemia virus infection.",
+        "benefits": [
+          "Especially relevant to kittens and cats at exposure risk."
+        ]
+      },
+      "applicability": "age_and_risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA/AAFP Feline Vaccination Guidelines",
+          "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cat_chlamydia_felis",
+      "speciesId": "cat",
+      "name": "Chlamydia felis",
+      "aliases": [
+        "Feline chlamydiosis"
+      ],
+      "disease": "Chlamydia felis infection",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Chlamydia felis infection.",
+        "whyGiven": "May help control disease in specific multi-cat settings.",
+        "benefits": [
+          "Risk-based protection where indicated by a veterinarian."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA/AAFP Feline Vaccination Guidelines",
+          "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cat_bordetella",
+      "speciesId": "cat",
+      "name": "Bordetella",
+      "aliases": [
+        "Feline Bordetella"
+      ],
+      "disease": "Bordetella respiratory infection",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Bordetella respiratory infection.",
+        "whyGiven": "May help reduce respiratory disease in selected high-risk settings.",
+        "benefits": [
+          "Used only when risk assessment supports it."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA/AAFP Feline Vaccination Guidelines",
+          "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

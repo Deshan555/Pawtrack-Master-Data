@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "horse",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "horse_tetanus",
+      "speciesId": "horse",
+      "name": "Tetanus",
+      "aliases": [],
+      "disease": "Tetanus",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Tetanus.",
+        "whyGiven": "Helps prevent tetanus caused by bacterial toxin.",
+        "benefits": [
+          "Protects against a potentially fatal disease."
+        ]
+      },
+      "applicability": "core_in_AAEP_guidance",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_rabies",
+      "speciesId": "horse",
+      "name": "Rabies",
+      "aliases": [],
+      "disease": "Rabies",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Rabies.",
+        "whyGiven": "Helps protect horses from rabies.",
+        "benefits": [
+          "Protects animal and public health."
+        ]
+      },
+      "applicability": "core_in_AAEP_guidance",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_west_nile",
+      "speciesId": "horse",
+      "name": "West Nile Virus",
+      "aliases": [
+        "WNV"
+      ],
+      "disease": "West Nile virus disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for West Nile virus disease.",
+        "whyGiven": "Helps reduce risk of West Nile neurological disease.",
+        "benefits": [
+          "Supports protection in mosquito-exposed horses."
+        ]
+      },
+      "applicability": "core_in_AAEP_guidance",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_eee_wee",
+      "speciesId": "horse",
+      "name": "Eastern / Western Equine Encephalomyelitis",
+      "aliases": [
+        "EEE",
+        "WEE"
+      ],
+      "disease": "Eastern and western equine encephalomyelitis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Eastern and western equine encephalomyelitis.",
+        "whyGiven": "Helps prevent severe mosquito-borne neurological diseases.",
+        "benefits": [
+          "Reduces risk of potentially fatal encephalitis."
+        ]
+      },
+      "applicability": "core_in_AAEP_guidance",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_equine_influenza",
+      "speciesId": "horse",
+      "name": "Equine Influenza",
+      "aliases": [
+        "Horse flu"
+      ],
+      "disease": "Equine influenza",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Equine influenza.",
+        "whyGiven": "Helps reduce contagious respiratory illness.",
+        "benefits": [
+          "Important for horses with travel or mixing exposure."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_ehv",
+      "speciesId": "horse",
+      "name": "Equine Herpesvirus",
+      "aliases": [
+        "EHV",
+        "Rhinopneumonitis"
+      ],
+      "disease": "Equine herpesvirus-associated disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Equine herpesvirus-associated disease.",
+        "whyGiven": "Helps manage selected equine herpesvirus disease risks.",
+        "benefits": [
+          "Used as part of veterinarian-led risk planning."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "horse_strangles",
+      "speciesId": "horse",
+      "name": "Strangles",
+      "aliases": [],
+      "disease": "Streptococcus equi infection",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Streptococcus equi infection.",
+        "whyGiven": "Helps reduce risk of strangles in relevant settings.",
+        "benefits": [
+          "May support outbreak-risk management."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAEP Equine Vaccination Guidelines",
+          "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

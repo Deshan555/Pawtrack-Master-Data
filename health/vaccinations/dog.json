@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "dog",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "dog_rabies",
+      "speciesId": "dog",
+      "name": "Rabies",
+      "aliases": [
+        "Anti-rabies"
+      ],
+      "disease": "Rabies",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Rabies.",
+        "whyGiven": "Helps protect against rabies, a fatal viral infection that can spread to humans.",
+        "benefits": [
+          "Supports animal and public health."
+        ]
+      },
+      "applicability": "core_or_legally_required",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "dog_dhpp",
+      "speciesId": "dog",
+      "name": "DHPP / DAPP",
+      "aliases": [
+        "DA2PP",
+        "Distemper combination"
+      ],
+      "disease": "Distemper, adenovirus, parvovirus; some formulations include parainfluenza",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Distemper, adenovirus, parvovirus; some formulations include parainfluenza.",
+        "whyGiven": "Helps protect dogs from several serious viral infections.",
+        "benefits": [
+          "Reduces risk of severe infectious illness."
+        ]
+      },
+      "applicability": "core",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "dog_leptospirosis",
+      "speciesId": "dog",
+      "name": "Leptospirosis",
+      "aliases": [
+        "Lepto",
+        "L4"
+      ],
+      "disease": "Leptospirosis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Leptospirosis.",
+        "whyGiven": "Helps protect against disease caused by Leptospira bacteria.",
+        "benefits": [
+          "May reduce severe illness and zoonotic risk."
+        ]
+      },
+      "applicability": "core_in_AAHA_guidance",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "dog_bordetella",
+      "speciesId": "dog",
+      "name": "Bordetella",
+      "aliases": [
+        "Kennel cough vaccine"
+      ],
+      "disease": "Bordetella-associated respiratory disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Bordetella-associated respiratory disease.",
+        "whyGiven": "Helps reduce risk of some contagious respiratory infections.",
+        "benefits": [
+          "Useful for dogs with relevant exposure risks."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "dog_canine_influenza",
+      "speciesId": "dog",
+      "name": "Canine Influenza",
+      "aliases": [
+        "Dog flu"
+      ],
+      "disease": "Canine influenza",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Canine influenza.",
+        "whyGiven": "Helps protect against selected canine influenza strains.",
+        "benefits": [
+          "May reduce illness in exposed dogs."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "dog_lyme",
+      "speciesId": "dog",
+      "name": "Lyme Disease",
+      "aliases": [
+        "Borrelia vaccine"
+      ],
+      "disease": "Lyme borreliosis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Lyme borreliosis.",
+        "whyGiven": "Helps protect against Lyme disease where exposure occurs.",
+        "benefits": [
+          "Risk-based protection in endemic areas."
+        ]
+      },
+      "applicability": "risk_based",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "AAHA Canine Vaccination Guidelines",
+          "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

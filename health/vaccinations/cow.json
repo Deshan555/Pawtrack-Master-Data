@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "cow",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "cow_clostridial",
+      "speciesId": "cow",
+      "name": "Clostridial Disease Vaccine",
+      "aliases": [
+        "Multivalent clostridial"
+      ],
+      "disease": "Clostridial diseases",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Clostridial diseases.",
+        "whyGiven": "Used to help prevent selected serious clostridial infections in cattle.",
+        "benefits": [
+          "May reduce losses from preventable disease."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cow_ibr_bvd",
+      "speciesId": "cow",
+      "name": "IBR / BVD Combination",
+      "aliases": [
+        "IBR",
+        "BVD"
+      ],
+      "disease": "Infectious bovine rhinotracheitis and bovine viral diarrhea",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Infectious bovine rhinotracheitis and bovine viral diarrhea.",
+        "whyGiven": "Used in veterinarian-led cattle respiratory and reproductive disease programs.",
+        "benefits": [
+          "May reduce disease and herd impacts."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cow_brucellosis",
+      "speciesId": "cow",
+      "name": "Brucellosis",
+      "aliases": [
+        "Brucella"
+      ],
+      "disease": "Bovine brucellosis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Bovine brucellosis.",
+        "whyGiven": "Used in official veterinary disease-control programs where permitted.",
+        "benefits": [
+          "Supports animal and public health control efforts."
+        ]
+      },
+      "applicability": "regulated_program_only",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "cow_foot_mouth",
+      "speciesId": "cow",
+      "name": "Foot-and-Mouth Disease",
+      "aliases": [
+        "FMD"
+      ],
+      "disease": "Foot-and-mouth disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Foot-and-mouth disease.",
+        "whyGiven": "Used under applicable national disease-control policies.",
+        "benefits": [
+          "May help reduce outbreaks in targeted livestock populations."
+        ]
+      },
+      "applicability": "regulated_program_only",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

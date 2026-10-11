@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "pig",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "pig_erysipelas",
+      "speciesId": "pig",
+      "name": "Swine Erysipelas",
+      "aliases": [
+        "Erysipelas"
+      ],
+      "disease": "Erysipelothrix rhusiopathiae infection",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Erysipelothrix rhusiopathiae infection.",
+        "whyGiven": "Helps protect pigs against swine erysipelas.",
+        "benefits": [
+          "May reduce disease and production losses."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "Merck Veterinary Manual – Exotic Mammals",
+          "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/vaccination-of-exotic-mammals/vaccination-of-exotic-mammals"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "pig_parvovirus",
+      "speciesId": "pig",
+      "name": "Porcine Parvovirus",
+      "aliases": [
+        "PPV"
+      ],
+      "disease": "Porcine parvovirus infection",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Porcine parvovirus infection.",
+        "whyGiven": "Used to help prevent reproductive losses in breeding herds.",
+        "benefits": [
+          "Supports reproductive health programs."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "pig_pcv2",
+      "speciesId": "pig",
+      "name": "Porcine Circovirus Type 2",
+      "aliases": [
+        "PCV2"
+      ],
+      "disease": "Porcine circovirus-associated disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Porcine circovirus-associated disease.",
+        "whyGiven": "Helps reduce disease associated with PCV2.",
+        "benefits": [
+          "May improve herd health outcomes."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "pig_mycoplasma",
+      "speciesId": "pig",
+      "name": "Mycoplasma hyopneumoniae",
+      "aliases": [
+        "Enzootic pneumonia"
+      ],
+      "disease": "Mycoplasma-associated pneumonia",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Mycoplasma-associated pneumonia.",
+        "whyGiven": "Helps reduce severity of selected respiratory disease.",
+        "benefits": [
+          "Supports herd respiratory health management."
+        ]
+      },
+      "applicability": "herd_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

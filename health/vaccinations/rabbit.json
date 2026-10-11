@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "rabbit",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "rabbit_rhdv2",
+      "speciesId": "rabbit",
+      "name": "Rabbit Hemorrhagic Disease Virus 2",
+      "aliases": [
+        "RHDV2",
+        "RHD2"
+      ],
+      "disease": "Rabbit hemorrhagic disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Rabbit hemorrhagic disease.",
+        "whyGiven": "Helps protect rabbits from a highly contagious and often fatal viral disease.",
+        "benefits": [
+          "Supports prevention where vaccine is available and indicated."
+        ]
+      },
+      "applicability": "region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "Merck Veterinary Manual – Rabbits",
+          "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "rabbit_myxomatosis",
+      "speciesId": "rabbit",
+      "name": "Myxomatosis",
+      "aliases": [
+        "Myxo"
+      ],
+      "disease": "Myxomatosis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Myxomatosis.",
+        "whyGiven": "Helps protect rabbits from myxoma virus where vaccination is available.",
+        "benefits": [
+          "Reduces risk of severe disease in endemic areas."
+        ]
+      },
+      "applicability": "region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "Merck Veterinary Manual – Rabbits",
+          "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

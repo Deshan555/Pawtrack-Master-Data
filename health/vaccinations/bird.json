@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "bird",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "bird_newcastle",
+      "speciesId": "bird",
+      "name": "Newcastle Disease",
+      "aliases": [
+        "ND"
+      ],
+      "disease": "Newcastle disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Newcastle disease.",
+        "whyGiven": "Used for prevention of Newcastle disease in relevant bird populations.",
+        "benefits": [
+          "Supports flock disease control."
+        ]
+      },
+      "applicability": "species_and_region_dependent",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "bird_avian_influenza",
+      "speciesId": "bird",
+      "name": "Avian Influenza",
+      "aliases": [
+        "Bird flu"
+      ],
+      "disease": "Avian influenza",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Avian influenza.",
+        "whyGiven": "Vaccination may be used only under relevant national policies and species-specific programs.",
+        "benefits": [
+          "Supports disease-control strategies where authorized."
+        ]
+      },
+      "applicability": "regulated_program_only",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "bird_mareks",
+      "speciesId": "bird",
+      "name": "Marek’s Disease",
+      "aliases": [
+        "Mareks"
+      ],
+      "disease": "Marek’s disease",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Marek’s disease.",
+        "whyGiven": "Used for prevention of Marek’s disease in chickens.",
+        "benefits": [
+          "Helps reduce serious disease in poultry."
+        ]
+      },
+      "applicability": "chickens_only",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}

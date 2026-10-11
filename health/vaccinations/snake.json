@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "snake",
+  "templateType": "vaccination",
+  "templates": [],
+  "allowCustom": true,
+  "notes": "No broadly applicable routine vaccination templates included for this category. Custom veterinary-confirmed records remain available."
+}

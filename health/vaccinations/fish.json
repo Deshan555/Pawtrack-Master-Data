@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "speciesId": "fish",
+  "templateType": "vaccination",
+  "templates": [
+    {
+      "id": "fish_vibriosis",
+      "speciesId": "fish",
+      "name": "Vibriosis Vaccine",
+      "aliases": [
+        "Vibrio"
+      ],
+      "disease": "Vibriosis",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Vibriosis.",
+        "whyGiven": "Aquaculture vaccines may protect susceptible farmed fish from certain Vibrio infections.",
+        "benefits": [
+          "May reduce losses in eligible farmed species."
+        ]
+      },
+      "applicability": "aquaculture_species_specific",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    },
+    {
+      "id": "fish_streptococcosis",
+      "speciesId": "fish",
+      "name": "Streptococcosis Vaccine",
+      "aliases": [
+        "Streptococcus"
+      ],
+      "disease": "Streptococcosis in fish",
+      "simpleDetails": {
+        "whatIsIt": "A vaccination template for Streptococcosis in fish.",
+        "whyGiven": "Used in certain aquaculture systems against selected bacterial infections.",
+        "benefits": [
+          "May reduce disease in eligible farmed fish."
+        ]
+      },
+      "applicability": "aquaculture_species_specific",
+      "schedule": {
+        "mode": "veterinarian_confirmed",
+        "autoCalculateNextDue": false,
+        "defaultIntervalMonths": null,
+        "requiresUserConfirmation": true
+      },
+      "recordFields": [
+        "status",
+        "administeredDate",
+        "nextDueDate",
+        "vaccineBrand",
+        "batchNumber",
+        "veterinarian",
+        "notes",
+        "attachments"
+      ],
+      "references": [
+        {
+          "title": "WOAH Codes and Manuals",
+          "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
+        }
+      ],
+      "isActive": true
+    }
+  ],
+  "allowCustom": true,
+  "notes": "Templates are educational record-entry aids, not prescriptions. Vaccine availability and schedules vary by country, species, product, and veterinarian."
+}
