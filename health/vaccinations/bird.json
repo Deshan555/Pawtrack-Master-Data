@@ -13,8 +13,8 @@
       ],
       "disease": "Newcastle disease",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Newcastle disease.",
-        "whyGiven": "Used for prevention of Newcastle disease in relevant bird populations.",
+        "whatIsIt": "A vaccine record template for Newcastle disease, a highly contagious viral illness that can affect the breathing, nervous, and digestive systems of susceptible birds; severity and signs differ by bird species and virus strain.",
+        "whyGiven": "It is used within veterinarian- and local-authority-guided poultry or bird-health programs to help reduce the risk and impact of Newcastle disease where vaccination is appropriate.",
         "benefits": [
           "Supports flock disease control."
         ]
@@ -53,8 +53,8 @@
       ],
       "disease": "Avian influenza",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Avian influenza.",
-        "whyGiven": "Vaccination may be used only under relevant national policies and species-specific programs.",
+        "whatIsIt": "A vaccine record template for avian influenza, a group of influenza A virus infections in birds. Some strains can cause severe flock disease and are managed under strict animal-health controls.",
+        "whyGiven": "It is included for authorized programs only. Whether vaccination is used depends on local law, the bird species, outbreak status, and directions from veterinary and animal-health authorities.",
         "benefits": [
           "Supports disease-control strategies where authorized."
         ]
@@ -93,8 +93,8 @@
       ],
       "disease": "Marek’s disease",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Marek’s disease.",
-        "whyGiven": "Used for prevention of Marek’s disease in chickens.",
+        "whatIsIt": "A vaccine record template for Marek’s disease, a herpesvirus infection of chickens that can cause tumors, nerve problems, and immune suppression.",
+        "whyGiven": "It is commonly considered in chicken-health programs because it helps reduce the risk of Marek’s disease, especially when given according to a veterinarian or hatchery program.",
         "benefits": [
           "Helps reduce serious disease in poultry."
         ]
