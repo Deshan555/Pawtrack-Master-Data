@@ -14,7 +14,7 @@
       "disease": "Newcastle disease",
       "simpleDetails": {
         "whatIsIt": "A vaccine record template for Newcastle disease, a highly contagious viral illness that can affect the breathing, nervous, and digestive systems of susceptible birds; severity and signs differ by bird species and virus strain.",
-        "whyGiven": "It is used within veterinarian- and local-authority-guided poultry or bird-health programs to help reduce the risk and impact of Newcastle disease where vaccination is appropriate.",
+        "whyGiven": "It is used within veterinarian- and local-authority-guided poultry or bird-health programs to help reduce the risk and impact of Newcastle disease where vaccination is appropriate. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports flock disease control."
         ]
@@ -42,7 +42,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "bird_avian_influenza",
@@ -54,7 +58,7 @@
       "disease": "Avian influenza",
       "simpleDetails": {
         "whatIsIt": "A vaccine record template for avian influenza, a group of influenza A virus infections in birds. Some strains can cause severe flock disease and are managed under strict animal-health controls.",
-        "whyGiven": "It is included for authorized programs only. Whether vaccination is used depends on local law, the bird species, outbreak status, and directions from veterinary and animal-health authorities.",
+        "whyGiven": "It is included for authorized programs only. Whether vaccination is used depends on local law, the bird species, outbreak status, and directions from veterinary and animal-health authorities. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports disease-control strategies where authorized."
         ]
@@ -82,7 +86,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "bird_mareks",
@@ -94,7 +102,7 @@
       "disease": "Marek’s disease",
       "simpleDetails": {
         "whatIsIt": "A vaccine record template for Marek’s disease, a herpesvirus infection of chickens that can cause tumors, nerve problems, and immune suppression.",
-        "whyGiven": "It is commonly considered in chicken-health programs because it helps reduce the risk of Marek’s disease, especially when given according to a veterinarian or hatchery program.",
+        "whyGiven": "It is commonly considered in chicken-health programs because it helps reduce the risk of Marek’s disease, especially when given according to a veterinarian or hatchery program. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Helps reduce serious disease in poultry."
         ]
@@ -122,7 +130,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
