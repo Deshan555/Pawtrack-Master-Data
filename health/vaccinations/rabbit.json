@@ -14,8 +14,8 @@
       ],
       "disease": "Rabbit hemorrhagic disease",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Rabbit hemorrhagic disease.",
-        "whyGiven": "Helps protect rabbits from a highly contagious and often fatal viral disease.",
+        "whatIsIt": "This template records vaccination against Rabbit hemorrhagic disease. Risk can vary by region, insect exposure, contact with other rabbits, and the availability of approved rabbit vaccines.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Supports prevention where vaccine is available and indicated."
         ]
@@ -54,8 +54,8 @@
       ],
       "disease": "Myxomatosis",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Myxomatosis.",
-        "whyGiven": "Helps protect rabbits from myxoma virus where vaccination is available.",
+        "whatIsIt": "This template records vaccination against Myxomatosis. Risk can vary by region, insect exposure, contact with other rabbits, and the availability of approved rabbit vaccines.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Reduces risk of severe disease in endemic areas."
         ]
