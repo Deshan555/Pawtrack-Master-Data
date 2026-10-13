@@ -14,7 +14,7 @@
       "disease": "Rabies",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Rabies. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports animal and public health."
         ]
@@ -42,7 +42,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "dog_dhpp",
@@ -55,7 +59,7 @@
       "disease": "Distemper, adenovirus, parvovirus; some formulations include parainfluenza",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Distemper, adenovirus, parvovirus; some formulations include parainfluenza. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Reduces risk of severe infectious illness."
         ]
@@ -83,7 +87,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "dog_leptospirosis",
@@ -96,7 +104,7 @@
       "disease": "Leptospirosis",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Leptospirosis. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May reduce severe illness and zoonotic risk."
         ]
@@ -124,7 +132,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "dog_bordetella",
@@ -136,7 +148,7 @@
       "disease": "Bordetella-associated respiratory disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Bordetella-associated respiratory disease. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Useful for dogs with relevant exposure risks."
         ]
@@ -164,7 +176,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "dog_canine_influenza",
@@ -176,7 +192,7 @@
       "disease": "Canine influenza",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Canine influenza. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May reduce illness in exposed dogs."
         ]
@@ -204,7 +220,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "dog_lyme",
@@ -216,7 +236,7 @@
       "disease": "Lyme borreliosis",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Lyme borreliosis. The health impact and exposure risk differ with a dog’s age, lifestyle, local disease activity, travel, and contact with other animals.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Risk-based protection in endemic areas."
         ]
@@ -244,7 +264,11 @@
           "url": "https://www.aaha.org/resources/2022-aaha-canine-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
