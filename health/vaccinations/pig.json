@@ -13,8 +13,8 @@
       ],
       "disease": "Erysipelothrix rhusiopathiae infection",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Erysipelothrix rhusiopathiae infection.",
-        "whyGiven": "Helps protect pigs against swine erysipelas.",
+        "whatIsIt": "This template records vaccination against Erysipelothrix rhusiopathiae infection. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May reduce disease and production losses."
         ]
@@ -53,8 +53,8 @@
       ],
       "disease": "Porcine parvovirus infection",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Porcine parvovirus infection.",
-        "whyGiven": "Used to help prevent reproductive losses in breeding herds.",
+        "whatIsIt": "This template records vaccination against Porcine parvovirus infection. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Supports reproductive health programs."
         ]
@@ -93,8 +93,8 @@
       ],
       "disease": "Porcine circovirus-associated disease",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Porcine circovirus-associated disease.",
-        "whyGiven": "Helps reduce disease associated with PCV2.",
+        "whatIsIt": "This template records vaccination against Porcine circovirus-associated disease. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May improve herd health outcomes."
         ]
@@ -133,8 +133,8 @@
       ],
       "disease": "Mycoplasma-associated pneumonia",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Mycoplasma-associated pneumonia.",
-        "whyGiven": "Helps reduce severity of selected respiratory disease.",
+        "whatIsIt": "This template records vaccination against Mycoplasma-associated pneumonia. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Supports herd respiratory health management."
         ]
