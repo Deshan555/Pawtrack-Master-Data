@@ -14,7 +14,7 @@
       "disease": "Clostridial diseases",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Clostridial diseases. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May reduce losses from preventable disease."
         ]
@@ -42,7 +42,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cow_ibr_bvd",
@@ -55,7 +59,7 @@
       "disease": "Infectious bovine rhinotracheitis and bovine viral diarrhea",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Infectious bovine rhinotracheitis and bovine viral diarrhea. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May reduce disease and herd impacts."
         ]
@@ -83,7 +87,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cow_brucellosis",
@@ -95,7 +103,7 @@
       "disease": "Bovine brucellosis",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Bovine brucellosis. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports animal and public health control efforts."
         ]
@@ -123,7 +131,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cow_foot_mouth",
@@ -135,7 +147,7 @@
       "disease": "Foot-and-mouth disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Foot-and-mouth disease. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May help reduce outbreaks in targeted livestock populations."
         ]
@@ -163,7 +175,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
