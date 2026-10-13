@@ -13,8 +13,8 @@
       ],
       "disease": "Clostridial diseases",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Clostridial diseases.",
-        "whyGiven": "Used to help prevent selected serious clostridial infections in cattle.",
+        "whatIsIt": "This template records vaccination against Clostridial diseases. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May reduce losses from preventable disease."
         ]
@@ -54,8 +54,8 @@
       ],
       "disease": "Infectious bovine rhinotracheitis and bovine viral diarrhea",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Infectious bovine rhinotracheitis and bovine viral diarrhea.",
-        "whyGiven": "Used in veterinarian-led cattle respiratory and reproductive disease programs.",
+        "whatIsIt": "This template records vaccination against Infectious bovine rhinotracheitis and bovine viral diarrhea. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May reduce disease and herd impacts."
         ]
@@ -94,8 +94,8 @@
       ],
       "disease": "Bovine brucellosis",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Bovine brucellosis.",
-        "whyGiven": "Used in official veterinary disease-control programs where permitted.",
+        "whatIsIt": "This template records vaccination against Bovine brucellosis. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Supports animal and public health control efforts."
         ]
@@ -134,8 +134,8 @@
       ],
       "disease": "Foot-and-mouth disease",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Foot-and-mouth disease.",
-        "whyGiven": "Used under applicable national disease-control policies.",
+        "whatIsIt": "This template records vaccination against Foot-and-mouth disease. This condition can affect individual cattle as well as herd health, reproduction, productivity, or movement controls depending on the pathogen.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May help reduce outbreaks in targeted livestock populations."
         ]
