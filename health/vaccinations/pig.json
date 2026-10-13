@@ -14,7 +14,7 @@
       "disease": "Erysipelothrix rhusiopathiae infection",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Erysipelothrix rhusiopathiae infection. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May reduce disease and production losses."
         ]
@@ -42,7 +42,11 @@
           "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/vaccination-of-exotic-mammals/vaccination-of-exotic-mammals"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "pig_parvovirus",
@@ -54,7 +58,7 @@
       "disease": "Porcine parvovirus infection",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Porcine parvovirus infection. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports reproductive health programs."
         ]
@@ -82,7 +86,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "pig_pcv2",
@@ -94,7 +102,7 @@
       "disease": "Porcine circovirus-associated disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Porcine circovirus-associated disease. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May improve herd health outcomes."
         ]
@@ -122,7 +130,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "pig_mycoplasma",
@@ -134,7 +146,7 @@
       "disease": "Mycoplasma-associated pneumonia",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Mycoplasma-associated pneumonia. The condition is relevant to herd health and may affect production, respiratory health, or reproduction depending on the pathogen and farm setting.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports herd respiratory health management."
         ]
@@ -162,7 +174,11 @@
           "url": "https://www.woah.org/en/what-we-do/standards/codes-and-manuals/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
