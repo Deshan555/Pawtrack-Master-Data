@@ -14,7 +14,7 @@
       "disease": "Rabies",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Rabies. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Protects cats and supports public health."
         ]
@@ -42,7 +42,11 @@
           "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cat_fvrcp",
@@ -55,7 +59,7 @@
       "disease": "Feline herpesvirus, calicivirus, panleukopenia",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Feline herpesvirus, calicivirus, panleukopenia. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Reduces risk of severe respiratory and systemic illness."
         ]
@@ -83,7 +87,11 @@
           "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cat_felv",
@@ -95,7 +103,7 @@
       "disease": "Feline leukemia virus",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Feline leukemia virus. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Especially relevant to kittens and cats at exposure risk."
         ]
@@ -123,7 +131,11 @@
           "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cat_chlamydia_felis",
@@ -135,7 +147,7 @@
       "disease": "Chlamydia felis infection",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Chlamydia felis infection. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Risk-based protection where indicated by a veterinarian."
         ]
@@ -163,7 +175,11 @@
           "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "cat_bordetella",
@@ -175,7 +191,7 @@
       "disease": "Bordetella respiratory infection",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Bordetella respiratory infection. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Used only when risk assessment supports it."
         ]
@@ -203,7 +219,11 @@
           "url": "https://catvets.com/resource/aaha-aafp-feline-vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
