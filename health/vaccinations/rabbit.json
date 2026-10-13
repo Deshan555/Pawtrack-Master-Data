@@ -15,7 +15,7 @@
       "disease": "Rabbit hemorrhagic disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Rabbit hemorrhagic disease. Risk can vary by region, insect exposure, contact with other rabbits, and the availability of approved rabbit vaccines.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports prevention where vaccine is available and indicated."
         ]
@@ -43,7 +43,11 @@
           "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "rabbit_myxomatosis",
@@ -55,7 +59,7 @@
       "disease": "Myxomatosis",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Myxomatosis. Risk can vary by region, insect exposure, contact with other rabbits, and the availability of approved rabbit vaccines.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Reduces risk of severe disease in endemic areas."
         ]
@@ -83,7 +87,11 @@
           "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rabbits/management-of-rabbits"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
