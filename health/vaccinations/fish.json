@@ -13,8 +13,8 @@
       ],
       "disease": "Vibriosis",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Vibriosis.",
-        "whyGiven": "Aquaculture vaccines may protect susceptible farmed fish from certain Vibrio infections.",
+        "whatIsIt": "This template records vaccination against Vibriosis. In fish, disease risk is shaped by the species, water conditions, stocking and husbandry practices, and the pathogens present at the facility.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May reduce losses in eligible farmed species."
         ]
@@ -53,8 +53,8 @@
       ],
       "disease": "Streptococcosis in fish",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Streptococcosis in fish.",
-        "whyGiven": "Used in certain aquaculture systems against selected bacterial infections.",
+        "whatIsIt": "This template records vaccination against Streptococcosis in fish. In fish, disease risk is shaped by the species, water conditions, stocking and husbandry practices, and the pathogens present at the facility.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "May reduce disease in eligible farmed fish."
         ]
