@@ -13,8 +13,8 @@
       ],
       "disease": "Rabies",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Rabies.",
-        "whyGiven": "Helps protect cats against rabies.",
+        "whatIsIt": "This template records vaccination against Rabies. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Protects cats and supports public health."
         ]
@@ -54,8 +54,8 @@
       ],
       "disease": "Feline herpesvirus, calicivirus, panleukopenia",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Feline herpesvirus, calicivirus, panleukopenia.",
-        "whyGiven": "Helps protect against major contagious feline viral diseases.",
+        "whatIsIt": "This template records vaccination against Feline herpesvirus, calicivirus, panleukopenia. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Reduces risk of severe respiratory and systemic illness."
         ]
@@ -94,8 +94,8 @@
       ],
       "disease": "Feline leukemia virus",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Feline leukemia virus.",
-        "whyGiven": "Helps protect against feline leukemia virus infection.",
+        "whatIsIt": "This template records vaccination against Feline leukemia virus. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Especially relevant to kittens and cats at exposure risk."
         ]
@@ -134,8 +134,8 @@
       ],
       "disease": "Chlamydia felis infection",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Chlamydia felis infection.",
-        "whyGiven": "May help control disease in specific multi-cat settings.",
+        "whatIsIt": "This template records vaccination against Chlamydia felis infection. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Risk-based protection where indicated by a veterinarian."
         ]
@@ -174,8 +174,8 @@
       ],
       "disease": "Bordetella respiratory infection",
       "simpleDetails": {
-        "whatIsIt": "A vaccination template for Bordetella respiratory infection.",
-        "whyGiven": "May help reduce respiratory disease in selected high-risk settings.",
+        "whatIsIt": "This template records vaccination against Bordetella respiratory infection. These infections can be especially relevant where cats share spaces, encounter unfamiliar cats, or have age- or lifestyle-related exposure.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
         "benefits": [
           "Used only when risk assessment supports it."
         ]
