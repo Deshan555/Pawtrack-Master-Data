@@ -67,32 +67,32 @@
     },
     {
       "path": "health/vaccinations/bird.json",
-      "sha256": "33c537ae65c5101d1f156a8b4180b9aa6a9e85625bf48f3b5bbd90cbb4131309",
+      "sha256": "4e5c1b84e6d5c88b94362ba6fc6a3d6826dd7b0263ae023054ced67eba785684",
       "bytes": 4448
     },
     {
       "path": "health/vaccinations/cat.json",
-      "sha256": "fc238cf02f055ed7d73b0678e8af4c78ae2e70accf1493976b3807331cd1c21f",
+      "sha256": "83d9149dc762875ecc1d08ed7ee0b3858caaa63fc0359793ce23c9a67f7872fc",
       "bytes": 7834
     },
     {
       "path": "health/vaccinations/cow.json",
-      "sha256": "ed4a7548d74a07cd65fdfd5fcb70273df309164177d5def92606d442ae8cbf9f",
+      "sha256": "d1d4d330064257fe73f9f662d6a556e8d5743c6dbd1ef94ee310f10339117475",
       "bytes": 6331
     },
     {
       "path": "health/vaccinations/dog.json",
-      "sha256": "2d9f50977e6b03de09af9e16dbda7bce7db0e43f79aca18a338403d3a160f888",
+      "sha256": "24f06a6881df85c47c68831eabf53ec88d68eb6ac4e27d23e7163905eeff51bc",
       "bytes": 9268
     },
     {
       "path": "health/vaccinations/fish.json",
-      "sha256": "ae26f804c1244fa67f56117c4a2e50375feee3a2a1918a8cc3de2c6289463731",
+      "sha256": "63467907ed50177dfd7b869dbd2838c77fee7df503680d6ef684edafa4d8937b",
       "bytes": 3268
     },
     {
       "path": "health/vaccinations/horse.json",
-      "sha256": "0347057222a2fcceb456f78ad561fba05bba92420c15652102f58ff90d6d3695",
+      "sha256": "bc7afc8a4f2046577c7b8599b5f4d66f9fd5ddb10585aef80244dbf44d4ac7ae",
       "bytes": 10663
     },
     {
@@ -102,12 +102,12 @@
     },
     {
       "path": "health/vaccinations/pig.json",
-      "sha256": "fda958f1a2c48577a8ca8479b508ded4da188b6c9eef9bf2f19b309cae7c05b9",
+      "sha256": "d5870540f734d12f18143fd2eb406aa1b8f0197a534c5c08d6cf4f3daf0faf1e",
       "bytes": 6407
     },
     {
       "path": "health/vaccinations/rabbit.json",
-      "sha256": "563ae7bdb5e51b0bfe229a116fbe3595ff788a89b5f1cdd1ae23dea093563073",
+      "sha256": "49c80b4c586299edb6341c9af1240d9450c5ad390c4302cd1e09a3b047899451",
       "bytes": 3322
     },
     {
