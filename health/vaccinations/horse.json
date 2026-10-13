@@ -12,7 +12,7 @@
       "disease": "Tetanus",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Tetanus. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Protects against a potentially fatal disease."
         ]
@@ -40,7 +40,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_rabies",
@@ -50,7 +54,7 @@
       "disease": "Rabies",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Rabies. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Protects animal and public health."
         ]
@@ -78,7 +82,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_west_nile",
@@ -90,7 +98,7 @@
       "disease": "West Nile virus disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against West Nile virus disease. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Supports protection in mosquito-exposed horses."
         ]
@@ -118,7 +126,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_eee_wee",
@@ -131,7 +143,7 @@
       "disease": "Eastern and western equine encephalomyelitis",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Eastern and western equine encephalomyelitis. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Reduces risk of potentially fatal encephalitis."
         ]
@@ -159,7 +171,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_equine_influenza",
@@ -171,7 +187,7 @@
       "disease": "Equine influenza",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Equine influenza. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Important for horses with travel or mixing exposure."
         ]
@@ -199,7 +215,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_ehv",
@@ -212,7 +232,7 @@
       "disease": "Equine herpesvirus-associated disease",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Equine herpesvirus-associated disease. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "Used as part of veterinarian-led risk planning."
         ]
@@ -240,7 +260,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     },
     {
       "id": "horse_strangles",
@@ -250,7 +274,7 @@
       "disease": "Streptococcus equi infection",
       "simpleDetails": {
         "whatIsIt": "This template records vaccination against Streptococcus equi infection. Horses can have different exposure risks depending on travel, competition, boarding, mosquito exposure, breeding, and contact with other horses.",
-        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance.",
+        "whyGiven": "It may be included in a veterinarian-led preventive-care plan to reduce disease risk or impact when vaccination is appropriate. The correct product, eligibility, timing, and follow-up should always be confirmed with a veterinarian and local guidance. Confirm the product, suitability, timing, and next due date with a veterinarian.",
         "benefits": [
           "May support outbreak-risk management."
         ]
@@ -278,7 +302,11 @@
           "url": "https://aaep.org/guidelines-resources/vaccination-guidelines/"
         }
       ],
-      "isActive": true
+      "isActive": true,
+      "vetValidation": {
+        "requiredBeforeUse": true,
+        "notice": "Confirm the vaccine product, suitability, timing, and next due date with a veterinarian before use. PawTrack does not replace veterinary advice."
+      }
     }
   ],
   "allowCustom": true,
