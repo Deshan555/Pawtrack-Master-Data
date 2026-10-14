@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "catalog": "nutrition-meal-templates",
+  "updatedAt": "2026-10-14T16:50:00Z",
+  "disclaimer": "Planning and record-keeping templates only. Meal quantity, calories, dietary changes, and medical diets must follow a qualified veterinarian's guidance.",
+  "templates": [
+    {
+      "speciesId": "dog",
+      "displayName": "Dog",
+      "mealPattern": "daily_meals",
+      "defaultMealSlots": [
+        "breakfast",
+        "dinner"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "appetite",
+        "notes"
+      ],
+      "foodCategories": [
+        "commercial_dry",
+        "commercial_wet",
+        "fresh_food",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "daily_goal_optional",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "meal",
+        "food_stock"
+      ],
+      "customFields": [
+        "treat_limit",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "cat",
+      "displayName": "Cat",
+      "mealPattern": "daily_meals",
+      "defaultMealSlots": [
+        "breakfast",
+        "dinner"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "appetite",
+        "notes"
+      ],
+      "foodCategories": [
+        "commercial_dry",
+        "commercial_wet",
+        "fresh_food",
+        "treat",
+        "supplement",
+        "vet_prescribed"
+      ],
+      "hydrationTracking": "daily_goal_optional",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "meal",
+        "food_stock"
+      ],
+      "customFields": [
+        "dry_wet_split",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "bird",
+      "displayName": "Bird",
+      "mealPattern": "daily_checklist",
+      "defaultMealSlots": [
+        "morning",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "pellet",
+        "seed_mix",
+        "fresh_produce",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "refresh_checklist",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "water_refresh",
+        "meal"
+      ],
+      "customFields": [
+        "fresh_food_served",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "fish",
+      "displayName": "Fish",
+      "mealPattern": "scheduled_feedings",
+      "defaultMealSlots": [
+        "feed"
+      ],
+      "logFields": [
+        "food",
+        "amount",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "flake",
+        "pellet",
+        "frozen_food",
+        "live_food",
+        "supplement"
+      ],
+      "hydrationTracking": "not_applicable",
+      "weightTracking": "not_applicable",
+      "reminders": [
+        "feeding",
+        "fasting_day_optional"
+      ],
+      "customFields": [
+        "tank_name",
+        "feeding_frequency",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "rabbit",
+      "displayName": "Rabbit",
+      "mealPattern": "daily_checklist",
+      "defaultMealSlots": [
+        "morning",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "hay",
+        "pellet",
+        "leafy_green",
+        "fresh_produce",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "refresh_checklist",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "hay_check",
+        "water_refresh",
+        "meal"
+      ],
+      "customFields": [
+        "hay_available",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "rodent",
+      "displayName": "Rodent",
+      "mealPattern": "daily_checklist",
+      "defaultMealSlots": [
+        "morning",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "pellet",
+        "seed_mix",
+        "fresh_produce",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "refresh_checklist",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "water_refresh",
+        "meal"
+      ],
+      "customFields": [
+        "water_bottle_check",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "snake",
+      "displayName": "Snake",
+      "mealPattern": "interval_feedings",
+      "defaultMealSlots": [
+        "feed"
+      ],
+      "logFields": [
+        "food",
+        "prey_size",
+        "count",
+        "time",
+        "feeding_response",
+        "notes"
+      ],
+      "foodCategories": [
+        "prey_item",
+        "supplement"
+      ],
+      "hydrationTracking": "water_refresh_checklist",
+      "weightTracking": "monthly_optional",
+      "reminders": [
+        "next_feeding",
+        "water_refresh"
+      ],
+      "customFields": [
+        "feeding_interval_days",
+        "last_shed_date",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "spider",
+      "displayName": "Spider",
+      "mealPattern": "interval_feedings",
+      "defaultMealSlots": [
+        "feed"
+      ],
+      "logFields": [
+        "food",
+        "count",
+        "time",
+        "feeding_response",
+        "notes"
+      ],
+      "foodCategories": [
+        "feeder_insect"
+      ],
+      "hydrationTracking": "water_mist_or_dish_checklist",
+      "weightTracking": "not_applicable",
+      "reminders": [
+        "next_feeding",
+        "water_check"
+      ],
+      "customFields": [
+        "feeding_interval_days",
+        "molt_status",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "horse",
+      "displayName": "Horse",
+      "mealPattern": "daily_meals",
+      "defaultMealSlots": [
+        "morning",
+        "midday",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "forage",
+        "concentrate_feed",
+        "grazing",
+        "treat",
+        "mineral",
+        "supplement"
+      ],
+      "hydrationTracking": "daily_checklist",
+      "weightTracking": "monthly_optional",
+      "reminders": [
+        "meal",
+        "water_check",
+        "food_stock"
+      ],
+      "customFields": [
+        "grazing_time",
+        "mineral_access",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "cow",
+      "displayName": "Cow",
+      "mealPattern": "daily_meals",
+      "defaultMealSlots": [
+        "morning",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "forage",
+        "concentrate_feed",
+        "mineral",
+        "supplement"
+      ],
+      "hydrationTracking": "daily_checklist",
+      "weightTracking": "monthly_optional",
+      "reminders": [
+        "meal",
+        "water_check",
+        "food_stock"
+      ],
+      "customFields": [
+        "production_notes",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "pig",
+      "displayName": "Pig",
+      "mealPattern": "daily_meals",
+      "defaultMealSlots": [
+        "morning",
+        "evening"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "complete_feed",
+        "fresh_produce",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "daily_checklist",
+      "weightTracking": "weekly_optional",
+      "reminders": [
+        "meal",
+        "water_check",
+        "food_stock"
+      ],
+      "customFields": [
+        "growth_notes",
+        "diet_notes"
+      ]
+    },
+    {
+      "speciesId": "other",
+      "displayName": "Other / Custom",
+      "mealPattern": "custom",
+      "defaultMealSlots": [
+        "meal"
+      ],
+      "logFields": [
+        "food",
+        "portion",
+        "unit",
+        "time",
+        "notes"
+      ],
+      "foodCategories": [
+        "custom_food",
+        "treat",
+        "supplement"
+      ],
+      "hydrationTracking": "custom",
+      "weightTracking": "optional",
+      "reminders": [
+        "custom"
+      ],
+      "customFields": [
+        "diet_notes"
+      ]
+    }
+  ]
+}
