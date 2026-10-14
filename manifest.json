@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 6,
-  "releaseId": "2026-10-13.2",
-  "updatedAt": "2026-10-13T05:46:00Z",
+  "dataVersion": 7,
+  "releaseId": "2026-10-14.1",
+  "updatedAt": "2026-10-14T16:50:00Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -129,6 +129,11 @@
       "path": "species/species.json",
       "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
       "bytes": 3112
+    },
+    {
+      "path": "nutrition/meal_templates.json",
+      "sha256": "5e53bfe31e297409197acf5fe5e334b6c512808fb85dfba5e01749cf9bf8270c",
+      "bytes": 8431
     }
   ]
 }
