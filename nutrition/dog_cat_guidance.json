@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 1,
+  "catalog": "dog-cat-nutrition-guidance",
+  "updatedAt": "2026-10-14T17:10:00Z",
+  "safetyNotice": "This catalog supports logging and safety warnings. It does not diagnose, prescribe, or replace urgent veterinary care. If a potentially toxic item is consumed, contact a veterinarian or local animal poison service promptly.",
+  "sources": [
+    {
+      "id": "aspca_people_foods",
+      "publisher": "ASPCA Animal Poison Control",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets",
+      "accessedAt": "2026-10-14"
+    },
+    {
+      "id": "wsava_calorie_dogs",
+      "publisher": "WSAVA Global Nutrition Committee",
+      "url": "https://wsava.org/wp-content/uploads/2020/07/Calorie-Needs-for-Healthy-Adult-Dogs-updated-July-2020.pdf",
+      "accessedAt": "2026-10-14"
+    },
+    {
+      "id": "wsava_calorie_cats",
+      "publisher": "WSAVA Global Nutrition Committee",
+      "url": "https://wsava.org/wp-content/uploads/2020/07/Calorie-Needs-for-Healthy-Adult-Cats-updated-July-2020.pdf",
+      "accessedAt": "2026-10-14"
+    },
+    {
+      "id": "wsava_assessment",
+      "publisher": "WSAVA Global Nutrition Committee",
+      "url": "https://wsava.org/wp-content/uploads/2020/01/WSAVA-Nutrition-Assessment-Guidelines-2011-JSAP.pdf",
+      "accessedAt": "2026-10-14"
+    }
+  ],
+  "foodSafetyEntries": [
+    {
+      "id": "chocolate_caffeine",
+      "name": "Chocolate, coffee, and caffeine",
+      "speciesIds": [
+        "dog",
+        "cat"
+      ],
+      "status": "avoid",
+      "severity": "urgent",
+      "message": "Do not feed. If ingested, contact a veterinarian promptly.",
+      "sourceIds": [
+        "aspca_people_foods"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol and alcohol-containing foods",
+      "speciesIds": [
+        "dog",
+        "cat"
+      ],
+      "status": "avoid",
+      "severity": "urgent",
+      "message": "Do not feed. If ingested, contact a veterinarian promptly.",
+      "sourceIds": [
+        "aspca_people_foods"
+      ]
+    },
+    {
+      "id": "allium",
+      "name": "Onion, garlic, chives, and related alliums",
+      "speciesIds": [
+        "dog",
+        "cat"
+      ],
+      "status": "avoid",
+      "severity": "urgent",
+      "message": "Do not feed. If ingested, contact a veterinarian promptly.",
+      "sourceIds": [
+        "aspca_people_foods"
+      ]
+    },
+    {
+      "id": "xylitol_dog",
+      "name": "Xylitol / birch sugar",
+      "speciesIds": [
+        "dog"
+      ],
+      "status": "avoid",
+      "severity": "urgent",
+      "message": "Do not feed. Check sugar-free products and contact a veterinarian promptly after ingestion.",
+      "sourceIds": [
+        "aspca_people_foods"
+      ]
+    },
+    {
+      "id": "grapes_raisins_dog",
+      "name": "Grapes, raisins, and currants",
+      "speciesIds": [
+        "dog"
+      ],
+      "status": "avoid",
+      "severity": "urgent",
+      "message": "Do not feed. If ingested, contact a veterinarian promptly.",
+      "sourceIds": [
+        "aspca_people_foods"
+      ]
+    }
+  ],
+  "caloriePlanning": {
+    "mode": "vet_target_first",
+    "requiredInputs": [
+      "dailyCalorieTargetKcal",
+      "foodEnergyKcalPerUnit",
+      "mealsPerDay"
+    ],
+    "formulas": [
+      {
+        "id": "meal_calories",
+        "expression": "dailyCalorieTargetKcal / mealsPerDay",
+        "purpose": "Split a veterinarian-confirmed daily target across scheduled meals."
+      },
+      {
+        "id": "meal_portion",
+        "expression": "mealCalories / foodEnergyKcalPerUnit",
+        "purpose": "Convert meal calories using the food label's energy value."
+      }
+    ],
+    "referenceOnlyEstimators": [
+      {
+        "speciesId": "dog",
+        "id": "rer",
+        "expression": "70 * bodyWeightKg ^ 0.75",
+        "label": "Resting energy requirement reference",
+        "requiresVetApproval": true,
+        "sourceIds": [
+          "wsava_calorie_dogs",
+          "wsava_assessment"
+        ]
+      },
+      {
+        "speciesId": "cat",
+        "id": "rer",
+        "expression": "70 * bodyWeightKg ^ 0.75",
+        "label": "Resting energy requirement reference",
+        "requiresVetApproval": true,
+        "sourceIds": [
+          "wsava_calorie_cats",
+          "wsava_assessment"
+        ]
+      }
+    ],
+    "guardrails": [
+      "Do not auto-create a daily calorie target from an estimator.",
+      "Do not use medical conditions, pregnancy, growth, or weight-loss goals without a veterinarian-confirmed target.",
+      "Reassess the target when weight, body condition, life stage, activity, or health status changes."
+    ]
+  },
+  "medicalDietTemplates": [
+    {
+      "id": "dog_food_allergy",
+      "speciesId": "dog",
+      "name": "Food allergy / elimination plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "allowedFoods",
+        "restrictedFoods",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "dog_kidney",
+      "speciesId": "dog",
+      "name": "Kidney-support diet plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "dog_urinary",
+      "speciesId": "dog",
+      "name": "Urinary diet plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "dog_diabetes",
+      "speciesId": "dog",
+      "name": "Diabetes meal plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "mealTimes",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "dog_weight",
+      "speciesId": "dog",
+      "name": "Weight-management plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "targetWeightKg",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "cat_food_allergy",
+      "speciesId": "cat",
+      "name": "Food allergy / elimination plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "allowedFoods",
+        "restrictedFoods",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "cat_kidney",
+      "speciesId": "cat",
+      "name": "Kidney-support diet plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "cat_urinary",
+      "speciesId": "cat",
+      "name": "Urinary diet plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "cat_diabetes",
+      "speciesId": "cat",
+      "name": "Diabetes meal plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "mealTimes",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    },
+    {
+      "id": "cat_weight",
+      "speciesId": "cat",
+      "name": "Weight-management plan",
+      "requiresVetAuthorization": true,
+      "requiredFields": [
+        "dietName",
+        "dailyCalorieTargetKcal",
+        "targetWeightKg",
+        "startDate",
+        "reviewDate",
+        "vetNotes"
+      ]
+    }
+  ]
+}
