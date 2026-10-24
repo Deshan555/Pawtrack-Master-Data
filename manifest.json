@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 8,
-  "releaseId": "2026-10-16.1",
-  "updatedAt": "2026-10-16T04:34:01Z",
+  "dataVersion": 9,
+  "releaseId": "2026-10-24.1",
+  "updatedAt": "2026-10-24T14:26:01Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -132,8 +132,8 @@
     },
     {
       "path": "nutrition/meal_templates.json",
-      "sha256": "d6c2d032a98159960d70422dca6dbec8d6f2edc9a542aa7ac6c6bc4d30547fac",
-      "bytes": 8431
+      "sha256": "74d86fa28dd6dc7503140882cdfb1903fd91a8468e9bb1a1444b92f67d819edc",
+      "bytes": 8647
     },
     {
       "path": "nutrition/dog_cat_guidance.json",

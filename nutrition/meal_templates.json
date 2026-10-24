@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 1,
+  "dataVersion": 2,
   "catalog": "nutrition-meal-templates",
-  "updatedAt": "2026-10-14T16:50:00Z",
+  "updatedAt": "2026-10-24T14:26:01Z",
   "disclaimer": "Planning and record-keeping templates only. Meal quantity, calories, dietary changes, and medical diets must follow a qualified veterinarian's guidance.",
   "templates": [
     {
@@ -10,8 +10,13 @@
       "displayName": "Dog",
       "mealPattern": "daily_meals",
       "defaultMealSlots": [
+        "early_morning",
         "breakfast",
-        "dinner"
+        "lunch",
+        "afternoon_snack",
+        "dinner",
+        "late_night",
+        "treat"
       ],
       "logFields": [
         "food",
@@ -44,8 +49,13 @@
       "displayName": "Cat",
       "mealPattern": "daily_meals",
       "defaultMealSlots": [
+        "early_morning",
         "breakfast",
-        "dinner"
+        "lunch",
+        "afternoon_snack",
+        "dinner",
+        "late_night",
+        "treat"
       ],
       "logFields": [
         "food",
