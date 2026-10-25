@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 85,
+  "assetCount": 90,
   "assets": [
     {
       "id": "dog_sit_cover",
@@ -1191,6 +1191,76 @@
       "height": 1024,
       "bytes": 491778,
       "sha256": "bc430961d54ae313d7a6be34364564c32175fa1f6340121675d161d4a774f0df",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_recall_with_distractions_cover",
+      "templateId": "dog_recall_with_distractions",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Dog happily approaching trainer on SLACK long line attached to Y harness in fenced garden, one harmless ball far away.",
+      "width": 640,
+      "height": 640,
+      "bytes": 385670,
+      "sha256": "8ef9e040f72592b90325e7c1b5711b271c05b4e6ea52f0af59d996312c697d9e",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_recall_with_distractions_lesson_01",
+      "templateId": "dog_recall_with_distractions",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Quiet fenced garden with dog on slack Y-harness long line next to trainer, harmless ball far away outside focus.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 478578,
+      "sha256": "aaceeb0cd0c61b2b7a9e0a6d37cf8cca3b7db847591cc28e5a4b6009c2e19a6c",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_recall_with_distractions_lesson_02",
+      "templateId": "dog_recall_with_distractions",
+      "lessonId": "lesson_02",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_02.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Indoor short distance recall: dog approaching kneeling trainer's low reward hand in quiet uncluttered cream room.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 316706,
+      "sha256": "c6080246346f8dd89029b98c55643a2316ac606d4743076c52800e74a97dc342",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_recall_with_distractions_lesson_03",
+      "templateId": "dog_recall_with_distractions",
+      "lessonId": "lesson_03",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_03.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog trots toward trainer on clearly SLACK long line attached to Y harness in secure fenced garden, one stationary ball far away, no pulling tangles or collar attachment.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 449190,
+      "sha256": "01a4957cc627a0bf051782c926050a2977cff1e1af81016ab8653b84444473ad",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_recall_with_distractions_lesson_04",
+      "templateId": "dog_recall_with_distractions",
+      "lessonId": "lesson_04",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_04.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog arrives at trainer on slack harness long line in fenced garden with small distant shrub, trainer offers treat for return, no active distracting animals.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 447022,
+      "sha256": "cc27da9046dbd4473e18e03bd02656c91c2e88f81727668bb5645634e6349b5f",
       "illustrationOnly": true
     }
   ]
