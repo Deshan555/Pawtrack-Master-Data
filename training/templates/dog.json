@@ -2522,17 +2522,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_toilet_routine_cover",
+          "dog_toilet_routine_lesson_01",
+          "dog_toilet_routine_lesson_02",
+          "dog_toilet_routine_lesson_03",
+          "dog_toilet_routine_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog toilet routine positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly sniffing designated grass toilet patch while trainer stands nearby with reward ready, no graphic waste.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer beside relaxed dog near door to fenced yard, slack leash on Y harness, designated grass patch visible beyond.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing suitable grass toilet spot in quiet secure yard on slack harness leash, trainer waits patiently no scolding.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing calmly at designated grass patch, trainer offers small reward after toilet visit, no graphic waste no visible text record.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog returns with trainer to same quiet grass toilet patch on slack harness leash, calm routine no graphic waste.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2715,17 +2760,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_name_response_cover",
+          "dog_name_response_lesson_01",
+          "dog_name_response_lesson_02",
+          "dog_name_response_lesson_03",
+          "dog_name_response_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog name response positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_name_response/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog turns head attentively toward trainer who speaks softly, whole dog shown.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog freely standing on rug at short distance from calm seated trainer with treats; quiet room.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog turning head toward seated woman with slightly open mouth saying name quietly once, small reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly making eye contact with kind smiling trainer while she gives tiny reward, no scolding or looming.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog orienting head toward trainer in quiet fenced garden, trainer gives small reward after attention.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
