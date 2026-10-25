@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "speciesId": "pig",
+  "templates": [
+    {
+      "id": "pig_target_touch",
+      "speciesId": "pig",
+      "title": "Target Touch",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary target touch routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_come_when_called",
+      "speciesId": "pig",
+      "title": "Come When Called",
+      "category": "safety_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary come when called routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_station_on_mat",
+      "speciesId": "pig",
+      "title": "Station on Mat",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary station on mat routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_hoof_care_cooperation",
+      "speciesId": "pig",
+      "title": "Hoof Care Cooperation",
+      "category": "care_cooperation",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary hoof care cooperation routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_harness_familiarity",
+      "speciesId": "pig",
+      "title": "Harness Familiarity",
+      "category": "daily_habits",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary harness familiarity routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_foraging_puzzle",
+      "speciesId": "pig",
+      "title": "Foraging Puzzle",
+      "category": "mental_enrichment",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary foraging puzzle routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Prepare a safe, species-appropriate enrichment environment.",
+            "Allow voluntary exploration without pressure.",
+            "Gradually adjust difficulty only while the animal remains relaxed."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "pig_calm_vet_handling",
+      "speciesId": "pig",
+      "title": "Calm Vet Handling",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary calm vet handling routine suitable for pig.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    }
+  ]
+}
