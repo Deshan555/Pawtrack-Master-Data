@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "basic_skills",
+      "name": "Basic Skills"
+    },
+    {
+      "id": "social_bonding",
+      "name": "Social & Bonding"
+    },
+    {
+      "id": "daily_habits",
+      "name": "Daily Habits"
+    },
+    {
+      "id": "mental_enrichment",
+      "name": "Mental Enrichment"
+    },
+    {
+      "id": "safety_skills",
+      "name": "Safety Skills"
+    },
+    {
+      "id": "care_cooperation",
+      "name": "Care Cooperation"
+    },
+    {
+      "id": "advanced_tricks",
+      "name": "Advanced Tricks"
+    }
+  ]
+}
