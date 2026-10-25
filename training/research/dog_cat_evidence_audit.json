@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "dog": 20,
+    "cat": 15
+  },
+  "sources": [
+    {
+      "id": "DOG_GENERAL",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+      "species": "dog",
+      "supports": [
+        "preparation",
+        "session_length",
+        "reinforcement",
+        "progression"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "DOG_STAY",
+      "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/stay-training",
+      "species": "dog",
+      "supports": [
+        "stay",
+        "duration_progression"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "DOG_AVSAB",
+      "url": "https://avsab.org/resources/position-statements/",
+      "species": "dog",
+      "supports": [
+        "welfare",
+        "reward_based"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "CAT_GENERAL",
+      "url": "https://www.aaha.org/resources/cat-training-101/",
+      "species": "cat",
+      "supports": [
+        "marker",
+        "target",
+        "mat",
+        "reward_based",
+        "welfare"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "CAT_SHORT",
+      "url": "https://ontariospca.ca/blog/clicker-training-your-cat/",
+      "species": "cat",
+      "supports": [
+        "session_length",
+        "clicker",
+        "progression"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "CAT_STUDY",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5664032/",
+      "species": "cat",
+      "supports": [
+        "target",
+        "clicker",
+        "measured_behavior",
+        "study_protocol"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "CAT_RECALL",
+      "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+      "species": "cat",
+      "supports": [
+        "recall",
+        "marker",
+        "progression"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "CAT_CARRIER",
+      "url": "https://www.cats.org.uk/help-and-advice/getting-a-cat/how-to-choose-and-use-a-cat-carrier",
+      "species": "cat",
+      "supports": [
+        "carrier",
+        "voluntary_entry"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    },
+    {
+      "id": "IAABC",
+      "url": "https://iaabc.org/en/standards-of-practice",
+      "species": "both",
+      "supports": [
+        "choice",
+        "welfare",
+        "reinforcement"
+      ],
+      "verificationStatus": "retrieved_public_source",
+      "checkedAt": "2026-10-25",
+      "scope": "Source supports the listed topic only; it does not validate every lesson sentence or a universal mastery threshold."
+    }
+  ],
+  "notes": [
+    "Training stages are an authored adaptation of humane behavior training guidance.",
+    "No universal mastery threshold is scientifically established for all 35 skills.",
+    "Dog 5-10 minute and cat 2-3 minute sessions are published guidance, not medical limits.",
+    "The cat shelter study used 15 five-minute sessions and a study-specific scoring rubric; do not use its mastery rates as app guarantees."
+  ]
+}
