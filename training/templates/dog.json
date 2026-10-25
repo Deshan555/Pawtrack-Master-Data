@@ -4434,17 +4434,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_find_it_game_cover",
+          "dog_find_it_game_lesson_01",
+          "dog_find_it_game_lesson_02",
+          "dog_find_it_game_lesson_03",
+          "dog_find_it_game_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog find it game positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog lowering nose to sniff ONE small visible food reward on clean nonslip sage mat, natural spine and four paws.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer near calm standing dog on clean nonslip rug, one small safe food reward in hand, no clutter.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "ONE small visible food reward on clean rug, dog gently lowers head and nose to find it while trainer watches calmly.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing accessible tiny treats beside LOW open cardboard boxes on floor, no closed traps sharp edges or high surfaces.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing ONE visible small reward on clean nonslip patio mat in fenced garden while trainer calmly watches.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
