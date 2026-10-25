@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "speciesId": "cow",
+  "templates": [
+    {
+      "id": "cow_target_touch",
+      "speciesId": "cow",
+      "title": "Target Touch",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary target touch routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_halter_familiarity",
+      "speciesId": "cow",
+      "title": "Halter Familiarity",
+      "category": "daily_habits",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary halter familiarity routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_calm_leading",
+      "speciesId": "cow",
+      "title": "Calm Leading",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary calm leading routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_stand_for_health_check",
+      "speciesId": "cow",
+      "title": "Stand for Health Check",
+      "category": "care_cooperation",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary stand for health check routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_voluntary_weighing",
+      "speciesId": "cow",
+      "title": "Voluntary Weighing",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary voluntary weighing routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_grooming_familiarity",
+      "speciesId": "cow",
+      "title": "Grooming Familiarity",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary grooming familiarity routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "cow_gate_transition",
+      "speciesId": "cow",
+      "title": "Gate Transition",
+      "category": "daily_habits",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary gate transition routine suitable for cow.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    }
+  ]
+}
