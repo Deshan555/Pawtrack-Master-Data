@@ -2283,17 +2283,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_crate_comfort_cover",
+          "dog_crate_comfort_lesson_01",
+          "dog_crate_comfort_lesson_02",
+          "dog_crate_comfort_lesson_03",
+          "dog_crate_comfort_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog crate comfort positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog standing entirely OUTSIDE beside a large empty crate with WIDE OPEN doorway, calmly looking toward its soft bedding, no body part inside crate. No person needed. Crate big enough to stand and turn. Isolated transparent square illustration.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing at comfortable distance from large wire crate with wide OPEN door and soft bedding, trainer seated away, no confinement.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing ENTIRELY OUTSIDE a large open crate, nose gently investigating the unobstructed FRONT doorway and soft bedding, all four paws remain OUTSIDE on rug. Trainer sits away with reward ready. Empty roomy crate, door WIDE OPEN.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "A spacious crate seen STRAIGHT THROUGH its WIDE OPEN FRONT doorway. Small dog lies FULLY INSIDE on sage bedding, with tail tucked INSIDE beside hindquarters, no body part protruding through bars. Trainer seated BESIDE exterior, hand lightly on OPEN door's outer edge, no hand reaching through bars. Door remains mostly OPEN.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "A large roomy crate seen STRAIGHT THROUGH its WIDE OPEN FRONT doorway in another quiet room corner. Dog lies FULLY INSIDE on sage bedding, tail curled INSIDE alongside body, all paws INSIDE the crate, no body part crosses side walls or bars. Trainer sits calmly at a distance, no contact.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
