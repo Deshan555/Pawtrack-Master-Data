@@ -132,47 +132,13 @@
         "imageSearchKeywords": [
           "dog sit positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_sit_cover",
-          "altText": "dog Sit training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_sit/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_sit_lesson_01",
-            "altText": "dog Sit lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_sit/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_sit_lesson_02",
-            "altText": "dog Sit lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_sit/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_sit_lesson_03",
-            "altText": "dog Sit lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_sit/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_sit_lesson_04",
-            "altText": "dog Sit lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_sit/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -367,47 +333,13 @@
         "imageSearchKeywords": [
           "dog stay positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_stay_cover",
-          "altText": "dog Stay training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_stay/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_stay_lesson_01",
-            "altText": "dog Stay lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_stay/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_stay_lesson_02",
-            "altText": "dog Stay lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_stay/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_stay_lesson_03",
-            "altText": "dog Stay lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_stay/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_stay_lesson_04",
-            "altText": "dog Stay lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_stay/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -598,47 +530,13 @@
         "imageSearchKeywords": [
           "dog come when called positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_come_when_called_cover",
-          "altText": "dog Come When Called training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_come_when_called/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_come_when_called_lesson_01",
-            "altText": "dog Come When Called lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_come_when_called/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_come_when_called_lesson_02",
-            "altText": "dog Come When Called lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_come_when_called/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_come_when_called_lesson_03",
-            "altText": "dog Come When Called lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_come_when_called/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_come_when_called_lesson_04",
-            "altText": "dog Come When Called lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_come_when_called/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -825,47 +723,13 @@
         "imageSearchKeywords": [
           "dog down positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_down_cover",
-          "altText": "dog Down training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_down/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_down_lesson_01",
-            "altText": "dog Down lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_down/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_down_lesson_02",
-            "altText": "dog Down lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_down/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_down_lesson_03",
-            "altText": "dog Down lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_down/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_down_lesson_04",
-            "altText": "dog Down lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_down/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1053,47 +917,13 @@
         "imageSearchKeywords": [
           "dog loose leash walking positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_loose_leash_walking_cover",
-          "altText": "dog Loose Leash Walking training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_loose_leash_walking/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_loose_leash_walking_lesson_01",
-            "altText": "dog Loose Leash Walking lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_loose_leash_walking/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_loose_leash_walking_lesson_02",
-            "altText": "dog Loose Leash Walking lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_loose_leash_walking/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_loose_leash_walking_lesson_03",
-            "altText": "dog Loose Leash Walking lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_loose_leash_walking/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_loose_leash_walking_lesson_04",
-            "altText": "dog Loose Leash Walking lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_loose_leash_walking/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1280,47 +1110,13 @@
         "imageSearchKeywords": [
           "dog leave it positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_leave_it_cover",
-          "altText": "dog Leave It training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_leave_it/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_leave_it_lesson_01",
-            "altText": "dog Leave It lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_leave_it/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_leave_it_lesson_02",
-            "altText": "dog Leave It lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_leave_it/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_leave_it_lesson_03",
-            "altText": "dog Leave It lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_leave_it/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_leave_it_lesson_04",
-            "altText": "dog Leave It lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_leave_it/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1507,47 +1303,13 @@
         "imageSearchKeywords": [
           "dog drop it positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_drop_it_cover",
-          "altText": "dog Drop It training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_drop_it/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_drop_it_lesson_01",
-            "altText": "dog Drop It lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_drop_it/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_drop_it_lesson_02",
-            "altText": "dog Drop It lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_drop_it/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_drop_it_lesson_03",
-            "altText": "dog Drop It lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_drop_it/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_drop_it_lesson_04",
-            "altText": "dog Drop It lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_drop_it/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1734,47 +1496,13 @@
         "imageSearchKeywords": [
           "dog wait at doorways positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_wait_at_doorways_cover",
-          "altText": "dog Wait at Doorways training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_wait_at_doorways/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_wait_at_doorways_lesson_01",
-            "altText": "dog Wait at Doorways lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_wait_at_doorways/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_wait_at_doorways_lesson_02",
-            "altText": "dog Wait at Doorways lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_wait_at_doorways/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_wait_at_doorways_lesson_03",
-            "altText": "dog Wait at Doorways lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_wait_at_doorways/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_wait_at_doorways_lesson_04",
-            "altText": "dog Wait at Doorways lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_wait_at_doorways/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1961,47 +1689,13 @@
         "imageSearchKeywords": [
           "dog settle on mat positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_settle_on_mat_cover",
-          "altText": "dog Settle on Mat training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_settle_on_mat/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_settle_on_mat_lesson_01",
-            "altText": "dog Settle on Mat lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_settle_on_mat/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_settle_on_mat_lesson_02",
-            "altText": "dog Settle on Mat lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_settle_on_mat/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_settle_on_mat_lesson_03",
-            "altText": "dog Settle on Mat lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_settle_on_mat/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_settle_on_mat_lesson_04",
-            "altText": "dog Settle on Mat lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_settle_on_mat/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2188,47 +1882,13 @@
         "imageSearchKeywords": [
           "dog crate comfort positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_crate_comfort_cover",
-          "altText": "dog Crate Comfort training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_crate_comfort/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_crate_comfort_lesson_01",
-            "altText": "dog Crate Comfort lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_crate_comfort/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_crate_comfort_lesson_02",
-            "altText": "dog Crate Comfort lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_crate_comfort/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_crate_comfort_lesson_03",
-            "altText": "dog Crate Comfort lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_crate_comfort/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_crate_comfort_lesson_04",
-            "altText": "dog Crate Comfort lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_crate_comfort/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2416,47 +2076,13 @@
         "imageSearchKeywords": [
           "dog toilet routine positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_toilet_routine_cover",
-          "altText": "dog Toilet Routine training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_toilet_routine/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_toilet_routine_lesson_01",
-            "altText": "dog Toilet Routine lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_toilet_routine/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_toilet_routine_lesson_02",
-            "altText": "dog Toilet Routine lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_toilet_routine/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_toilet_routine_lesson_03",
-            "altText": "dog Toilet Routine lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_toilet_routine/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_toilet_routine_lesson_04",
-            "altText": "dog Toilet Routine lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_toilet_routine/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2643,47 +2269,13 @@
         "imageSearchKeywords": [
           "dog name response positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_name_response_cover",
-          "altText": "dog Name Response training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_name_response/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_name_response_lesson_01",
-            "altText": "dog Name Response lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_name_response/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_name_response_lesson_02",
-            "altText": "dog Name Response lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_name_response/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_name_response_lesson_03",
-            "altText": "dog Name Response lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_name_response/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_name_response_lesson_04",
-            "altText": "dog Name Response lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_name_response/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2870,47 +2462,13 @@
         "imageSearchKeywords": [
           "dog hand target positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_hand_target_cover",
-          "altText": "dog Hand Target training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_hand_target/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_hand_target_lesson_01",
-            "altText": "dog Hand Target lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_hand_target/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_hand_target_lesson_02",
-            "altText": "dog Hand Target lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_hand_target/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_hand_target_lesson_03",
-            "altText": "dog Hand Target lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_hand_target/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_hand_target_lesson_04",
-            "altText": "dog Hand Target lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_hand_target/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3097,47 +2655,13 @@
         "imageSearchKeywords": [
           "dog polite greetings positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_polite_greetings_cover",
-          "altText": "dog Polite Greetings training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_polite_greetings/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_polite_greetings_lesson_01",
-            "altText": "dog Polite Greetings lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_polite_greetings/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_polite_greetings_lesson_02",
-            "altText": "dog Polite Greetings lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_polite_greetings/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_polite_greetings_lesson_03",
-            "altText": "dog Polite Greetings lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_polite_greetings/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_polite_greetings_lesson_04",
-            "altText": "dog Polite Greetings lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_polite_greetings/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3324,47 +2848,13 @@
         "imageSearchKeywords": [
           "dog cooperative paw handling positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_cooperative_paw_handling_cover",
-          "altText": "dog Cooperative Paw Handling training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_cooperative_paw_handling/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_cooperative_paw_handling_lesson_01",
-            "altText": "dog Cooperative Paw Handling lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_cooperative_paw_handling/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_cooperative_paw_handling_lesson_02",
-            "altText": "dog Cooperative Paw Handling lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_cooperative_paw_handling/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_cooperative_paw_handling_lesson_03",
-            "altText": "dog Cooperative Paw Handling lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_cooperative_paw_handling/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_cooperative_paw_handling_lesson_04",
-            "altText": "dog Cooperative Paw Handling lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_cooperative_paw_handling/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3551,47 +3041,13 @@
         "imageSearchKeywords": [
           "dog brush acceptance positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_brush_acceptance_cover",
-          "altText": "dog Brush Acceptance training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_brush_acceptance/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_brush_acceptance_lesson_01",
-            "altText": "dog Brush Acceptance lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_brush_acceptance/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_brush_acceptance_lesson_02",
-            "altText": "dog Brush Acceptance lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_brush_acceptance/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_brush_acceptance_lesson_03",
-            "altText": "dog Brush Acceptance lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_brush_acceptance/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_brush_acceptance_lesson_04",
-            "altText": "dog Brush Acceptance lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_brush_acceptance/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3785,47 +3241,13 @@
         "imageSearchKeywords": [
           "dog carrier comfort positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_carrier_comfort_cover",
-          "altText": "dog Carrier Comfort training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_carrier_comfort/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_carrier_comfort_lesson_01",
-            "altText": "dog Carrier Comfort lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_carrier_comfort/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_carrier_comfort_lesson_02",
-            "altText": "dog Carrier Comfort lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_carrier_comfort/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_carrier_comfort_lesson_03",
-            "altText": "dog Carrier Comfort lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_carrier_comfort/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_carrier_comfort_lesson_04",
-            "altText": "dog Carrier Comfort lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_carrier_comfort/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -4013,47 +3435,13 @@
         "imageSearchKeywords": [
           "dog recall with distractions positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_recall_with_distractions_cover",
-          "altText": "dog Recall with Distractions training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_recall_with_distractions/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_recall_with_distractions_lesson_01",
-            "altText": "dog Recall with Distractions lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_recall_with_distractions/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_recall_with_distractions_lesson_02",
-            "altText": "dog Recall with Distractions lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_recall_with_distractions/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_recall_with_distractions_lesson_03",
-            "altText": "dog Recall with Distractions lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_recall_with_distractions/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_recall_with_distractions_lesson_04",
-            "altText": "dog Recall with Distractions lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_recall_with_distractions/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -4240,47 +3628,13 @@
         "imageSearchKeywords": [
           "dog find it game positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_find_it_game_cover",
-          "altText": "dog Find It Game training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_find_it_game/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_find_it_game_lesson_01",
-            "altText": "dog Find It Game lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_find_it_game/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_find_it_game_lesson_02",
-            "altText": "dog Find It Game lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_find_it_game/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_find_it_game_lesson_03",
-            "altText": "dog Find It Game lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_find_it_game/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_find_it_game_lesson_04",
-            "altText": "dog Find It Game lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_find_it_game/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -4467,47 +3821,13 @@
         "imageSearchKeywords": [
           "dog spin trick positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/dog/illustrations.svg",
-          "symbolId": "dog_spin_trick_cover",
-          "altText": "dog Spin Trick training cover illustration",
-          "standalonePath": "training/assets/dog/standalone/dog_spin_trick/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_spin_trick_lesson_01",
-            "altText": "dog Spin Trick lesson 1 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_spin_trick/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_spin_trick_lesson_02",
-            "altText": "dog Spin Trick lesson 2 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_spin_trick/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_spin_trick_lesson_03",
-            "altText": "dog Spin Trick lesson 3 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_spin_trick/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/dog/illustrations.svg",
-            "symbolId": "dog_spin_trick_lesson_04",
-            "altText": "dog Spin Trick lesson 4 illustration",
-            "standalonePath": "training/assets/dog/standalone/dog_spin_trick/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {

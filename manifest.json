@@ -147,13 +147,13 @@
     },
     {
       "path": "training/templates/dog.json",
-      "sha256": "9d437f61cd34dccd3452defb872fbf729200851909a151e90fec3999103927b3",
-      "bytes": 26020
+      "sha256": "04d362f13ecc42d31f7b3e4b1dc015567e3722716685124f6ef7ecf965158454",
+      "bytes": 152978
     },
     {
       "path": "training/templates/cat.json",
-      "sha256": "7e1b366e4fa1e08b30d0aca65f791557ffb6e7294652c0753fc855be32b8e2a2",
-      "bytes": 19616
+      "sha256": "03f3a90a0422c339739509dfa30b130020ffa610a8a04fac6bf28dd25afa9655",
+      "bytes": 119850
     },
     {
       "path": "training/templates/bird.json",
@@ -214,6 +214,31 @@
       "path": "training/programs/enrichment.json",
       "sha256": "9ff54b93730ab38907ed6281f5abcaa06345975e7126771a702d5119d46ebd7d",
       "bytes": 1219
+    },
+    {
+      "path": "training/assets/cat/index.json",
+      "sha256": "41e92d880f84c3a8d6269ca7a2b59660f8e32efbd7d06bb34bbc37324a1ba23b",
+      "bytes": 78
+    },
+    {
+      "path": "training/assets/dog/index.json",
+      "sha256": "41e92d880f84c3a8d6269ca7a2b59660f8e32efbd7d06bb34bbc37324a1ba23b",
+      "bytes": 78
+    },
+    {
+      "path": "training/research/dog_cat_evidence_audit.json",
+      "sha256": "8f0876e69813796bf34254a19c4358e9ba1935e9ed08d6017198a0aca784a5bd",
+      "bytes": 4688
+    },
+    {
+      "path": "training/research/evidence_registry.json",
+      "sha256": "38caa6b119b0d8798d5b40d13b85ea4716679afa6fda457f7731a0aa8ff1d085",
+      "bytes": 3869
+    },
+    {
+      "path": "training/research/image_assets.json",
+      "sha256": "4a0fce58ea8ed7f0f9569df67823183998fca17db038e1ad34014f6adcb7b4fa",
+      "bytes": 990
     }
   ]
 }

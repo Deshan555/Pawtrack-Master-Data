@@ -139,47 +139,13 @@
         "imageSearchKeywords": [
           "cat litter box habits positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_1.svg",
-          "symbolId": "cat_litter_box_habits_cover",
-          "altText": "cat Litter Box Habits training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_litter_box_habits/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_litter_box_habits_lesson_01",
-            "altText": "cat Litter Box Habits lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_litter_box_habits/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_litter_box_habits_lesson_02",
-            "altText": "cat Litter Box Habits lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_litter_box_habits/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_litter_box_habits_lesson_03",
-            "altText": "cat Litter Box Habits lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_litter_box_habits/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_litter_box_habits_lesson_04",
-            "altText": "cat Litter Box Habits lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_litter_box_habits/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -373,47 +339,13 @@
         "imageSearchKeywords": [
           "cat scratching post use positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_1.svg",
-          "symbolId": "cat_scratching_post_use_cover",
-          "altText": "cat Scratching Post Use training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_scratching_post_use/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_scratching_post_use_lesson_01",
-            "altText": "cat Scratching Post Use lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_scratching_post_use/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_scratching_post_use_lesson_02",
-            "altText": "cat Scratching Post Use lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_scratching_post_use/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_scratching_post_use_lesson_03",
-            "altText": "cat Scratching Post Use lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_scratching_post_use/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_scratching_post_use_lesson_04",
-            "altText": "cat Scratching Post Use lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_scratching_post_use/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -608,47 +540,13 @@
         "imageSearchKeywords": [
           "cat name response positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_1.svg",
-          "symbolId": "cat_name_response_cover",
-          "altText": "cat Name Response training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_name_response/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_name_response_lesson_01",
-            "altText": "cat Name Response lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_name_response/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_name_response_lesson_02",
-            "altText": "cat Name Response lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_name_response/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_name_response_lesson_03",
-            "altText": "cat Name Response lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_name_response/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_name_response_lesson_04",
-            "altText": "cat Name Response lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_name_response/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -847,47 +745,13 @@
         "imageSearchKeywords": [
           "cat come when called positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_1.svg",
-          "symbolId": "cat_come_when_called_cover",
-          "altText": "cat Come When Called training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_come_when_called/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_come_when_called_lesson_01",
-            "altText": "cat Come When Called lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_come_when_called/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_come_when_called_lesson_02",
-            "altText": "cat Come When Called lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_come_when_called/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_come_when_called_lesson_03",
-            "altText": "cat Come When Called lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_come_when_called/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_come_when_called_lesson_04",
-            "altText": "cat Come When Called lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_come_when_called/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1093,47 +957,13 @@
         "imageSearchKeywords": [
           "cat carrier comfort positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_1.svg",
-          "symbolId": "cat_carrier_comfort_cover",
-          "altText": "cat Carrier Comfort training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_carrier_comfort/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_carrier_comfort_lesson_01",
-            "altText": "cat Carrier Comfort lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_carrier_comfort/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_carrier_comfort_lesson_02",
-            "altText": "cat Carrier Comfort lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_carrier_comfort/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_carrier_comfort_lesson_03",
-            "altText": "cat Carrier Comfort lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_carrier_comfort/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_1.svg",
-            "symbolId": "cat_carrier_comfort_lesson_04",
-            "altText": "cat Carrier Comfort lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_carrier_comfort/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1339,47 +1169,13 @@
         "imageSearchKeywords": [
           "cat hand target positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_2.svg",
-          "symbolId": "cat_hand_target_cover",
-          "altText": "cat Hand Target training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_hand_target/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_hand_target_lesson_01",
-            "altText": "cat Hand Target lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_hand_target/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_hand_target_lesson_02",
-            "altText": "cat Hand Target lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_hand_target/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_hand_target_lesson_03",
-            "altText": "cat Hand Target lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_hand_target/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_hand_target_lesson_04",
-            "altText": "cat Hand Target lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_hand_target/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1585,47 +1381,13 @@
         "imageSearchKeywords": [
           "cat clicker introduction positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_2.svg",
-          "symbolId": "cat_clicker_introduction_cover",
-          "altText": "cat Clicker Introduction training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_clicker_introduction/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_clicker_introduction_lesson_01",
-            "altText": "cat Clicker Introduction lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_clicker_introduction/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_clicker_introduction_lesson_02",
-            "altText": "cat Clicker Introduction lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_clicker_introduction/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_clicker_introduction_lesson_03",
-            "altText": "cat Clicker Introduction lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_clicker_introduction/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_clicker_introduction_lesson_04",
-            "altText": "cat Clicker Introduction lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_clicker_introduction/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -1816,47 +1578,13 @@
         "imageSearchKeywords": [
           "cat harness familiarity positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_2.svg",
-          "symbolId": "cat_harness_familiarity_cover",
-          "altText": "cat Harness Familiarity training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_harness_familiarity/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_harness_familiarity_lesson_01",
-            "altText": "cat Harness Familiarity lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_harness_familiarity/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_harness_familiarity_lesson_02",
-            "altText": "cat Harness Familiarity lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_harness_familiarity/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_harness_familiarity_lesson_03",
-            "altText": "cat Harness Familiarity lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_harness_familiarity/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_harness_familiarity_lesson_04",
-            "altText": "cat Harness Familiarity lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_harness_familiarity/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2043,47 +1771,13 @@
         "imageSearchKeywords": [
           "cat gentle brushing positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_2.svg",
-          "symbolId": "cat_gentle_brushing_cover",
-          "altText": "cat Gentle Brushing training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_gentle_brushing/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_gentle_brushing_lesson_01",
-            "altText": "cat Gentle Brushing lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_gentle_brushing/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_gentle_brushing_lesson_02",
-            "altText": "cat Gentle Brushing lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_gentle_brushing/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_gentle_brushing_lesson_03",
-            "altText": "cat Gentle Brushing lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_gentle_brushing/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_gentle_brushing_lesson_04",
-            "altText": "cat Gentle Brushing lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_gentle_brushing/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2271,47 +1965,13 @@
         "imageSearchKeywords": [
           "cat nail care cooperation positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_2.svg",
-          "symbolId": "cat_nail_care_cooperation_cover",
-          "altText": "cat Nail Care Cooperation training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_nail_care_cooperation/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_nail_care_cooperation_lesson_01",
-            "altText": "cat Nail Care Cooperation lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_nail_care_cooperation/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_nail_care_cooperation_lesson_02",
-            "altText": "cat Nail Care Cooperation lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_nail_care_cooperation/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_nail_care_cooperation_lesson_03",
-            "altText": "cat Nail Care Cooperation lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_nail_care_cooperation/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_2.svg",
-            "symbolId": "cat_nail_care_cooperation_lesson_04",
-            "altText": "cat Nail Care Cooperation lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_nail_care_cooperation/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2498,47 +2158,13 @@
         "imageSearchKeywords": [
           "cat puzzle feeder exploration positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_3.svg",
-          "symbolId": "cat_puzzle_feeder_exploration_cover",
-          "altText": "cat Puzzle Feeder Exploration training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_puzzle_feeder_exploration/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_puzzle_feeder_exploration_lesson_01",
-            "altText": "cat Puzzle Feeder Exploration lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_puzzle_feeder_exploration/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_puzzle_feeder_exploration_lesson_02",
-            "altText": "cat Puzzle Feeder Exploration lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_puzzle_feeder_exploration/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_puzzle_feeder_exploration_lesson_03",
-            "altText": "cat Puzzle Feeder Exploration lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_puzzle_feeder_exploration/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_puzzle_feeder_exploration_lesson_04",
-            "altText": "cat Puzzle Feeder Exploration lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_puzzle_feeder_exploration/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2725,47 +2351,13 @@
         "imageSearchKeywords": [
           "cat perch recall positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_3.svg",
-          "symbolId": "cat_perch_recall_cover",
-          "altText": "cat Perch Recall training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_perch_recall/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_perch_recall_lesson_01",
-            "altText": "cat Perch Recall lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_perch_recall/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_perch_recall_lesson_02",
-            "altText": "cat Perch Recall lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_perch_recall/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_perch_recall_lesson_03",
-            "altText": "cat Perch Recall lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_perch_recall/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_perch_recall_lesson_04",
-            "altText": "cat Perch Recall lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_perch_recall/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -2953,47 +2545,13 @@
         "imageSearchKeywords": [
           "cat station on mat positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_3.svg",
-          "symbolId": "cat_station_on_mat_cover",
-          "altText": "cat Station on Mat training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_station_on_mat/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_station_on_mat_lesson_01",
-            "altText": "cat Station on Mat lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_station_on_mat/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_station_on_mat_lesson_02",
-            "altText": "cat Station on Mat lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_station_on_mat/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_station_on_mat_lesson_03",
-            "altText": "cat Station on Mat lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_station_on_mat/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_station_on_mat_lesson_04",
-            "altText": "cat Station on Mat lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_station_on_mat/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3192,47 +2750,13 @@
         "imageSearchKeywords": [
           "cat voluntary vet handling positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_3.svg",
-          "symbolId": "cat_voluntary_vet_handling_cover",
-          "altText": "cat Voluntary Vet Handling training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_voluntary_vet_handling/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_voluntary_vet_handling_lesson_01",
-            "altText": "cat Voluntary Vet Handling lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_voluntary_vet_handling/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_voluntary_vet_handling_lesson_02",
-            "altText": "cat Voluntary Vet Handling lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_voluntary_vet_handling/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_voluntary_vet_handling_lesson_03",
-            "altText": "cat Voluntary Vet Handling lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_voluntary_vet_handling/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_voluntary_vet_handling_lesson_04",
-            "altText": "cat Voluntary Vet Handling lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_voluntary_vet_handling/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
@@ -3419,47 +2943,13 @@
         "imageSearchKeywords": [
           "cat toy retrieval positive reinforcement training"
         ],
-        "imageStatus": "original_artwork_unreviewed_instructional_accuracy",
-        "format": "svg-symbol-sprite",
-        "cover": {
-          "spritePath": "training/assets/cat/illustrations_3.svg",
-          "symbolId": "cat_toy_retrieval_cover",
-          "altText": "cat Toy Retrieval training cover illustration",
-          "standalonePath": "training/assets/cat/standalone/cat_toy_retrieval/cover.svg"
-        },
-        "lessons": [
-          {
-            "lessonId": "lesson_01",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_toy_retrieval_lesson_01",
-            "altText": "cat Toy Retrieval lesson 1 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_toy_retrieval/lesson_01.svg"
-          },
-          {
-            "lessonId": "lesson_02",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_toy_retrieval_lesson_02",
-            "altText": "cat Toy Retrieval lesson 2 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_toy_retrieval/lesson_02.svg"
-          },
-          {
-            "lessonId": "lesson_03",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_toy_retrieval_lesson_03",
-            "altText": "cat Toy Retrieval lesson 3 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_toy_retrieval/lesson_03.svg"
-          },
-          {
-            "lessonId": "lesson_04",
-            "spritePath": "training/assets/cat/illustrations_3.svg",
-            "symbolId": "cat_toy_retrieval_lesson_04",
-            "altText": "cat Toy Retrieval lesson 4 illustration",
-            "standalonePath": "training/assets/cat/standalone/cat_toy_retrieval/lesson_04.svg"
-          }
-        ],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
         "license": "original_project_artwork",
-        "directStandaloneSvgUrlsAvailable": true,
-        "preferredFormat": "standalone_svg"
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
       },
       "lessonEvidence": [
         {
