@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "programs": [
+    {
+      "id": "dog_enrichment",
+      "speciesId": "dog",
+      "templateIds": [
+        "dog_find_it_game"
+      ]
+    },
+    {
+      "id": "cat_enrichment",
+      "speciesId": "cat",
+      "templateIds": [
+        "cat_puzzle_feeder_exploration"
+      ]
+    },
+    {
+      "id": "bird_enrichment",
+      "speciesId": "bird",
+      "templateIds": [
+        "bird_foraging_introduction"
+      ]
+    },
+    {
+      "id": "horse_enrichment",
+      "speciesId": "horse",
+      "templateIds": [
+        "horse_obstacle_exploration"
+      ]
+    },
+    {
+      "id": "rabbit_enrichment",
+      "speciesId": "rabbit",
+      "templateIds": [
+        "rabbit_tunnel_exploration",
+        "rabbit_foraging_puzzle"
+      ]
+    },
+    {
+      "id": "pig_enrichment",
+      "speciesId": "pig",
+      "templateIds": [
+        "pig_foraging_puzzle"
+      ]
+    },
+    {
+      "id": "rodent_enrichment",
+      "speciesId": "rodent",
+      "templateIds": [
+        "rodent_maze_exploration",
+        "rodent_foraging_puzzle"
+      ]
+    },
+    {
+      "id": "fish_enrichment",
+      "speciesId": "fish",
+      "templateIds": [
+        "fish_enrichment_object_exploration"
+      ]
+    }
+  ]
+}
