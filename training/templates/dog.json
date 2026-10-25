@@ -84,15 +84,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build sit through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -101,10 +118,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -112,6 +133,60 @@
           "dog sit positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -196,15 +271,39 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "DOG_STAY",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/basics/stay-training",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build stay through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -213,10 +312,15 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC",
+          "DOG_STAY"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -224,6 +328,64 @@
           "dog stay positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC",
+            "DOG_STAY"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC",
+            "DOG_STAY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC",
+            "DOG_STAY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC",
+            "DOG_STAY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -308,15 +470,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build come when called through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -325,10 +504,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -336,6 +519,60 @@
           "dog come when called positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -420,15 +657,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build down through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -437,10 +691,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -448,6 +706,60 @@
           "dog down positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -533,15 +845,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build loose leash walking through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -550,10 +879,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -561,6 +894,60 @@
           "dog loose leash walking positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -645,15 +1032,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build leave it through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -662,10 +1066,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -673,6 +1081,60 @@
           "dog leave it positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -757,15 +1219,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build drop it through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -774,10 +1253,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -785,6 +1268,60 @@
           "dog drop it positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -869,15 +1406,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build wait at doorways through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -886,10 +1440,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -897,6 +1455,60 @@
           "dog wait at doorways positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -981,15 +1593,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build settle on mat through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -998,10 +1627,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1009,6 +1642,60 @@
           "dog settle on mat positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1093,6 +1780,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1101,7 +1802,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1110,10 +1814,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1121,6 +1829,60 @@
           "dog crate comfort positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1206,6 +1968,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1214,7 +1990,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1223,10 +2002,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1234,6 +2017,60 @@
           "dog toilet routine positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1318,15 +2155,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build name response through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1335,10 +2189,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1346,6 +2204,60 @@
           "dog name response positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1430,15 +2342,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build hand target through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1447,10 +2376,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1458,6 +2391,60 @@
           "dog hand target positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1542,15 +2529,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build polite greetings through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1559,10 +2563,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1570,6 +2578,60 @@
           "dog polite greetings positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1654,6 +2716,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1662,7 +2738,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1671,10 +2750,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1682,6 +2765,60 @@
           "dog cooperative paw handling positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1766,6 +2903,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1774,7 +2925,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1783,10 +2937,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1794,6 +2952,60 @@
           "dog brush acceptance positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1885,6 +3097,20 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1893,7 +3119,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1902,10 +3131,14 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1913,6 +3146,60 @@
           "dog carrier comfort positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1998,15 +3285,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build recall with distractions through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -2015,10 +3319,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -2026,6 +3334,60 @@
           "dog recall with distractions positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -2110,15 +3472,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build find it game through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -2127,10 +3506,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -2138,6 +3521,60 @@
           "dog find it game positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -2222,15 +3659,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "DOG_GENERAL",
+          "url": "https://www.dogstrust.org.uk/dog-advice/training/techniques/top-ten-dog-training-tips",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build spin trick through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
-        "suggestedMaxMinutes": 5,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "suggestedMinMinutes": 5,
+        "suggestedMaxMinutes": 10,
+        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceSourceIds": [
+          "DOG_GENERAL"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -2239,10 +3693,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "DOG_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -2250,6 +3708,60 @@
           "dog spin trick positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "DOG_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     }
   ]
