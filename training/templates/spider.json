@@ -26,7 +26,8 @@
             "Increase duration gradually; stop before signs of distress."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate.",
+            "type": "welfare_observation"
           }
         }
       ],
@@ -37,7 +38,61 @@
         "Prioritize low-stress husbandry and avoid unnecessary handling."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [],
+      "schemaVersion": 2,
+      "summary": "Develop a calm, voluntary low disturbance feeding routine routine suitable for spider.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "No species-specific session duration has been verified for this template. The legacy estimatedSessionMinutes value, if present, is an unvalidated product estimate.",
+        "evidenceSourceIds": [],
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "not_assessed",
+        "reviewStatus": "pending_expert_review",
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [],
+        "reviewedByQualifiedExpert": false
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
+        "license": null,
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [],
+          "evidenceRelationship": "not_assessed",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Legacy lesson retained during schema migration. References have not been mapped to or independently verified against these instructions."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
+      }
     },
     {
       "id": "spider_low_stress_enclosure_maintenance",
@@ -63,7 +118,8 @@
             "Increase duration gradually; stop before signs of distress."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate.",
+            "type": "welfare_observation"
           }
         }
       ],
@@ -74,7 +130,61 @@
         "Prioritize low-stress husbandry and avoid unnecessary handling."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [],
+      "schemaVersion": 2,
+      "summary": "Develop a calm, voluntary low stress enclosure maintenance routine suitable for spider.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "No species-specific session duration has been verified for this template. The legacy estimatedSessionMinutes value, if present, is an unvalidated product estimate.",
+        "evidenceSourceIds": [],
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "not_assessed",
+        "reviewStatus": "pending_expert_review",
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [],
+        "reviewedByQualifiedExpert": false
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [],
+        "imageStatus": "no_images_available",
+        "format": null,
+        "cover": null,
+        "lessons": [],
+        "license": null,
+        "directStandaloneSvgUrlsAvailable": false,
+        "preferredFormat": null
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [],
+          "evidenceRelationship": "not_assessed",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Legacy lesson retained during schema migration. References have not been mapped to or independently verified against these instructions."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
+      }
     }
   ]
 }

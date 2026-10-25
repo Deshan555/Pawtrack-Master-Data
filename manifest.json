@@ -157,53 +157,53 @@
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "13c2dca721c617d18e0ac1e4985a73c7b6c9c6324545c972002b40d79727e098",
-      "bytes": 15817
+      "sha256": "267aded4caca67c3a6fc234a652065b2b662a6de9c550a3cf9e729e1f8d52aa0",
+      "bytes": 40254
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "71d7236d10c868da497667a41c7477b44e6943cb88721efdc0821724f57193ca",
-      "bytes": 15743
+      "sha256": "68c94f486b798fa94cee75850ee92a4f325d9c9c87e532e2adc4ee840ab1afc7",
+      "bytes": 40203
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "473969254ad5056d98626c0f2bb786c9b33ade5ef7b683f66adf7a597251d622",
-      "bytes": 11843
+      "sha256": "759bbd29389e9848ebc909662fe79ecec8b6dcdac060cdceee364793ffd05190",
+      "bytes": 30179
     },
     {
       "path": "training/templates/cow.json",
-      "sha256": "9c70bf2d4efad6d66c337a4503e40ec3ef3a7b7d38f705350fef05bab31b7a1e",
-      "bytes": 9210
+      "sha256": "7f3b3f2f088750cc5aa86ddc926304d13fd94818d0c59d9d0330cb77054d53c7",
+      "bytes": 23460
     },
     {
       "path": "training/templates/pig.json",
-      "sha256": "ce01c71528969853c3e986b1137702ae96c742070c1107578bd685ac8f79e764",
-      "bytes": 9201
+      "sha256": "f105d48faa21413eea9e702e76ef5e08c70a661f0c37290b8a5dec4af2e3748d",
+      "bytes": 23448
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "6d395d6e79fd104c74f979e7fee727cc5d5d4c2171f7af3a0e6e29ff363e0ad7",
-      "bytes": 7930
+      "sha256": "184c87c25f55724c73ecacba67b6d297b7cd11c52cfd2667babfc1ecc3d84766",
+      "bytes": 20166
     },
     {
       "path": "training/templates/fish.json",
-      "sha256": "af364d52a28c769e6f195329bc402e43873fa47ede34d8d39325ac3dccad6a1e",
-      "bytes": 7103
+      "sha256": "69dbdcddb5c23868be0f6915f161f082985739da1369cfd693f92e7d6fc07772",
+      "bytes": 17312
     },
     {
       "path": "training/templates/snake.json",
-      "sha256": "f09a9af7625c3b59584fdf640bbed8bdb47836997ab4bba187f091bb722718d7",
-      "bytes": 4311
+      "sha256": "b2ba7bae0bf2420c28eb7c1bd93c26e8942bf27e5c6c5b9b831eaee3995c10ea",
+      "bytes": 10443
     },
     {
       "path": "training/templates/spider.json",
-      "sha256": "e05b1d2c62216d09c9f25e343bc975eef32d6de7177006cbee2b64d83c521173",
-      "bytes": 2922
+      "sha256": "4302212d6b6067641389fbbf803fc24e4ed8b534bc78f5a199762874a827cc4b",
+      "bytes": 7029
     },
     {
       "path": "training/templates/other.json",
-      "sha256": "96a2e95dd3d426a2e4168515f4f19e5e6ad3c2d1a8d9eeba39a355fbb20034b4",
-      "bytes": 2761
+      "sha256": "2df75a7be13b0576be257c8a144d4008a8477e19d8e998bce03ebd443cda628c",
+      "bytes": 6857
     },
     {
       "path": "training/programs/beginner.json",
