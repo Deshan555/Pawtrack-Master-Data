@@ -2998,17 +2998,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_hand_target_cover",
+          "dog_hand_target_lesson_01",
+          "dog_hand_target_lesson_02",
+          "dog_hand_target_lesson_03",
+          "dog_hand_target_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog hand target positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog gently touches nose to trainer's EMPTY open palm held at comfortable nose height, no paw contact.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands freely on nonslip rug near calm seated trainer, hands relaxed and reward pouch beside her.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog gently nudges EMPTY open palm at nose height with nose, all four paws on floor no paw touching hand.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer holds empty open palm slightly to one side, dog takes one comfortable step to touch it with nose; no twisting or force.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly touching empty open hand with nose in quiet fenced garden while other hand holds reward near trainer waist.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3191,17 +3236,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_polite_greetings_cover",
+          "dog_polite_greetings_lesson_01",
+          "dog_polite_greetings_lesson_02",
+          "dog_polite_greetings_lesson_03",
+          "dog_polite_greetings_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog polite greetings positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly standing with FOUR paws on ground as friendly visitor stands sideways at comfortable distance.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer and calm dog on nonslip rug, visitor stands far enough away at interior doorway, dog has clear exit space.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Friendly adult visitor approaches sideways stopping at a distance; trainer offers reward with dog FOUR paws on ground, no jumping.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily steps sideways away from friendly visitor, trainer allows space and holds loose hands; no restraint blocking or pressure.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly greets visitor sideways in fenced garden with all four paws on grass while trainer rewards.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
