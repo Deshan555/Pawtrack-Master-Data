@@ -1093,17 +1093,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_loose_leash_walking_cover",
+          "dog_loose_leash_walking_lesson_01",
+          "dog_loose_leash_walking_lesson_02",
+          "dog_loose_leash_walking_lesson_03",
+          "dog_loose_leash_walking_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog loose leash walking positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog walking beside trainer's lower legs with clearly U-shaped SLACK leash attached to a well-fitted Y harness; no collar tension.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing beside trainer with fitted Y harness and slack loose leash, calm enclosed yard, small reward pouch.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog walking beside trainer's knee on nonslip rug in quiet cream room, trainer offers tiny reward by her leg. Leash slack and attached to Y-harness ring.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer calmly turning left with dog following beside her, leash hangs loosely U shaped on Y harness no pulling jerking arrows or duplicated dog.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog walking beside trainer on level path INSIDE quiet fenced garden. Leash slack and attached to Y-harness ring.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1286,17 +1331,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_leave_it_cover",
+          "dog_leave_it_lesson_01",
+          "dog_leave_it_lesson_02",
+          "dog_leave_it_lesson_03",
+          "dog_leave_it_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog leave it positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog turns head away from a safe covered wooden toy toward tiny reward in trainer's OTHER hand.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Calm standing dog on nonslip rug, trainer sits nearby, safe plain wooden toy inside transparent closed container well away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog disengages nose from trainer's closed hand hiding low-value food; trainer offers different tiny reward in OTHER open hand away from closed fist.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Safe plain wooden block under transparent container on floor; dog looking away at trainer's reward hand, no hazardous items.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sitting calmly looking at trainer rather than a covered safe toy on patio; trainer rewards disengagement, quiet fenced garden.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1479,17 +1569,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_drop_it_cover",
+          "dog_drop_it_lesson_01",
+          "dog_drop_it_lesson_02",
+          "dog_drop_it_lesson_03",
+          "dog_drop_it_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog drop it positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog releases soft fabric toy onto floor while trainer offers tiny reward with open hand, no tugging.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Relaxed dog near low-value soft cloth toy on rug, trainer seated sideways with tiny reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Soft toy just released onto rug below dog's open relaxed mouth, trainer offers tiny reward without touching toy or mouth.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands relaxed over familiar released fabric toy while trainer rewards with small treat; no grabbing chasing or tugging.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly trades safe soft toy for tiny reward on sage mat in quiet fenced garden; toy rests on ground.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
