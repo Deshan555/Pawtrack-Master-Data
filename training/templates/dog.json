@@ -3957,17 +3957,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_carrier_comfort_cover",
+          "dog_carrier_comfort_lesson_01",
+          "dog_carrier_comfort_lesson_02",
+          "dog_carrier_comfort_lesson_03",
+          "dog_carrier_comfort_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog carrier comfort positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog standing fully OUTSIDE beside a very large EMPTY soft-sided travel kennel with WIDE OPEN front flap and sage bedding, no dog body part inside; kennel tall and long enough to stand and turn.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Very roomy soft-sided carrier with WIDE OPEN zip flap on floor, relaxed dog stands at distance, trainer sits nearby.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing fully OUTSIDE sniffing the WIDE OPEN FRONT doorway of an oversized soft-sided travel kennel; all four paws outside, no sidewall intersection, trainer seated calmly away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "STRAIGHT FRONT VIEW through an oversized soft travel kennel doorway: dog lying FULLY INSIDE on sage bedding, all paws and tail fully inside, ample headroom; trainer outside holding front mesh flap partially lowered but still OPEN, no contact with dog.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "STRAIGHT FRONT VIEW into oversized soft travel kennel in another quiet room corner, front flap WIDE OPEN, dog comfortably lying FULLY INSIDE with tail curled beside body inside, all paws inside, ample room, trainer nearby at distance.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

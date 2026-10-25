@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 80,
+  "assetCount": 85,
   "assets": [
     {
       "id": "dog_sit_cover",
@@ -1064,7 +1064,7 @@
       "width": 640,
       "height": 640,
       "bytes": 492446,
-      "sha256": "667924aa03ba85f8d1679712b0a2013af97f30bfefd44dc29f15a92f1aed8453",
+      "sha256": "ab30b42927a30a16a4b70e385421a9fbdec0eb9751f9195787d1d9380659d717",
       "illustrationOnly": true
     },
     {
@@ -1121,6 +1121,76 @@
       "height": 1024,
       "bytes": 414820,
       "sha256": "079952de90a70637a92809695f8d96aee9078601e94743946ff8aa6c0b15abab",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_carrier_comfort_cover",
+      "templateId": "dog_carrier_comfort",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Dog standing fully OUTSIDE beside a very large EMPTY soft-sided travel kennel with WIDE OPEN front flap and sage bedding, no dog body part inside; kennel tall and long enough to stand and turn.",
+      "width": 576,
+      "height": 576,
+      "bytes": 406003,
+      "sha256": "8a43c45df3dd766bc7ec3884223068a0b3da0ddfab492570d47af0ebce8e8526",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_carrier_comfort_lesson_01",
+      "templateId": "dog_carrier_comfort",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Very roomy soft-sided carrier with WIDE OPEN zip flap on floor, relaxed dog stands at distance, trainer sits nearby.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 402786,
+      "sha256": "43d6763549292e54061d8030d8c92cbcd26d665ab757b2e3dbe81b6b10765070",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_carrier_comfort_lesson_02",
+      "templateId": "dog_carrier_comfort",
+      "lessonId": "lesson_02",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_02.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog standing fully OUTSIDE sniffing the WIDE OPEN FRONT doorway of an oversized soft-sided travel kennel; all four paws outside, no sidewall intersection, trainer seated calmly away.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 450838,
+      "sha256": "bd72fee27f59ed033c5ff5c3dbe66ad23ec881c6b4c664dc04cdc1013ec33ddd",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_carrier_comfort_lesson_03",
+      "templateId": "dog_carrier_comfort",
+      "lessonId": "lesson_03",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_03.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "STRAIGHT FRONT VIEW through an oversized soft travel kennel doorway: dog lying FULLY INSIDE on sage bedding, all paws and tail fully inside, ample headroom; trainer outside holding front mesh flap partially lowered but still OPEN, no contact with dog.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 413102,
+      "sha256": "1bfe9b26fb81d753bd534bdaee84d9c314542a58da9d387c11458756f5468e66",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_carrier_comfort_lesson_04",
+      "templateId": "dog_carrier_comfort",
+      "lessonId": "lesson_04",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_04.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "STRAIGHT FRONT VIEW into oversized soft travel kennel in another quiet room corner, front flap WIDE OPEN, dog comfortably lying FULLY INSIDE with tail curled beside body inside, all paws inside, ample room, trainer nearby at distance.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 491778,
+      "sha256": "bc430961d54ae313d7a6be34364564c32175fa1f6340121675d161d4a774f0df",
       "illustrationOnly": true
     }
   ]

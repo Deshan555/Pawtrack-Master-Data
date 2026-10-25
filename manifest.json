@@ -147,8 +147,8 @@
     },
     {
       "path": "training/templates/dog.json",
-      "sha256": "a9d4237ce61a004cfbe5f0933b9817f8736c0ec98e6661e07ed9752891d56aff",
-      "bytes": 188388
+      "sha256": "fd3f0c393bf40ba6698b427e2018fb30dda9bed94ac9e0236218ca6dea7d3ba5",
+      "bytes": 190981
     },
     {
       "path": "training/templates/cat.json",
@@ -222,8 +222,8 @@
     },
     {
       "path": "training/assets/dog/index.json",
-      "sha256": "5c9ea5ddedec621438db655874046cd0f2bc6834e5e28ce1e4bf6617bf2bc4be",
-      "bytes": 47824
+      "sha256": "49d1a9f27cd9e9221ce6d50fc41f40e69d8960264b71e8eb0f85f40abf413aae",
+      "bytes": 51200
     },
     {
       "path": "training/research/dog_cat_evidence_audit.json",
