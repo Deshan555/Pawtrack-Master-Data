@@ -1,3 +1,3 @@
 # PawTrack Training Assets
 
-The Dog Sit pilot uses hand-drawn raster artwork in `dog/handdrawn/dog_sit/`: one transparent PNG cover and four WebP lessons, each under 500,000 bytes. See its VALIDATION.md for generation, checks and consumer field mapping. Dog index contains these five assets. Cat index and other template media remain empty. Previous training SVG artwork remains removed.
+Dog training uses hand-drawn raster artwork in dog/handdrawn/<templateId>/: transparent PNG covers and opaque WebP lessons, each below 500,000 bytes. Resolve rasterPath against the repository base URL. See dog/handdrawn/EXPANSION_VALIDATION.md and dog_sit/VALIDATION.md for prompts, checks and limitations. Cat index remains empty. Previous SVG artwork remains removed.

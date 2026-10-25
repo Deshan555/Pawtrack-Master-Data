@@ -1807,17 +1807,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_wait_at_doorways_cover",
+          "dog_wait_at_doorways_lesson_01",
+          "dog_wait_at_doorways_lesson_02",
+          "dog_wait_at_doorways_lesson_03",
+          "dog_wait_at_doorways_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog wait at doorways positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly pauses with four paws INSIDE a doorway while trainer stands beside, door leads to fenced garden.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands on nonslip mat inside CLOSED front door, trainer at comfortable side position with tiny treats.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly waits near CLOSED door with paws on ground while trainer gives tiny food reward, no door pressure.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer opens door into visibly secure FENCED garden, dog calmly stepping across threshold after invitation, no traffic road or danger.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog pauses inside another open patio doorway facing fenced secure garden while trainer waits beside with reward.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2000,17 +2045,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_settle_on_mat_cover",
+          "dog_settle_on_mat_lesson_01",
+          "dog_settle_on_mat_lesson_02",
+          "dog_settle_on_mat_lesson_03",
+          "dog_settle_on_mat_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog settle on mat positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog lying calmly on rectangular sage mat with head relaxed and natural paws, whole tail visible.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer places comfortable sage nonslip mat on floor while dog stands freely at distance; quiet room.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily puts one front paw onto sage mat and looks calmly at trainer offering tiny treat; no force.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog lying on same sage mat in another quiet corner of room, trainer calmly offers small reward at low muzzle height.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog comfortably resting on same portable sage mat on safe shaded fenced patio, calm nearby trainer.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
