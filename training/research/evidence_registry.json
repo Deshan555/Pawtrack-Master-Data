@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "notice": "Source pages were checked for general applicability. No claim that all 100 templates have been individually validated.",
+  "sources": [
+    {
+      "id": "AVSAB-HUMANE",
+      "publisher": "American Veterinary Society of Animal Behavior",
+      "url": "https://avsab.org/resources/position-statements/",
+      "species": [
+        "dog"
+      ],
+      "sourceType": "professional_position",
+      "supports": "reward-based dog training principles",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "CATS-CARRIER",
+      "publisher": "Cats Protection",
+      "url": "https://www.cats.org.uk/help-and-advice/getting-a-cat/how-to-choose-and-use-a-cat-carrier",
+      "species": [
+        "cat"
+      ],
+      "sourceType": "professional_guidance",
+      "supports": "cat carrier familiarity",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "HORSE-LEARNING",
+      "publisher": "World Horse Welfare",
+      "url": "https://www.worldhorsewelfare.org/advice/training-how-do-horses-learn",
+      "species": [
+        "horse"
+      ],
+      "sourceType": "professional_guidance",
+      "supports": "equine learning and reinforcement",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "RSPCA-RABBIT",
+      "publisher": "RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits/behaviour",
+      "species": [
+        "rabbit"
+      ],
+      "sourceType": "professional_guidance",
+      "supports": "rabbit training and enrichment",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "RSPCA-RABBIT-HANDLING",
+      "publisher": "RSPCA",
+      "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits/company/handling",
+      "species": [
+        "rabbit"
+      ],
+      "sourceType": "professional_guidance",
+      "supports": "safe handling",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "NC3RS-MOUSE",
+      "publisher": "NC3Rs",
+      "url": "https://nc3rs.org.uk/3rs-resource-library/mouse-handling",
+      "species": [
+        "rodent"
+      ],
+      "sourceType": "research_summary",
+      "supports": "mouse handling methods, not all rodents",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "RSPCA-CAT-RODENT-RABBIT",
+      "publisher": "RSPCA Australia",
+      "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+      "species": [
+        "cat",
+        "rabbit",
+        "rodent"
+      ],
+      "sourceType": "professional_guidance",
+      "supports": "general reward-based principles",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    },
+    {
+      "id": "ZOO-REVIEW",
+      "publisher": "Applied Animal Behaviour Science",
+      "url": "https://www.sciencedirect.com/science/article/pii/S016815912500303X",
+      "species": [
+        "bird",
+        "fish",
+        "snake",
+        "other"
+      ],
+      "sourceType": "scoping_review",
+      "supports": "husbandry training; species and task limitations",
+      "verification": "source_page_checked",
+      "templateSpecificValidation": "not_yet_completed",
+      "lastChecked": "2026-10-25"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "policy": "No remote image URLs are approved until actual file page, license, author, attribution and stable asset URL are individually verified.",
+  "status": "discovery_only",
+  "approvedAssets": [],
+  "discoveryLinks": [
+    {
+      "speciesId": "dog",
+      "searchPageUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=dog%20positive%20reinforcement%20training",
+      "licenseVerificationRequired": true
+    },
+    {
+      "speciesId": "cat",
+      "searchPageUrl": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=cat%20positive%20reinforcement%20training",
+      "licenseVerificationRequired": true
+    }
+  ],
+  "templateImagesStatus": {
+    "dog": 20,
+    "cat": 15,
+    "verified": 0
+  },
+  "requiredAssetFields": [
+    "id",
+    "speciesId",
+    "templateIds",
+    "originalFilePageUrl",
+    "directImageUrl",
+    "license",
+    "author",
+    "attribution",
+    "licenseUrl",
+    "verifiedAt"
+  ]
+}
