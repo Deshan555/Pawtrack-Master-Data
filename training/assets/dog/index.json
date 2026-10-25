@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 70,
+  "assetCount": 75,
   "assets": [
     {
       "id": "dog_sit_cover",
@@ -981,6 +981,76 @@
       "height": 1024,
       "bytes": 444668,
       "sha256": "1aa99f8b9c22ff5a553e17f968e688f085fe28f35a5a7df7861bff58fbc36748",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_cooperative_paw_handling_cover",
+      "templateId": "dog_cooperative_paw_handling",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Relaxed dog voluntarily places ONE front paw in trainer's open hand supported gently LOW near floor; no gripping or force.",
+      "width": 640,
+      "height": 640,
+      "bytes": 443762,
+      "sha256": "67ade75c08a0403a24f67957ef0e5fbe628630bdee1bdca266145604d56b945d",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_cooperative_paw_handling_lesson_01",
+      "templateId": "dog_cooperative_paw_handling",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog relaxed standing near kneeling trainer, trainer's empty open hand resting LOW on own knee, dog free to leave.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 369500,
+      "sha256": "e68bd3fa070c7cf8aca3f11c8ffff21ec1abc91837d01d64b2887ea027f6ae4a",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_cooperative_paw_handling_lesson_02",
+      "templateId": "dog_cooperative_paw_handling",
+      "lessonId": "lesson_02",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_02.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog calmly looks at and sniffs trainer's open LOW hand, ALL four paws grounded; no paw grabbing.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 364346,
+      "sha256": "74361381ed1ed4608e693f88006bcdea53248b5839bdec1b55581dcebbad4d3f",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_cooperative_paw_handling_lesson_03",
+      "templateId": "dog_cooperative_paw_handling",
+      "lessonId": "lesson_03",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_03.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Seated relaxed dog voluntarily resting ONE front paw loosely on trainer's open palm held LOW, no closed grip, other front paw grounded, trainer's other hand offers tiny treat.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 416378,
+      "sha256": "e229da5808eeb3c63d01c948dfd14c47418bf9a12e360974fc5eab4bc1d1536e",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_cooperative_paw_handling_lesson_04",
+      "templateId": "dog_cooperative_paw_handling",
+      "lessonId": "lesson_04",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_04.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog calmly offering ONE front paw onto open low palm on sage mat in quiet patio, no squeezing nail clipping or restraint.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 418810,
+      "sha256": "256017fe72e5232df8763a8e9035f4ebd4f73661eda7a8894d57bcaabc146f03",
       "illustrationOnly": true
     }
   ]
