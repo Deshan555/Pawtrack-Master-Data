@@ -1,6 +1,77 @@
 {
   "schemaVersion": 1,
-  "format": null,
-  "assetCount": 0,
-  "assets": []
+  "format": "png-cover-webp-lessons",
+  "assetCount": 5,
+  "assets": [
+    {
+      "id": "dog_sit_cover",
+      "templateId": "dog_sit",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/dog/handdrawn/dog_sit/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Hand-drawn Golden Retriever sitting comfortably, isolated on a transparent background.",
+      "width": 768,
+      "height": 768,
+      "bytes": 480753,
+      "sha256": "f2a198897f9657963394dfbe6af06de182f75897f218f50020ba7c5b597ed833",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_sit_lesson_01",
+      "templateId": "dog_sit",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Relaxed Golden Retriever standing on a nonslip rug near a seated trainer with a reward.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 221532,
+      "sha256": "a20e2f511abe1a8d14141f4981da47147f4d0ed4e43a90589d3029857c5cef8f",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_sit_lesson_02",
+      "templateId": "dog_sit",
+      "lessonId": "lesson_02",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_02.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Seated Golden Retriever offered a small reward at mouth height after sitting voluntarily.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 467302,
+      "sha256": "b720c85e1d2bccdae18edd7b8fafecfe72de9e1c75d3e408f5371b6db8db1cc4",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_sit_lesson_03",
+      "templateId": "dog_sit",
+      "lessonId": "lesson_03",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_03.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Golden Retriever sitting on a familiar nonslip rug during quiet cue and reward practice.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 383680,
+      "sha256": "ff885803e4c6f1019ae678eb4fbf22f06aa7f8093bc7f95d7d67e9000370fae2",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_sit_lesson_04",
+      "templateId": "dog_sit",
+      "lessonId": "lesson_04",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_04.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Golden Retriever comfortably sitting for a reward in a quiet fenced garden.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 458248,
+      "sha256": "631468ccf8d3fda58a54bb681e40fd969a2f6e016877affe6153fdd10e3e35a0",
+      "illustrationOnly": true
+    }
+  ]
 }
