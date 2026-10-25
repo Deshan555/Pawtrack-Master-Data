@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "speciesId": "fish",
+  "templates": [
+    {
+      "id": "fish_feeding_cue",
+      "speciesId": "fish",
+      "title": "Feeding Cue",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary feeding cue routine suitable for fish.",
+      "estimatedSessionMinutes": null,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual.",
+        "Prioritize low-stress husbandry and avoid unnecessary handling."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "fish_target_following",
+      "speciesId": "fish",
+      "title": "Target Following",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary target following routine suitable for fish.",
+      "estimatedSessionMinutes": null,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual.",
+        "Prioritize low-stress husbandry and avoid unnecessary handling."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "fish_station_at_feeding_area",
+      "speciesId": "fish",
+      "title": "Station at Feeding Area",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary station at feeding area routine suitable for fish.",
+      "estimatedSessionMinutes": null,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual.",
+        "Prioritize low-stress husbandry and avoid unnecessary handling."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "fish_enrichment_object_exploration",
+      "speciesId": "fish",
+      "title": "Enrichment Object Exploration",
+      "category": "mental_enrichment",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary enrichment object exploration routine suitable for fish.",
+      "estimatedSessionMinutes": null,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Prepare a safe, species-appropriate enrichment environment.",
+            "Allow voluntary exploration without pressure.",
+            "Gradually adjust difficulty only while the animal remains relaxed."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual.",
+        "Prioritize low-stress husbandry and avoid unnecessary handling."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "fish_low_stress_maintenance_routine",
+      "speciesId": "fish",
+      "title": "Low Stress Maintenance Routine",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary low stress maintenance routine routine suitable for fish.",
+      "estimatedSessionMinutes": null,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual.",
+        "Prioritize low-stress husbandry and avoid unnecessary handling."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    }
+  ]
+}

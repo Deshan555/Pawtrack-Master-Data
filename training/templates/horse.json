@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "speciesId": "horse",
+  "templates": [
+    {
+      "id": "horse_halter_familiarity",
+      "speciesId": "horse",
+      "title": "Halter Familiarity",
+      "category": "daily_habits",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary halter familiarity routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_lead_calmly",
+      "speciesId": "horse",
+      "title": "Lead Calmly",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary lead calmly routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_stand_still",
+      "speciesId": "horse",
+      "title": "Stand Still",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary stand still routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_yield_to_light_pressure",
+      "speciesId": "horse",
+      "title": "Yield to Light Pressure",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary yield to light pressure routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_hoof_lift_cooperation",
+      "speciesId": "horse",
+      "title": "Hoof Lift Cooperation",
+      "category": "care_cooperation",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary hoof lift cooperation routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_grooming_acceptance",
+      "speciesId": "horse",
+      "title": "Grooming Acceptance",
+      "category": "care_cooperation",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary grooming acceptance routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_trailer_familiarity",
+      "speciesId": "horse",
+      "title": "Trailer Familiarity",
+      "category": "daily_habits",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary trailer familiarity routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_target_touch",
+      "speciesId": "horse",
+      "title": "Target Touch",
+      "category": "basic_skills",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary target touch routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_groundwork_circles",
+      "speciesId": "horse",
+      "title": "Groundwork Circles",
+      "category": "basic_skills",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary groundwork circles routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_gate_manners",
+      "speciesId": "horse",
+      "title": "Gate Manners",
+      "category": "daily_habits",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary gate manners routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_vet_handling_cooperation",
+      "speciesId": "horse",
+      "title": "Vet Handling Cooperation",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary vet handling cooperation routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "horse_obstacle_exploration",
+      "speciesId": "horse",
+      "title": "Obstacle Exploration",
+      "category": "mental_enrichment",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary obstacle exploration routine suitable for horse.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Prepare a safe, species-appropriate enrichment environment.",
+            "Allow voluntary exploration without pressure.",
+            "Gradually adjust difficulty only while the animal remains relaxed."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    }
+  ]
+}

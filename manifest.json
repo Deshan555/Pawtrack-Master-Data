@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 9,
-  "releaseId": "2026-10-24.1",
-  "updatedAt": "2026-10-24T14:26:01Z",
+  "dataVersion": 10,
+  "releaseId": "2026-10-25.1",
+  "updatedAt": "2026-10-25T09:00:00Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -139,6 +139,81 @@
       "path": "nutrition/dog_cat_guidance.json",
       "sha256": "b9731a4bdc3c62e7805bd49855efa2ab53199fdc080a5c97fd3fd247988216a8",
       "bytes": 7873
+    },
+    {
+      "path": "training/categories.json",
+      "sha256": "28d282837ba966978095eef1b8de14564843e4f57e19f20feb68e8357425cc2c",
+      "bytes": 569
+    },
+    {
+      "path": "training/templates/dog.json",
+      "sha256": "9d437f61cd34dccd3452defb872fbf729200851909a151e90fec3999103927b3",
+      "bytes": 26020
+    },
+    {
+      "path": "training/templates/cat.json",
+      "sha256": "7e1b366e4fa1e08b30d0aca65f791557ffb6e7294652c0753fc855be32b8e2a2",
+      "bytes": 19616
+    },
+    {
+      "path": "training/templates/bird.json",
+      "sha256": "13c2dca721c617d18e0ac1e4985a73c7b6c9c6324545c972002b40d79727e098",
+      "bytes": 15817
+    },
+    {
+      "path": "training/templates/horse.json",
+      "sha256": "71d7236d10c868da497667a41c7477b44e6943cb88721efdc0821724f57193ca",
+      "bytes": 15743
+    },
+    {
+      "path": "training/templates/rabbit.json",
+      "sha256": "473969254ad5056d98626c0f2bb786c9b33ade5ef7b683f66adf7a597251d622",
+      "bytes": 11843
+    },
+    {
+      "path": "training/templates/cow.json",
+      "sha256": "9c70bf2d4efad6d66c337a4503e40ec3ef3a7b7d38f705350fef05bab31b7a1e",
+      "bytes": 9210
+    },
+    {
+      "path": "training/templates/pig.json",
+      "sha256": "ce01c71528969853c3e986b1137702ae96c742070c1107578bd685ac8f79e764",
+      "bytes": 9201
+    },
+    {
+      "path": "training/templates/rodent.json",
+      "sha256": "6d395d6e79fd104c74f979e7fee727cc5d5d4c2171f7af3a0e6e29ff363e0ad7",
+      "bytes": 7930
+    },
+    {
+      "path": "training/templates/fish.json",
+      "sha256": "af364d52a28c769e6f195329bc402e43873fa47ede34d8d39325ac3dccad6a1e",
+      "bytes": 7103
+    },
+    {
+      "path": "training/templates/snake.json",
+      "sha256": "f09a9af7625c3b59584fdf640bbed8bdb47836997ab4bba187f091bb722718d7",
+      "bytes": 4311
+    },
+    {
+      "path": "training/templates/spider.json",
+      "sha256": "e05b1d2c62216d09c9f25e343bc975eef32d6de7177006cbee2b64d83c521173",
+      "bytes": 2922
+    },
+    {
+      "path": "training/templates/other.json",
+      "sha256": "96a2e95dd3d426a2e4168515f4f19e5e6ad3c2d1a8d9eeba39a355fbb20034b4",
+      "bytes": 2761
+    },
+    {
+      "path": "training/programs/beginner.json",
+      "sha256": "ea898b113d3c3de18be0a35b3a152d2c6d8e3d7255af3cc7403508ac17070ad0",
+      "bytes": 432
+    },
+    {
+      "path": "training/programs/enrichment.json",
+      "sha256": "9ff54b93730ab38907ed6281f5abcaa06345975e7126771a702d5119d46ebd7d",
+      "bytes": 1219
     }
   ]
 }

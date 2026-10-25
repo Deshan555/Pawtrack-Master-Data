@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "speciesId": "other",
+  "templates": [
+    {
+      "id": "other_species_specific_target_training",
+      "speciesId": "other",
+      "title": "Species Specific Target Training",
+      "category": "basic_skills",
+      "difficulty": "beginner",
+      "goal": "Develop a calm, voluntary species specific target training routine suitable for other.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Observe a calm baseline and select an appropriate positive outcome.",
+            "Reinforce small voluntary approximations toward the behavior.",
+            "Introduce a consistent cue after reliable success in a quiet environment."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    },
+    {
+      "id": "other_voluntary_care_routine",
+      "speciesId": "other",
+      "title": "Voluntary Care Routine",
+      "category": "care_cooperation",
+      "difficulty": "intermediate",
+      "goal": "Develop a calm, voluntary voluntary care routine routine suitable for other.",
+      "estimatedSessionMinutes": 3,
+      "recommendedAge": {
+        "minWeeks": null,
+        "maxWeeks": null
+      },
+      "prerequisites": [],
+      "equipment": [],
+      "lessons": [
+        {
+          "id": "lesson_01",
+          "title": "Introduce and reinforce",
+          "steps": [
+            "Introduce the context or equipment at a comfortable distance.",
+            "Reinforce voluntary approach and calm participation.",
+            "Increase duration gradually; stop before signs of distress."
+          ],
+          "successCriteria": {
+            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+          }
+        }
+      ],
+      "safetyNotes": [
+        "Use voluntary, reward-based methods; never punish or force the behavior.",
+        "Stop at signs of distress, avoidance, or fatigue.",
+        "Adapt all practice to the species and individual."
+      ],
+      "reviewStatus": "pending_expert_review",
+      "references": []
+    }
+  ]
+}

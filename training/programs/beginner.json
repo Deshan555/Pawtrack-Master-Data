@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "programs": [
+    {
+      "id": "dog_foundations",
+      "speciesId": "dog",
+      "templateIds": [
+        "dog_name_response",
+        "dog_sit",
+        "dog_come_when_called",
+        "dog_stay"
+      ]
+    },
+    {
+      "id": "cat_foundations",
+      "speciesId": "cat",
+      "templateIds": [
+        "cat_name_response",
+        "cat_hand_target",
+        "cat_carrier_comfort"
+      ]
+    }
+  ]
+}
