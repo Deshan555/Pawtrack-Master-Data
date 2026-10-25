@@ -91,6 +91,20 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -99,7 +113,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -108,10 +125,14 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -119,6 +140,60 @@
           "cat litter box habits positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -210,15 +285,32 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build scratching post use through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
-        "mode": "event_based",
-        "suggestedMinMinutes": null,
-        "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "mode": "flexible",
+        "suggestedMinMinutes": 2,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -227,10 +319,14 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -238,6 +334,60 @@
           "cat scratching post use positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -322,15 +472,39 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "CAT_RECALL",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build name response through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -339,10 +513,15 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_RECALL"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -350,6 +529,64 @@
           "cat name response positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -434,15 +671,39 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "CAT_RECALL",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build come when called through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -451,10 +712,15 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_RECALL"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -462,6 +728,64 @@
           "cat come when called positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_RECALL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -553,6 +877,27 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "CAT_CARRIER",
+          "url": "https://www.cats.org.uk/help-and-advice/getting-a-cat/how-to-choose-and-use-a-cat-carrier",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -561,7 +906,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -570,10 +918,15 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_CARRIER"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -581,6 +934,64 @@
           "cat carrier comfort positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_CARRIER"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_CARRIER"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_CARRIER"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_CARRIER"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -672,15 +1083,39 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "CAT_STUDY",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5664032/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build hand target through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -689,10 +1124,15 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_STUDY"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -700,6 +1140,64 @@
           "cat hand target positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_STUDY"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_STUDY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_STUDY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_STUDY"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -791,15 +1289,39 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "CAT_SHORT",
+          "url": "https://ontariospca.ca/blog/clicker-training-your-cat/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build clicker introduction through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -808,10 +1330,15 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_SHORT"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -819,6 +1346,64 @@
           "cat clicker introduction positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_SHORT"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_SHORT"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_SHORT"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_SHORT"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -903,6 +1488,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -911,7 +1510,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -920,10 +1522,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -931,6 +1537,60 @@
           "cat harness familiarity positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1015,6 +1675,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1023,7 +1697,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1032,10 +1709,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1043,6 +1724,60 @@
           "cat gentle brushing positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1128,6 +1863,20 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1136,7 +1885,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1145,10 +1897,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1156,6 +1912,60 @@
           "cat nail care cooperation positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1240,15 +2050,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build puzzle feeder exploration through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1257,10 +2084,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1268,6 +2099,60 @@
           "cat puzzle feeder exploration positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1352,15 +2237,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build perch recall through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1369,10 +2271,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1380,6 +2286,60 @@
           "cat perch recall positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1464,15 +2424,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build station on mat through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1481,10 +2458,15 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "behavior_specific_guidance_available",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC",
+          "CAT_GENERAL"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1492,6 +2474,64 @@
           "cat station on mat positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_GENERAL"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_GENERAL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_GENERAL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC",
+            "CAT_GENERAL"
+          ],
+          "evidenceRelationship": "behavior_guidance_plus_authored_adaptation",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1584,6 +2624,20 @@
           "relationship": "behavior_specific_guidance",
           "verification": "source_page_checked",
           "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
@@ -1592,7 +2646,10 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1601,10 +2658,14 @@
         ]
       },
       "evidence": {
-        "status": "behavior_guidance_available",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1612,6 +2673,60 @@
           "cat voluntary vet handling positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     },
     {
@@ -1696,15 +2811,32 @@
           "relationship": "general_reward_based_principles",
           "verification": "source_page_checked",
           "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT_GENERAL",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
+        },
+        {
+          "id": "IAABC",
+          "url": "https://iaabc.org/en/standards-of-practice",
+          "relationship": "general_training_guidance",
+          "verification": "public_source_retrieved",
+          "limitations": "Does not establish exact app lesson sequence or universal mastery threshold."
         }
       ],
       "schemaVersion": 2,
       "summary": "Build toy retrieval through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
       "duration": {
         "mode": "flexible",
-        "suggestedMinMinutes": 1,
+        "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceSourceIds": [
+          "CAT_SHORT"
+        ],
         "stopWhen": [
           "avoidance",
           "fear",
@@ -1713,10 +2845,14 @@
         ]
       },
       "evidence": {
-        "status": "general_principles_only",
+        "status": "general_training_guidance_only",
         "reviewStatus": "pending_expert_review",
-        "lastSourceAudit": "2026-10-25",
-        "masteryCriteriaAreProductHeuristics": true
+        "masteryCriteriaAreProductHeuristics": true,
+        "sourceIds": [
+          "CAT_GENERAL",
+          "IAABC"
+        ],
+        "reviewedByQualifiedExpert": false
       },
       "media": {
         "imageAssetIds": [],
@@ -1724,6 +2860,60 @@
           "cat toy retrieval positive reinforcement training"
         ],
         "imageStatus": "pending_license_verification"
+      },
+      "lessonEvidence": [
+        {
+          "lessonId": "lesson_01",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "general_training_principle",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_02",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_03",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        },
+        {
+          "lessonId": "lesson_04",
+          "sourceIds": [
+            "CAT_GENERAL",
+            "IAABC"
+          ],
+          "evidenceRelationship": "authored_adaptation_of_general_training_principles",
+          "stepByStepScientificallyValidated": false,
+          "notes": "Do not interpret the cited source as independent validation of each instruction."
+        }
+      ],
+      "successCriteriaPolicy": {
+        "type": "observational_progression",
+        "thresholdStatus": "not_scientifically_standardized",
+        "recommendedMeasures": [
+          "voluntary_participation",
+          "observable_behavior",
+          "stress_signals",
+          "context",
+          "repeatability"
+        ],
+        "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       }
     }
   ]
