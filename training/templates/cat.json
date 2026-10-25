@@ -19,24 +19,107 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for litter box habits.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Offer clean accessible litter trays in quiet locations",
+            "Observe and reward calm tray use without interrupting",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of litter box habits without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Track accidents and consult vet for sudden changes",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained litter box habits behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "RSPCA-CAT-LITTER",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/caring-for-my-cat/how-do-i-encourage-my-cat-to-use-a-litter-tray",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build litter box habits through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat litter box habits positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_scratching_post_use",
@@ -55,24 +138,107 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for scratching post use.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Place sturdy posts near preferred resting and scratching areas",
+            "Encourage investigation using play near the post",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of scratching post use without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Reward voluntary scratching; protect furniture without punishment",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained scratching post use behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "CAT-PROTECTION-MANNERS",
+          "url": "https://catprotection.org.au/cat-care-factsheets/factsheet-teaching-your-cat-good-manners/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build scratching post use through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat scratching post use positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_name_response",
@@ -91,24 +257,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Observe a calm baseline and select an appropriate positive outcome.",
-            "Reinforce small voluntary approximations toward the behavior.",
-            "Introduce a consistent cue after reliable success in a quiet environment."
+            "Choose a quiet, secure and species-appropriate setting for name response.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Say name softly before a valued reward",
+            "Reward ear or head orientation",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of name response without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Practice from nearby in calm rooms",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained name response behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build name response through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat name response positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_come_when_called",
@@ -127,24 +369,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Observe a calm baseline and select an appropriate positive outcome.",
-            "Reinforce small voluntary approximations toward the behavior.",
-            "Introduce a consistent cue after reliable success in a quiet environment."
+            "Choose a quiet, secure and species-appropriate setting for come when called.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Pair a consistent call with food or play",
+            "Reward one or two steps toward you",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of come when called without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Increase distance gradually in a safe indoor area",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained come when called behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build come when called through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat come when called positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_carrier_comfort",
@@ -163,24 +481,107 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for carrier comfort.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Leave open carrier with familiar bedding",
+            "Reward investigation and voluntary entry",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of carrier comfort without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Only later introduce brief door closure and movement",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained carrier comfort behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "RSPCA-CARRIER",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/pets-and-holidays/how-can-i-train-my-pet-to-feel-comfortable-in-a-transport-carrier",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build carrier comfort through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat carrier comfort positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_hand_target",
@@ -199,24 +600,107 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Observe a calm baseline and select an appropriate positive outcome.",
-            "Reinforce small voluntary approximations toward the behavior.",
-            "Introduce a consistent cue after reliable success in a quiet environment."
+            "Choose a quiet, secure and species-appropriate setting for hand target.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Present a finger or target near the nose",
+            "Mark and reward a voluntary touch",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of hand target without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Move target a small distance and practice from different positions",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained hand target behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "AAHA-CAT-TRAINING",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build hand target through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat hand target positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_clicker_introduction",
@@ -235,24 +719,107 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for clicker introduction.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Click once and immediately deliver a reward",
+            "Repeat brief click-reward pairings without demanding a behavior",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of clicker introduction without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Mark a simple voluntary behavior and reward immediately",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained clicker introduction behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "AAHA-CAT-TRAINING",
+          "url": "https://www.aaha.org/resources/cat-training-101/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build clicker introduction through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat clicker introduction positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_harness_familiarity",
@@ -271,24 +838,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for harness familiarity.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Place harness nearby and reward investigation",
+            "Reward brief voluntary contact before any fitting",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of harness familiarity without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Practice wearing for seconds indoors, never force or tether unsupervised",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained harness familiarity behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build harness familiarity through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat harness familiarity positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_gentle_brushing",
@@ -307,24 +950,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for gentle brushing.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Show brush and reward calm investigation",
+            "Touch coat briefly where cat enjoys contact",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of gentle brushing without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Add a few gentle strokes while observing consent",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained gentle brushing behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build gentle brushing through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat gentle brushing positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_nail_care_cooperation",
@@ -343,24 +1062,101 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for nail care cooperation.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Reward relaxed proximity to nail tool",
+            "Practice voluntary paw contact without clipping",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of nail care cooperation without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Introduce a single nail trim only when calm; seek professional help if distressed",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained nail care cooperation behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment.",
+        "Seek a veterinarian or qualified reward-based professional if pain, distress, aggression or persistent problems arise."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build nail care cooperation through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat nail care cooperation positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_puzzle_feeder_exploration",
@@ -379,24 +1175,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Prepare a safe, species-appropriate enrichment environment.",
-            "Allow voluntary exploration without pressure.",
-            "Gradually adjust difficulty only while the animal remains relaxed."
+            "Choose a quiet, secure and species-appropriate setting for puzzle feeder exploration.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Offer an easy feeder with visible rewards",
+            "Allow paw or nose exploration without interference",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of puzzle feeder exploration without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Increase puzzle complexity only when confidently engaged",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained puzzle feeder exploration behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build puzzle feeder exploration through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat puzzle feeder exploration positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_perch_recall",
@@ -415,24 +1287,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Observe a calm baseline and select an appropriate positive outcome.",
-            "Reinforce small voluntary approximations toward the behavior.",
-            "Introduce a consistent cue after reliable success in a quiet environment."
+            "Choose a quiet, secure and species-appropriate setting for perch recall.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Reward voluntary stepping onto a stable low perch",
+            "Pair a short cue with stepping onto perch",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of perch recall without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Increase distance in a safe indoor space",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained perch recall behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build perch recall through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat perch recall positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_station_on_mat",
@@ -451,24 +1399,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Observe a calm baseline and select an appropriate positive outcome.",
-            "Reinforce small voluntary approximations toward the behavior.",
-            "Introduce a consistent cue after reliable success in a quiet environment."
+            "Choose a quiet, secure and species-appropriate setting for station on mat.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Reward stepping onto a familiar mat",
+            "Shape sitting or lying on mat",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of station on mat without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Add brief duration while maintaining an easy exit",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained station on mat behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build station on mat through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat station on mat positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_voluntary_vet_handling",
@@ -487,24 +1511,108 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for voluntary vet handling.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Reward approach to a towel or exam surface",
+            "Practice brief shoulder or body touches with breaks",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of voluntary vet handling without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Simulate simple exam motions; stop at fear signals",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained voluntary vet handling behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment.",
+        "Seek a veterinarian or qualified reward-based professional if pain, distress, aggression or persistent problems arise."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        },
+        {
+          "id": "AAFP-FELINE-HANDLING",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11107994/",
+          "relationship": "behavior_specific_guidance",
+          "verification": "source_page_checked",
+          "limitations": "Individual steps are adapted educational guidance; numeric mastery criteria not source-validated."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build voluntary vet handling through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "event_based",
+        "suggestedMinMinutes": null,
+        "suggestedMaxMinutes": null,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "behavior_guidance_available",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat voluntary vet handling positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     },
     {
       "id": "cat_toy_retrieval",
@@ -523,24 +1631,100 @@
       "lessons": [
         {
           "id": "lesson_01",
-          "title": "Introduce and reinforce",
+          "title": "Prepare a calm setup",
           "steps": [
-            "Introduce the context or equipment at a comfortable distance.",
-            "Reinforce voluntary approach and calm participation.",
-            "Increase duration gradually; stop before signs of distress."
+            "Choose a quiet, secure and species-appropriate setting for toy retrieval.",
+            "Select a reward the pet willingly accepts; check for pain, stress or reluctance.",
+            "Keep the task optional and allow the pet to leave."
           ],
           "successCriteria": {
-            "description": "Relaxed, voluntary participation across multiple sessions; no fixed threshold where inappropriate."
+            "type": "welfare_observation",
+            "description": "Pet voluntarily engages with the setup while relaxed; no fixed number of repetitions."
+          }
+        },
+        {
+          "id": "lesson_02",
+          "title": "Introduce the behavior",
+          "steps": [
+            "Reward interest in a soft safe toy",
+            "Mark voluntary carrying or moving toward handler",
+            "Mark and reward small successful approximations; reduce difficulty if the pet hesitates."
+          ],
+          "successCriteria": {
+            "type": "observable_progress",
+            "description": "Pet voluntarily demonstrates an early component of toy retrieval without distress."
+          }
+        },
+        {
+          "id": "lesson_03",
+          "title": "Build reliable participation",
+          "steps": [
+            "Reinforce releasing near handler without taking by force",
+            "Vary only one factor at a time (duration, distance, environment, or distraction).",
+            "Finish after an easy success and record what was comfortable."
+          ],
+          "successCriteria": {
+            "type": "repeatable_voluntary_behavior",
+            "description": "Pet performs the trained toy retrieval behavior calmly in a familiar context on more than one occasion; no scientifically established numeric threshold is claimed."
+          }
+        },
+        {
+          "id": "lesson_04",
+          "title": "Generalize and maintain",
+          "steps": [
+            "Revisit the skill on another day in an equally safe, familiar setting.",
+            "Gradually vary context only if the pet remains relaxed.",
+            "Return to an easier step after missed responses, avoidance, or stress."
+          ],
+          "successCriteria": {
+            "type": "maintenance_observation",
+            "description": "Voluntary performance remains comfortable across appropriate sessions and settings."
           }
         }
       ],
       "safetyNotes": [
         "Use voluntary, reward-based methods; never punish or force the behavior.",
         "Stop at signs of distress, avoidance, or fatigue.",
-        "Adapt all practice to the species and individual."
+        "Adapt all practice to the species and individual.",
+        "Do not use punishment, flooding, forced restraint, or aversive equipment."
       ],
       "reviewStatus": "pending_expert_review",
-      "references": []
+      "references": [
+        {
+          "id": "RSPCA-SMALL-PETS",
+          "url": "https://kb.rspca.org.au/categories/companion-animals/cats/behaviour/how-can-i-train-my-pet-cat-rodent-or-rabbit-at-home",
+          "relationship": "general_reward_based_principles",
+          "verification": "source_page_checked",
+          "limitations": "Supports general training approach, not this exact lesson sequence, session duration or mastery criterion."
+        }
+      ],
+      "schemaVersion": 2,
+      "summary": "Build toy retrieval through voluntary, low-stress practice, progressing only while the pet remains comfortable.",
+      "duration": {
+        "mode": "flexible",
+        "suggestedMinMinutes": 1,
+        "suggestedMaxMinutes": 3,
+        "evidenceBasis": "provisional_product_heuristic_not_validated_limit",
+        "stopWhen": [
+          "avoidance",
+          "fear",
+          "fatigue",
+          "disengagement"
+        ]
+      },
+      "evidence": {
+        "status": "general_principles_only",
+        "reviewStatus": "pending_expert_review",
+        "lastSourceAudit": "2026-10-25",
+        "masteryCriteriaAreProductHeuristics": true
+      },
+      "media": {
+        "imageAssetIds": [],
+        "imageSearchKeywords": [
+          "cat toy retrieval positive reinforcement training"
+        ],
+        "imageStatus": "pending_license_verification"
+      }
     }
   ]
 }
