@@ -135,17 +135,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_litter_box_habits_cover",
+          "cat_litter_box_habits_lesson_01",
+          "cat_litter_box_habits_lesson_02",
+          "cat_litter_box_habits_lesson_03",
+          "cat_litter_box_habits_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat litter box habits positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_litter_box_habits/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Relaxed ginger tabby beside a clean low-sided lavender litter tray, isolated full-body cover.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_litter_box_habits/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Quiet home corner, cat investigates clean accessible litter tray freely while caregiver sits well away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_litter_box_habits/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat has just walked OUT of clean litter tray; caregiver at a respectful distance offers a tiny reward AFTER the cat finished, never interrupting. No waste visible.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_litter_box_habits/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver observes relaxed cat near clean tray and records observations in blank notebook at a side table, cat free to leave.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_litter_box_habits/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Another familiar quiet indoor corner on a different day; cat calmly approaches clean spacious litter tray voluntarily, unobstructed easy exit.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -335,17 +380,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_scratching_post_use_cover",
+          "cat_scratching_post_use_lesson_01",
+          "cat_scratching_post_use_lesson_02",
+          "cat_scratching_post_use_lesson_03",
+          "cat_scratching_post_use_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat scratching post use positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_scratching_post_use/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Full-body cat voluntarily stretching to scratch a sturdy sisal post on a broad stable base.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_scratching_post_use/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat calmly investigates a sturdy tall sisal scratching post with broad stable base near a resting bed, caregiver seated nearby.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_scratching_post_use/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver uses a short supervised wand toy beside sturdy post to invite investigation; cat sniffs post, no dangling unattended strings.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_scratching_post_use/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily stretches upward and scratches sisal post with both front paws; caregiver watches calmly with tiny reward ready, furniture untouched.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_scratching_post_use/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Same post near familiar resting bed in another room; cat scratches voluntarily, caregiver relaxed and distant, no punishment.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -536,17 +626,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_name_response_cover",
+          "cat_name_response_lesson_01",
+          "cat_name_response_lesson_02",
+          "cat_name_response_lesson_03",
+          "cat_name_response_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat name response positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_name_response/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat seated calmly with head turned attentively toward nearby caregiver, full-body isolated cover.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_name_response/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat resting on nonslip rug, seated caregiver nearby with reward ready; quiet distraction-free home.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_name_response/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver softly calls with slightly open mouth; cat turns head and ears toward her, tiny reward offered after orientation. No text or sound symbols.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_name_response/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat several steps from caregiver in calm living room turns its head toward her and is rewarded, full body visible.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_name_response/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat in another familiar quiet room turns its head toward caregiver nearby; caregiver offers a tiny reward, no physical prompting.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -741,17 +876,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_come_when_called_cover",
+          "cat_come_when_called_lesson_01",
+          "cat_come_when_called_lesson_02",
+          "cat_come_when_called_lesson_03",
+          "cat_come_when_called_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat come when called positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_come_when_called/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat walking willingly toward a kneeling caregiver offering a small reward, isolated full subjects.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_come_when_called/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat on a rug a short distance from seated caregiver in secure uncluttered indoor room, reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_come_when_called/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat takes two willing steps toward caregiver's low open hand with a small reward, gentle calling posture.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_come_when_called/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Wider safe indoor room, cat walks several steps toward seated caregiver; clear unobstructed route, all doors and windows secure.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_come_when_called/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Another familiar indoor room, cat approaches caregiver voluntarily for a reward, calm easy short distance.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -953,17 +1133,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_carrier_comfort_cover",
+          "cat_carrier_comfort_lesson_01",
+          "cat_carrier_comfort_lesson_02",
+          "cat_carrier_comfort_lesson_03",
+          "cat_carrier_comfort_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat carrier comfort positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_carrier_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Small relaxed ginger tabby sitting completely outside a visibly roomy open lavender carrier with bedding.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_carrier_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Front view open roomy carrier on floor with familiar bedding; cat stands entirely outside at a distance investigating, caregiver sits well away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_carrier_comfort/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Straight front view, cat entirely inside spacious carrier on bedding, door fully open and opening unobstructed; caregiver outside offers small reward at entrance without blocking exit.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_carrier_comfort/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Straight front view closed roomy carrier on floor, relaxed cat fully behind front mesh with visible air space around it; caregiver sits beside carrier, no lifting or movement shown.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_carrier_comfort/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Front view roomy carrier with door fully open, cat completely outside beside it choosing whether to enter; familiar bedding and relaxed seated caregiver.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1165,17 +1390,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_hand_target_cover",
+          "cat_hand_target_lesson_01",
+          "cat_hand_target_lesson_02",
+          "cat_hand_target_lesson_03",
+          "cat_hand_target_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat hand target positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_hand_target/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat nose gently touches caregiver's outstretched fingertip at nose height; all cat paws stay on floor, isolated subjects.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_hand_target/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat stands relaxed near seated caregiver, hand rests still away from cat, quiet nonslip rug and rewards ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_hand_target/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Side view clear nose-to-fingertip contact, finger at cat nose height, all four paws on floor, caregiver never pushes into face.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_hand_target/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat takes a single voluntary step to touch fingertip held a small distance away at nose level, all paws on floor.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_hand_target/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "In another familiar room cat voluntarily touches caregiver fingertip with nose, not paw-shake; relaxed posture and easy exit.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1377,17 +1647,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_clicker_introduction_cover",
+          "cat_clicker_introduction_lesson_01",
+          "cat_clicker_introduction_lesson_02",
+          "cat_clicker_introduction_lesson_03",
+          "cat_clicker_introduction_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat clicker introduction positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_clicker_introduction/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Calm cat beside seated caregiver holding a small clicker away from cat ears and tiny reward in other hand, isolated subjects.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_clicker_introduction/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Quiet room, relaxed cat on rug, caregiver holds small clicker well away from ears and reward ready in other hand.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_clicker_introduction/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver has clicked once and now offers a tiny reward to calmly standing cat, clicker visible in OTHER hand away from ears, no demanded trick.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_clicker_introduction/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily turns toward caregiver; caregiver marks with clicker held away from ears, then offers small reward, no restraint.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_clicker_introduction/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Short easy indoor practice in familiar second room, relaxed cat and caregiver offering reward with clicker in other hand, ample personal space.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1574,17 +1889,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_harness_familiarity_cover",
+          "cat_harness_familiarity_lesson_01",
+          "cat_harness_familiarity_lesson_02",
+          "cat_harness_familiarity_lesson_03",
+          "cat_harness_familiarity_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat harness familiarity positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_harness_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Calm full-body cat standing beside a lavender Y-style cat harness lying on ground, NOT wearing it yet.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_harness_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Lavender lightweight Y-shaped cat harness lies flat on rug several inches from relaxed cat, caregiver sits nearby with reward.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_harness_familiarity/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily sniffs harness laid flat on rug, caregiver rewards calm investigation without putting harness on cat.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_harness_familiarity/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat stands relaxed wearing correctly fitted lavender Y harness around chest and behind forelegs, throat unobstructed; caregiver sits beside cat offering reward; NO leash or tether.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_harness_familiarity/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat takes a relaxed step on rug indoors wearing correctly fitted lavender Y chest harness with all legs free; caregiver supervises closely, NO leash or tether.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1767,17 +2127,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_gentle_brushing_cover",
+          "cat_gentle_brushing_lesson_01",
+          "cat_gentle_brushing_lesson_02",
+          "cat_gentle_brushing_lesson_03",
+          "cat_gentle_brushing_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat gentle brushing positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_gentle_brushing/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat stands relaxed while caregiver holds soft brush near shoulder without gripping cat, full-body isolated subjects.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_gentle_brushing/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat sits on nonslip rug while caregiver presents soft brush at a comfortable distance with reward ready, free exit.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_gentle_brushing/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily sniffs stationary soft brush in caregiver hand, no forced contact, relaxed ears.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_gentle_brushing/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Side view caregiver's clearly visible hand holds brush and makes one gentle stroke over cat shoulder coat; other hand offers reward; cat stands freely without restraint.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_gentle_brushing/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver pauses brushing, brush held away; relaxed cat can choose to approach again on familiar rug, no gripping or scruffing.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1961,17 +2366,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_nail_care_cooperation_cover",
+          "cat_nail_care_cooperation_lesson_01",
+          "cat_nail_care_cooperation_lesson_02",
+          "cat_nail_care_cooperation_lesson_03",
+          "cat_nail_care_cooperation_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat nail care cooperation positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_nail_care_cooperation/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat rests one front paw loosely on caregiver open palm, closed nail tool lies aside out of contact, isolated subjects.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_nail_care_cooperation/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Relaxed cat on nonslip mat, closed pet nail clippers lie safely to side, caregiver seated nearby with reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_nail_care_cooperation/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily rests front paw on caregiver open palm, no fingers wrap around paw, closed clippers away on mat, no clipping.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_nail_care_cooperation/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Close but full-cat-visible side view: caregiver gently supports one relaxed front paw in open hand and holds small pet nail trimmer well away from paw, preparing for professional-guided single nail care; NO blade contact or cutting shown, no restraint.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_nail_care_cooperation/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver has put closed nail tool aside and offers reward after brief voluntary paw contact; cat stands freely with all paws back on mat, easy exit.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2154,17 +2604,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_puzzle_feeder_exploration_cover",
+          "cat_puzzle_feeder_exploration_lesson_01",
+          "cat_puzzle_feeder_exploration_lesson_02",
+          "cat_puzzle_feeder_exploration_lesson_03",
+          "cat_puzzle_feeder_exploration_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat puzzle feeder exploration positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_puzzle_feeder_exploration/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat investigates a broad shallow sage puzzle feeder with visible food in easy open wells, isolated full-body subjects.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_puzzle_feeder_exploration/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Easy shallow puzzle feeder with visible food sits on nonslip mat near relaxed cat, caregiver waits a respectful distance.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_puzzle_feeder_exploration/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat uses nose or one front paw to explore an easy open feeder well with visible rewards, caregiver does not interfere.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_puzzle_feeder_exploration/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat confidently explores a slightly more complex broad puzzle with one easy sliding lid and other open wells, no tiny detachable pieces.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_puzzle_feeder_exploration/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat calmly uses familiar easy feeder in another quiet room while caregiver watches at distance, no forced paw placement.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2347,17 +2842,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_perch_recall_cover",
+          "cat_perch_recall_lesson_01",
+          "cat_perch_recall_lesson_02",
+          "cat_perch_recall_lesson_03",
+          "cat_perch_recall_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat perch recall positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_perch_recall/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat stands on a broad sturdy LOW padded perch about 15 cm high on nonslip base, isolated full body.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_perch_recall/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat investigates broad stable low padded perch on nonslip rug; caregiver nearby with reward ready, no height challenge.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_perch_recall/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Side view cat voluntarily steps front paws onto wide LOW padded platform with hind paws on floor, all legs physically coherent and no intersection with platform; caregiver rewards gently.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_perch_recall/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat approaches a broad stable LOW perch from a few steps away while caregiver gives gentle low hand cue; secure indoor setting.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_perch_recall/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat stands relaxed on same broad low perch in another familiar room; caregiver offers reward at cat head height, clear easy step-down route.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2541,17 +3081,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_station_on_mat_cover",
+          "cat_station_on_mat_lesson_01",
+          "cat_station_on_mat_lesson_02",
+          "cat_station_on_mat_lesson_03",
+          "cat_station_on_mat_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat station on mat positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_station_on_mat/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Relaxed cat lying comfortably on a small lavender nonslip mat, full body and tail visible, isolated cover.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_station_on_mat/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat stands beside familiar lavender mat on quiet room floor, caregiver seated nearby with reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_station_on_mat/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily steps onto lavender mat while caregiver offers tiny reward near floor, easy exit unobstructed.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_station_on_mat/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat lies relaxed on lavender mat while caregiver quietly waits seated nearby, no restraint or barriers.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_station_on_mat/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Same familiar mat in another quiet indoor room, cat voluntarily sits calmly on it, caregiver offers reward, free exit.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2746,17 +3331,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_voluntary_vet_handling_cover",
+          "cat_voluntary_vet_handling_lesson_01",
+          "cat_voluntary_vet_handling_lesson_02",
+          "cat_voluntary_vet_handling_lesson_03",
+          "cat_voluntary_vet_handling_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat voluntary vet handling positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_voluntary_vet_handling/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Relaxed cat standing on nonslip folded towel while caregiver gently touches shoulder with one open hand, no restraint, isolated subjects.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_voluntary_vet_handling/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat investigates folded towel laid on FLOOR as an easy practice exam surface, caregiver nearby with reward ready, no high table.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_voluntary_vet_handling/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat stands freely on towel on floor while caregiver briefly touches shoulder with open fingertips and offers reward, no scruffing or holding.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_voluntary_vet_handling/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver gently rests stethoscope chestpiece against cat shoulder/chest from side while offering reward; cat stands freely on floor towel, no gripping, no needles, ears relaxed.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_voluntary_vet_handling/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Caregiver withdraws hands for a break while cat freely chooses to stay on familiar towel on floor, reward offered, no barriers.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2939,17 +3569,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cat_toy_retrieval_cover",
+          "cat_toy_retrieval_lesson_01",
+          "cat_toy_retrieval_lesson_02",
+          "cat_toy_retrieval_lesson_03",
+          "cat_toy_retrieval_lesson_04"
+        ],
         "imageSearchKeywords": [
           "cat toy retrieval positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cat/handdrawn/cat_toy_retrieval/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cat carries a soft palm-sized fabric toy mouse gently in mouth, full body and tail, toy has no loose string or small detachable parts.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cat/handdrawn/cat_toy_retrieval/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat investigates a soft safe fabric toy mouse on nonslip rug while caregiver sits nearby, no strings or tiny pieces.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/cat/handdrawn/cat_toy_retrieval/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat voluntarily carries soft fabric toy mouse a step toward seated caregiver, no pulling or grabbing.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/cat/handdrawn/cat_toy_retrieval/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cat has voluntarily dropped a soft sewn lavender fabric ball on the floor near the caregiver's open hand; caregiver rewards the release without taking by force.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/cat/handdrawn/cat_toy_retrieval/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Another short playful indoor session: cat willingly brings soft fabric toy mouse toward relaxed caregiver on rug, ample space, no force.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
