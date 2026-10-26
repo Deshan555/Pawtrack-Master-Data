@@ -8,9 +8,13 @@ Resolve `rasterPath` against the repository data base URL. Asset indexes record 
 
 | Group | Images |
 |---|---:|
-| bird | 20 |
+| bird | 24 |
 | cow | 14 |
 | fish | 10 |
-| horse | 6 |
+| horse | 24 |
+| other | 4 |
+| pig | 14 |
+| rabbit | 6 |
+| rodent | 8 |
 
-Total additional assets in this checkpoint: 50. Training content and expert-review status are unchanged. Rodent artwork uses a representative pet rat; Other uses generic equipment without an invented species.
+Total additional assets in this checkpoint: 104. Training content and expert-review status are unchanged. Rodent artwork uses a representative pet rat; Other uses generic equipment without an invented species.

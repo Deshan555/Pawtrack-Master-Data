@@ -1,6 +1,6 @@
 # Horse training artwork
 
-6 individual assets: one transparent PNG cover and one opaque WebP scene for each completed single-lesson template. Each file is smaller than 500,000 bytes.
+24 individual assets: one transparent PNG cover and one opaque WebP scene for each completed single-lesson template. Each file is smaller than 500,000 bytes.
 
 Generated with the built-in image generation tool using the established soft hand-drawn watercolor/pencil direction. No embedded captions; UI captions remain application text. Resolve `rasterPath` against the repository data base URL.
 

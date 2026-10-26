@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_litter_habits_cover",
+          "rabbit_litter_habits_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_litter_habits/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit calmly stands completely outside beside a large low-sided lavender litter tray with hay at one side, caregiver sits well away giving space, no waste or forced placement.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_litter_habits/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit calmly stands completely outside beside a large low-sided lavender litter tray with hay at one side, caregiver sits well away giving space, no waste or forced placement.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_target_touch_cover",
+          "rabbit_target_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_target_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit with all paws on floor voluntarily touches a caregiver's stationary fingertip at nose height with NOSE, not paw, no pushing into face.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_target_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit with all paws on floor voluntarily touches a caregiver's stationary fingertip at nose height with NOSE, not paw, no pushing into face.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_name_response_cover",
+          "rabbit_name_response_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_name_response/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit calmly turns head and ears toward a seated nearby caregiver who offers a tiny reward, all paws grounded, no holding or chasing.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_name_response/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit calmly turns head and ears toward a seated nearby caregiver who offers a tiny reward, all paws grounded, no holding or chasing.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

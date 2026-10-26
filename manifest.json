@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "dataVersion": 12,
   "releaseId": "2026-10-26.2",
-  "updatedAt": "2026-10-26T06:41:11Z",
+  "updatedAt": "2026-10-26T07:03:38Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -157,18 +157,18 @@
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "6b11e5750862bffa5bd9757b102558f5b1fba69cfb97f807286c53097565c68d",
-      "bytes": 50214
+      "sha256": "73daa2e14c0a0323a39991017ecdc854f91b99a604b0a8ac3126ede32fdfc76a",
+      "bytes": 52248
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "eda536e44e70ea82ba1635cd8e711f9d2052a0465d41b343c22a48dad68843ed",
-      "bytes": 43242
+      "sha256": "117349abb8f7b37b5024c56ec270abc8ee7db92b52f49906a7153586a733fc28",
+      "bytes": 52801
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "759bbd29389e9848ebc909662fe79ecec8b6dcdac060cdceee364793ffd05190",
-      "bytes": 30179
+      "sha256": "311797b222061f0f86cea7bea77b9c0c3911c9d4439083c87585850f85fe4bd7",
+      "bytes": 33108
     },
     {
       "path": "training/templates/cow.json",
@@ -177,13 +177,13 @@
     },
     {
       "path": "training/templates/pig.json",
-      "sha256": "f105d48faa21413eea9e702e76ef5e08c70a661f0c37290b8a5dec4af2e3748d",
-      "bytes": 23448
+      "sha256": "8977440c1fec5810a6081d41d0031aa8eb39cc39051010ec2aa72cb6283789bb",
+      "bytes": 30473
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "184c87c25f55724c73ecacba67b6d297b7cd11c52cfd2667babfc1ecc3d84766",
-      "bytes": 20166
+      "sha256": "9d74ce47d61fb5165dda3f6675b76b57b2be5b48e00f132fecd871de761aa5b5",
+      "bytes": 24630
     },
     {
       "path": "training/templates/fish.json",
@@ -202,8 +202,8 @@
     },
     {
       "path": "training/templates/other.json",
-      "sha256": "2df75a7be13b0576be257c8a144d4008a8477e19d8e998bce03ebd443cda628c",
-      "bytes": 6857
+      "sha256": "76c86cbc0a9ef3c858b85332a1f318cf88a36ff8cb31a1dd39ddafbef2945571",
+      "bytes": 9491
     },
     {
       "path": "training/programs/beginner.json",
@@ -242,8 +242,8 @@
     },
     {
       "path": "training/assets/bird/index.json",
-      "bytes": 12903,
-      "sha256": "49e683ed3eb8a00a45d5b316ac0fd344b5110cca9d7c56693fe633435067dcf1"
+      "bytes": 15525,
+      "sha256": "0eb2e47557f4a691622ca1bcb1ffc261154593771b0ac843d4e261b4c7514850"
     },
     {
       "path": "training/assets/cow/index.json",
@@ -257,8 +257,28 @@
     },
     {
       "path": "training/assets/horse/index.json",
-      "bytes": 3984,
-      "sha256": "4a2748eb41b4880d17bf1ca76ecdcbd8a103d60b28b8e07f7f143e52054be511"
+      "bytes": 16175,
+      "sha256": "1446018057e3100829155f517856f7f8457f1200f6f5aca2d0437a00ee5ab02d"
+    },
+    {
+      "path": "training/assets/other/index.json",
+      "bytes": 3352,
+      "sha256": "721d045ddc7e7c14ea3314994e78a7123726bfc6a3f4db11160f22d692d74319"
+    },
+    {
+      "path": "training/assets/pig/index.json",
+      "bytes": 9111,
+      "sha256": "ee59fc9b7f907c2ce2b0f9b04eddd2650e2c2eb195e57496c75830574cba164a"
+    },
+    {
+      "path": "training/assets/rabbit/index.json",
+      "bytes": 3876,
+      "sha256": "4ecfbb4af2203692166d234213f62e8822afed5e63f7d52a1cabbd3d2178bdab"
+    },
+    {
+      "path": "training/assets/rodent/index.json",
+      "bytes": 5732,
+      "sha256": "f43397ef7c9bcc812568782bccf3031dc4d7edd153ae268fe31b2f8344aafaaa"
     }
   ]
 }

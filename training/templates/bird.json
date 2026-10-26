@@ -1151,15 +1151,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_wing_check_cooperation_cover",
+          "bird_wing_check_cooperation_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_wing_check_cooperation/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel on stable low perch naturally stretches ONE wing while caregiver watches from a respectful distance with hands away; no wing holding or pulling, no medical tools.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_wing_check_cooperation/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel on stable low perch naturally stretches ONE wing while caregiver watches from a respectful distance with hands away; no wing holding or pulling, no medical tools.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1242,15 +1260,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_simple_object_touch_cover",
+          "bird_simple_object_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_simple_object_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel on stable low perch investigates a broad smooth lavender wooden disk with beak tip, caregiver calmly holds disk still, no tiny loose pieces.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_simple_object_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel on stable low perch investigates a broad smooth lavender wooden disk with beak tip, caregiver calmly holds disk still, no tiny loose pieces.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

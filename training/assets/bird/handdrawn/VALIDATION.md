@@ -1,6 +1,6 @@
 # Bird artwork validation
 
-20 unique assets; largest file 499,539 bytes.
+24 unique assets; largest file 499,539 bytes.
 
 Checks: every image decodes; all files below 500,000 bytes; PNG covers have actual RGBA transparency; dimensions, byte counts and SHA-256 match the asset index; lesson IDs and media references match; non-media training content unchanged. Upload object hashes are checked against local files.
 
@@ -26,3 +26,7 @@ Checks: every image decodes; all files below 500,000 bytes; PNG covers have actu
 | bird_gentle_handling_consent/lesson_01.webp | 450,824 | 1536 × 1024 |
 | bird_return_to_cage_cue/cover.png | 437,812 | 512 × 512 |
 | bird_return_to_cage_cue/lesson_01.webp | 361,130 | 1536 × 1024 |
+| bird_wing_check_cooperation/cover.png | 474,348 | 640 × 640 |
+| bird_wing_check_cooperation/lesson_01.webp | 483,618 | 1536 × 1024 |
+| bird_simple_object_touch/cover.png | 446,807 | 768 × 768 |
+| bird_simple_object_touch/lesson_01.webp | 436,678 | 1536 × 1024 |

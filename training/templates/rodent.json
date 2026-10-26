@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rodent_voluntary_hand_approach_cover",
+          "rodent_voluntary_hand_approach_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rodent/handdrawn/rodent_voluntary_hand_approach/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Representative pet rat illustration. Pet rat with full long tail visible voluntarily sniffs caregiver's stationary open palm resting at floor level, no gripping lifting or tail holding.",
+          "width": 896,
+          "height": 896
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rodent/handdrawn/rodent_voluntary_hand_approach/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Representative pet rat illustration. Pet rat with full long tail visible voluntarily sniffs caregiver's stationary open palm resting at floor level, no gripping lifting or tail holding.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rodent_target_touch_cover",
+          "rodent_target_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rodent/handdrawn/rodent_target_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Representative pet rat illustration. Pet rat with all four paws on floor voluntarily touches a broad smooth lavender target disk with NOSE, caregiver hand remains still, no poking or paw shake.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rodent/handdrawn/rodent_target_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Representative pet rat illustration. Pet rat with all four paws on floor voluntarily touches a broad smooth lavender target disk with NOSE, caregiver hand remains still, no poking or paw shake.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rodent_carrier_familiarity_cover",
+          "rodent_carrier_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rodent/handdrawn/rodent_carrier_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Representative pet rat illustration. Small pet rat stands fully OUTSIDE beside a VERY roomy ventilated carrier with broad open front and soft bedding, carrier roof three times rat height, full tail visible without intersecting walls.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rodent/handdrawn/rodent_carrier_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Representative pet rat illustration. Small pet rat stands fully OUTSIDE beside a VERY roomy ventilated carrier with broad open front and soft bedding, carrier roof three times rat height, full tail visible without intersecting walls.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -334,15 +388,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rodent_maze_exploration_cover",
+          "rodent_maze_exploration_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rodent/handdrawn/rodent_maze_exploration/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Representative pet rat illustration. Pet rat freely explores a simple broad open-top cardboard maze on floor with only two short low walls and a wide clear exit, no trap dead end narrow holes or height challenge, full tail visible.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rodent/handdrawn/rodent_maze_exploration/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Representative pet rat illustration. Pet rat freely explores a simple broad open-top cardboard maze on floor with only two short low walls and a wide clear exit, no trap dead end narrow holes or height challenge, full tail visible.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "format": "png-cover-webp-lessons",
+  "assetCount": 6,
+  "assets": [
+    {
+      "id": "rabbit_litter_habits_cover",
+      "templateId": "rabbit_litter_habits",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_litter_habits/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Rabbit calmly stands completely outside beside a large low-sided lavender litter tray with hay at one side, caregiver sits well away giving space, no waste or forced placement.",
+      "width": 576,
+      "height": 576,
+      "bytes": 426745,
+      "sha256": "27038bcb39a6e32bed8804a6bd10072854b77a9b484746fb567d9e7699aa1ec1",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_litter_habits_lesson_01",
+      "templateId": "rabbit_litter_habits",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_litter_habits/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Rabbit calmly stands completely outside beside a large low-sided lavender litter tray with hay at one side, caregiver sits well away giving space, no waste or forced placement.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 453008,
+      "sha256": "0ac73b7003d1963112ba088c994944affa9879efa510fc45be47d733822af6bb",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_target_touch_cover",
+      "templateId": "rabbit_target_touch",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_target_touch/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Rabbit with all paws on floor voluntarily touches a caregiver's stationary fingertip at nose height with NOSE, not paw, no pushing into face.",
+      "width": 768,
+      "height": 768,
+      "bytes": 462051,
+      "sha256": "3c1df9c0fa372b530f638292533882bc9b15094f58c7001897518e0358a0ba9a",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_target_touch_lesson_01",
+      "templateId": "rabbit_target_touch",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_target_touch/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Rabbit with all paws on floor voluntarily touches a caregiver's stationary fingertip at nose height with NOSE, not paw, no pushing into face.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 457502,
+      "sha256": "878009da249660ba87668cc3e4375e9f69b900ca8aa7131e01103c110c2b0aeb",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_name_response_cover",
+      "templateId": "rabbit_name_response",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_name_response/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Rabbit calmly turns head and ears toward a seated nearby caregiver who offers a tiny reward, all paws grounded, no holding or chasing.",
+      "width": 576,
+      "height": 576,
+      "bytes": 409396,
+      "sha256": "89a1f33489f36c69b4d3dde35cd851cf9c71a243baa2c3ea31b98a4588f7dafc",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_name_response_lesson_01",
+      "templateId": "rabbit_name_response",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_name_response/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Rabbit calmly turns head and ears toward a seated nearby caregiver who offers a tiny reward, all paws grounded, no holding or chasing.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 406764,
+      "sha256": "e9572b45843eb90b91f9c35317be891066eb42d827fe882aa0f3398855c130b3",
+      "illustrationOnly": true
+    }
+  ]
+}
