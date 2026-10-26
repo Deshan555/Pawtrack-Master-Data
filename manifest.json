@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 11,
-  "releaseId": "2026-10-26.1",
-  "updatedAt": "2026-10-26T05:35:52Z",
+  "dataVersion": 12,
+  "releaseId": "2026-10-26.2",
+  "updatedAt": "2026-10-26T06:41:11Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -157,13 +157,13 @@
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "267aded4caca67c3a6fc234a652065b2b662a6de9c550a3cf9e729e1f8d52aa0",
-      "bytes": 40254
+      "sha256": "6b11e5750862bffa5bd9757b102558f5b1fba69cfb97f807286c53097565c68d",
+      "bytes": 50214
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "68c94f486b798fa94cee75850ee92a4f325d9c9c87e532e2adc4ee840ab1afc7",
-      "bytes": 40203
+      "sha256": "eda536e44e70ea82ba1635cd8e711f9d2052a0465d41b343c22a48dad68843ed",
+      "bytes": 43242
     },
     {
       "path": "training/templates/rabbit.json",
@@ -172,8 +172,8 @@
     },
     {
       "path": "training/templates/cow.json",
-      "sha256": "7f3b3f2f088750cc5aa86ddc926304d13fd94818d0c59d9d0330cb77054d53c7",
-      "bytes": 23460
+      "sha256": "7d18ad008fd0d5ccb7f3bf231684c58b3ac7e0f9e30a8ae2a14421a4cc9c1574",
+      "bytes": 30505
     },
     {
       "path": "training/templates/pig.json",
@@ -187,8 +187,8 @@
     },
     {
       "path": "training/templates/fish.json",
-      "sha256": "69dbdcddb5c23868be0f6915f161f082985739da1369cfd693f92e7d6fc07772",
-      "bytes": 17312
+      "sha256": "8464147a437411f618828fe87732cc97e7df3210c368417e32c5d578edaa932b",
+      "bytes": 22602
     },
     {
       "path": "training/templates/snake.json",
@@ -239,6 +239,26 @@
       "path": "training/research/image_assets.json",
       "sha256": "4a0fce58ea8ed7f0f9569df67823183998fca17db038e1ad34014f6adcb7b4fa",
       "bytes": 990
+    },
+    {
+      "path": "training/assets/bird/index.json",
+      "bytes": 12903,
+      "sha256": "49e683ed3eb8a00a45d5b316ac0fd344b5110cca9d7c56693fe633435067dcf1"
+    },
+    {
+      "path": "training/assets/cow/index.json",
+      "bytes": 9137,
+      "sha256": "500cbaf98a1f498933673cff55654b04bb4377535225a0b7022f83c0d5b287b6"
+    },
+    {
+      "path": "training/assets/fish/index.json",
+      "bytes": 6874,
+      "sha256": "839ca2f4f7440cb60c6e640f09c928487b8123c9e9389e9255a970d84a94f701"
+    },
+    {
+      "path": "training/assets/horse/index.json",
+      "bytes": 3984,
+      "sha256": "4a2748eb41b4880d17bf1ca76ecdcbd8a103d60b28b8e07f7f143e52054be511"
     }
   ]
 }

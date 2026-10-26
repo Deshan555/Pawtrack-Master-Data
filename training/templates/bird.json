@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_step_up_cover",
+          "bird_step_up_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_step_up/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel voluntarily steps from a stable low wooden perch onto the caregiver's level outstretched index finger; no finger presses into bird chest.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_step_up/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel voluntarily steps from a stable low wooden perch onto the caregiver's level outstretched index finger; no finger presses into bird chest.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_step_down_cover",
+          "bird_step_down_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_step_down/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel has completed stepping down and stands with BOTH feet on the stable low perch; caregiver's empty hand is withdrawn to the side.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_step_down/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel has completed stepping down and stands with BOTH feet on the stable low perch; caregiver's empty hand is withdrawn to the side.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_target_touch_cover",
+          "bird_target_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_target_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel on stable perch gently touches a small lavender ball target with beak tip; target is held still ahead of bird, never poking it.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_target_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel on stable perch gently touches a small lavender ball target with beak tip; target is held still ahead of bird, never poking it.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -334,15 +388,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_perch_recall_cover",
+          "bird_perch_recall_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_perch_recall/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel makes a very short voluntary hop toward a second broad low perch in a secure indoor room, wings gently spread, caregiver calmly nearby, no outdoor free flight.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_perch_recall/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel makes a very short voluntary hop toward a second broad low perch in a secure indoor room, wings gently spread, caregiver calmly nearby, no outdoor free flight.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -425,15 +497,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_station_on_perch_cover",
+          "bird_station_on_perch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_station_on_perch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel calmly stands on a stable low natural wooden perch while caregiver offers a small seed reward at beak height from a respectful distance.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_station_on_perch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel calmly stands on a stable low natural wooden perch while caregiver offers a small seed reward at beak height from a respectful distance.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -516,15 +606,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_carrier_familiarity_cover",
+          "bird_carrier_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_carrier_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Small cockatiel stands completely OUTSIDE beside a VERY roomy ventilated carrier with an unobstructed open front entrance and stable interior low perch; carrier roof twice bird height, no intersecting walls.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_carrier_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Small cockatiel stands completely OUTSIDE beside a VERY roomy ventilated carrier with an unobstructed open front entrance and stable interior low perch; carrier roof twice bird height, no intersecting walls.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -607,15 +715,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_voluntary_scale_use_cover",
+          "bird_voluntary_scale_use_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_voluntary_scale_use/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel voluntarily stands on a stable low T-perch mounted on a broad digital weighing scale with a blank unmarked display; no restraint.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_voluntary_scale_use/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel voluntarily stands on a stable low T-perch mounted on a broad digital weighing scale with a blank unmarked display; no restraint.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -698,15 +824,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_foraging_introduction_cover",
+          "bird_foraging_introduction_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_foraging_introduction/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel explores a shallow broad cardboard foraging tray on a stable low surface, a few visible seeds among large loose plain paper folds, no strings or sharp objects.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_foraging_introduction/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel explores a shallow broad cardboard foraging tray on a stable low surface, a few visible seeds among large loose plain paper folds, no strings or sharp objects.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -789,15 +933,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_gentle_handling_consent_cover",
+          "bird_gentle_handling_consent_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_gentle_handling_consent/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cockatiel on broad low perch voluntarily approaches caregiver's stationary open hand held nearby, no touching gripping or restraining bird.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_gentle_handling_consent/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cockatiel on broad low perch voluntarily approaches caregiver's stationary open hand held nearby, no touching gripping or restraining bird.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -880,15 +1042,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "bird_return_to_cage_cue_cover",
+          "bird_return_to_cage_cue_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/bird/handdrawn/bird_return_to_cage_cue/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Front view cockatiel stands wholly OUTSIDE at a broad landing perch beside the clearly open doorway of a spacious bird aviary; familiar perch inside, caregiver gestures from a distance, bird never intersects bars.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/bird/handdrawn/bird_return_to_cage_cue/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Front view cockatiel stands wholly OUTSIDE at a broad landing perch beside the clearly open doorway of a spacious bird aviary; familiar perch inside, caregiver gestures from a distance, bird never intersects bars.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

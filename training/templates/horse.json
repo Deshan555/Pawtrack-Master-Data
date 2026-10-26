@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "horse_halter_familiarity_cover",
+          "horse_halter_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/horse/handdrawn/horse_halter_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Horse freely sniffs a lavender flat halter held open ahead of muzzle by caregiver standing at shoulder, halter NOT on horse yet, no restraint or nose tightening.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/horse/handdrawn/horse_halter_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Horse freely sniffs a lavender flat halter held open ahead of muzzle by caregiver standing at shoulder, halter NOT on horse yet, no restraint or nose tightening.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "horse_lead_calmly_cover",
+          "horse_lead_calmly_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/horse/handdrawn/horse_lead_calmly/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Horse walks calmly beside caregiver at shoulder on level secure paddock; correctly fitted flat halter, noseband above nostrils, clearly curved slack lead, no bit whip or pulling.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/horse/handdrawn/horse_lead_calmly/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Horse walks calmly beside caregiver at shoulder on level secure paddock; correctly fitted flat halter, noseband above nostrils, clearly curved slack lead, no bit whip or pulling.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "horse_stand_still_cover",
+          "horse_stand_still_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/horse/handdrawn/horse_stand_still/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Horse stands relaxed on level nonslip paddock ground beside caregiver standing at shoulder with hands relaxed, all four hooves grounded, no ropes restraints or riding gear.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/horse/handdrawn/horse_stand_still/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Horse stands relaxed on level nonslip paddock ground beside caregiver standing at shoulder with hands relaxed, all four hooves grounded, no ropes restraints or riding gear.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

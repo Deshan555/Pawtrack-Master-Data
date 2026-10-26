@@ -62,15 +62,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "fish_feeding_cue_cover",
+          "fish_feeding_cue_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/fish/handdrawn/fish_feeding_cue/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Goldfish remains fully underwater near a broad feeding ring at surface of a LARGE planted aquarium; caregiver holds a small neutral lavender visual cue OUTSIDE glass, only a tiny amount of fish food visible, no touching fish.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/fish/handdrawn/fish_feeding_cue/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Goldfish remains fully underwater near a broad feeding ring at surface of a LARGE planted aquarium; caregiver holds a small neutral lavender visual cue OUTSIDE glass, only a tiny amount of fish food visible, no touching fish.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -154,15 +172,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "fish_target_following_cover",
+          "fish_target_following_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/fish/handdrawn/fish_target_following/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Goldfish swims freely underwater toward a lavender circular visual target held OUTSIDE the glass of a LARGE planted aquarium; no rod pokes fish and no hand enters water.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/fish/handdrawn/fish_target_following/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Goldfish swims freely underwater toward a lavender circular visual target held OUTSIDE the glass of a LARGE planted aquarium; no rod pokes fish and no hand enters water.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -246,15 +282,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "fish_station_at_feeding_area_cover",
+          "fish_station_at_feeding_area_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/fish/handdrawn/fish_station_at_feeding_area/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "A natural orange goldfish waits fully underwater below a floating feeding ring in a roomy planted rectangular aquarium.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/fish/handdrawn/fish_station_at_feeding_area/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Goldfish waits freely fully underwater just below a floating feeding ring in a LARGE planted aquarium, a tiny amount of fish food at surface, no nets or handling.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -338,15 +392,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "fish_enrichment_object_exploration_cover",
+          "fish_enrichment_object_exploration_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/fish/handdrawn/fish_enrichment_object_exploration/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "A natural orange goldfish freely investigates a broad smooth ceramic arch fully underwater in a roomy planted aquarium.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/fish/handdrawn/fish_enrichment_object_exploration/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Goldfish freely swims near a large smooth open ceramic arch in a LARGE planted aquarium, arch opening much wider and taller than fish, no narrow trap or sharp edges.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -430,15 +502,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "fish_low_stress_maintenance_routine_cover",
+          "fish_low_stress_maintenance_routine_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/fish/handdrawn/fish_low_stress_maintenance_routine/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Goldfish swims freely in far planted side of a LARGE aquarium while a slim aquarium siphon sits in the opposite gravel corner far from fish; caregiver outside tank supervises, no fish net or capture, stable water line.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/fish/handdrawn/fish_low_stress_maintenance_routine/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Goldfish swims freely in far planted side of a LARGE aquarium while a slim aquarium siphon sits in the opposite gravel corner far from fish; caregiver outside tank supervises, no fish net or capture, stable water line.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
