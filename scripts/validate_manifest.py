@@ -9,6 +9,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = ROOT / "manifest.json"
+# Showcase configuration is not part of the mobile master-data release.
+NON_DATA_JSON = {"config.json"}
 
 
 def fail(message: str) -> None:
@@ -65,11 +67,18 @@ def main() -> None:
         for path in ROOT.rglob("*.json")
         if ".git" not in path.parts and path.name != "manifest.json"
     }
-    missing_from_manifest = sorted(repository_json - listed_paths)
+    for relative_path in sorted(repository_json & NON_DATA_JSON):
+        try:
+            json.loads((ROOT / relative_path).read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+            fail(f"{relative_path}: invalid UTF-8 JSON: {error}")
+
+    missing_from_manifest = sorted(repository_json - listed_paths - NON_DATA_JSON)
     if missing_from_manifest:
         fail("JSON files missing from manifest: " + ", ".join(missing_from_manifest))
 
-    print(f"Validated {len(files)} manifest entries and {len(repository_json)} data files.")
+    print(f"Validated {len(files)} manifest entries and "
+          f"{len(repository_json - NON_DATA_JSON)} data files.")
 
 
 if __name__ == "__main__":
