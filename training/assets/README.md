@@ -1,20 +1,16 @@
-# PawTrack Training Assets
+# Training image assets
 
-Dog and Cat artwork uses transparent PNG covers and opaque WebP lessons. The remaining species use the same hand-drawn raster direction and the lesson counts already present in their templates. Every final image is below 500,000 bytes.
+Hand-drawn watercolor and colored-pencil exercise artwork. PNG covers preserve real transparency; lesson scenes use WebP. Every raster file is below 500,000 bytes. Prompts and validation inventories are in each species handdrawn folder. Illustrations are AI-generated and visually checked, not expert-reviewed; mobile rendering remains untested.
 
-Resolve `rasterPath` against the repository data base URL. Asset indexes record dimensions, byte counts and SHA-256. Each handdrawn folder includes prompts and validation notes. Previous SVG artwork remains removed.
-
-## Additional species artwork
-
-| Group | Images |
+| Species | Assets |
 |---|---:|
 | bird | 24 |
+| cat | 75 |
 | cow | 14 |
+| dog | 100 |
 | fish | 10 |
 | horse | 24 |
 | other | 4 |
 | pig | 14 |
-| rabbit | 6 |
+| rabbit | 16 |
 | rodent | 8 |
-
-Total additional assets in this checkpoint: 104. Training content and expert-review status are unchanged. Rodent artwork uses a representative pet rat; Other uses generic equipment without an invented species.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "dataVersion": 12,
   "releaseId": "2026-10-26.2",
-  "updatedAt": "2026-10-26T07:03:38Z",
+  "updatedAt": "2026-10-26T08:22:23Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -167,8 +167,8 @@
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "311797b222061f0f86cea7bea77b9c0c3911c9d4439083c87585850f85fe4bd7",
-      "bytes": 33108
+      "sha256": "9b41535800a5af6088ba7a7395714741c57001eebd2cd599fe468e584032e4c8",
+      "bytes": 37765
     },
     {
       "path": "training/templates/cow.json",
@@ -272,8 +272,8 @@
     },
     {
       "path": "training/assets/rabbit/index.json",
-      "bytes": 3876,
-      "sha256": "4ecfbb4af2203692166d234213f62e8822afed5e63f7d52a1cabbd3d2178bdab"
+      "bytes": 9989,
+      "sha256": "6b6fbfe79fb3200044de4f3f8f57ae9735b30ef9bafcca93252b56b820901ab7"
     },
     {
       "path": "training/assets/rodent/index.json",

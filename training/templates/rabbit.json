@@ -388,15 +388,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_carrier_comfort_cover",
+          "rabbit_carrier_comfort_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_carrier_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit stands outside a roomy open sage and lavender carrier with soft bedding, sniffing entrance voluntarily; no hand pushing.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_carrier_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit stands outside a roomy open sage and lavender carrier with soft bedding, sniffing entrance voluntarily; no hand pushing.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -479,15 +497,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_tunnel_exploration_cover",
+          "rabbit_tunnel_exploration_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_tunnel_exploration/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit calmly sniffs the entrance of a broad open fabric tunnel with both ends clearly open, fully outside and not forced.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_tunnel_exploration/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit calmly sniffs the entrance of a broad open fabric tunnel with both ends clearly open, fully outside and not forced.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -570,15 +606,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_station_on_mat_cover",
+          "rabbit_station_on_mat_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_station_on_mat/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit rests with all four paws on a flat lavender mat while seated caregiver offers one tiny reward at nose height.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_station_on_mat/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit rests with all four paws on a flat lavender mat while seated caregiver offers one tiny reward at nose height.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -661,15 +715,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_gentle_brushing_cover",
+          "rabbit_gentle_brushing_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_gentle_brushing/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit stands on a low soft mat beside seated caregiver, a soft brush gently touches upper back; no restraint or lifting.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_gentle_brushing/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit stands on a low soft mat beside seated caregiver, a soft brush gently touches upper back; no restraint or lifting.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -752,15 +824,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_voluntary_hand_approach_cover",
+          "rabbit_voluntary_hand_approach_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_voluntary_hand_approach/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit approaches and sniffs the empty open palm of a seated caregiver at floor level; free space to withdraw.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_voluntary_hand_approach/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit approaches and sniffs the empty open palm of a seated caregiver at floor level; free space to withdraw.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
