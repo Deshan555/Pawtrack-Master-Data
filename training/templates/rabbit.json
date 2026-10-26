@@ -933,15 +933,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "rabbit_foraging_puzzle_cover",
+          "rabbit_foraging_puzzle_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Rabbit explores a shallow cardboard tray containing loose hay and a few leafy greens; caregiver watches without touching.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Rabbit explores a shallow cardboard tray containing loose hay and a few leafy greens; caregiver watches without touching.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

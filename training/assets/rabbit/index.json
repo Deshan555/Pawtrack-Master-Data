@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 16,
+  "assetCount": 18,
   "assets": [
     {
       "id": "rabbit_litter_habits_cover",
@@ -225,6 +225,34 @@
       "height": 1024,
       "bytes": 497754,
       "sha256": "0eb557a04e2c019deb66fc803f4ec1f783e0a33c045e941b6279f68dc428dbf1",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_foraging_puzzle_cover",
+      "templateId": "rabbit_foraging_puzzle",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Rabbit explores a shallow cardboard tray containing loose hay and a few leafy greens; caregiver watches without touching.",
+      "width": 576,
+      "height": 576,
+      "bytes": 422072,
+      "sha256": "3e94691a4f7aaa75425610f6307c9249005f814f154cb4e72ec655de3b49d0ae",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rabbit_foraging_puzzle_lesson_01",
+      "templateId": "rabbit_foraging_puzzle",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Rabbit explores a shallow cardboard tray containing loose hay and a few leafy greens; caregiver watches without touching.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 459222,
+      "sha256": "4fc587af700d50db784661ac933ebe9f4d453bc444df6c25d69eea01d0a022b5",
       "illustrationOnly": true
     }
   ]

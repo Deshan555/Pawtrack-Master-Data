@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 8,
+  "assetCount": 12,
   "assets": [
     {
       "id": "rodent_voluntary_hand_approach_cover",
@@ -113,6 +113,62 @@
       "height": 1024,
       "bytes": 433264,
       "sha256": "cfee3bd3cc49eb14462a2c308284f092c67eb1e8525967193063e4de65a2b991",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rodent_foraging_puzzle_cover",
+      "templateId": "rodent_foraging_puzzle",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rodent/handdrawn/rodent_foraging_puzzle/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Representative pet rat illustration. Pet rat explores a shallow cardboard tray with loose folded paper and a few tiny seeds; caregiver watches, no restraint.",
+      "width": 576,
+      "height": 576,
+      "bytes": 446121,
+      "sha256": "13d27c2faec55cfb6dbd73b2744a6a9fc00e2d4220b388722b39b50d1286efdd",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rodent_foraging_puzzle_lesson_01",
+      "templateId": "rodent_foraging_puzzle",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rodent/handdrawn/rodent_foraging_puzzle/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Representative pet rat illustration. Pet rat explores a shallow cardboard tray with loose folded paper and a few tiny seeds; caregiver watches, no restraint.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 424476,
+      "sha256": "7334735cc31fd9b1810962025de98930bb37b526dbb867f5027a6602eaf06e53",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rodent_gentle_health_check_cover",
+      "templateId": "rodent_gentle_health_check",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/rodent/handdrawn/rodent_gentle_health_check/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Representative pet rat illustration. Pet rat stands on all four feet on a folded lavender towel near an empty open hand; caregiver observes without gripping, flipping or lifting.",
+      "width": 576,
+      "height": 576,
+      "bytes": 478642,
+      "sha256": "afa33b3434f52104e3e8cdc0fa756ac78fd9d7ebd94a1c281c6f031b031ba314",
+      "illustrationOnly": true
+    },
+    {
+      "id": "rodent_gentle_health_check_lesson_01",
+      "templateId": "rodent_gentle_health_check",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/rodent/handdrawn/rodent_gentle_health_check/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Representative pet rat illustration. Pet rat stands on all four feet on a folded lavender towel near an empty open hand; caregiver observes without gripping, flipping or lifting.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 492892,
+      "sha256": "a0b5b858f3c64589cf804665373d074ff34aad263646d4c93359dec1d1bded93",
       "illustrationOnly": true
     }
   ]

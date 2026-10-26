@@ -12,5 +12,7 @@ Hand-drawn watercolor and colored-pencil exercise artwork. PNG covers preserve r
 | horse | 24 |
 | other | 4 |
 | pig | 14 |
-| rabbit | 16 |
-| rodent | 8 |
+| rabbit | 18 |
+| rodent | 12 |
+| snake | 6 |
+| spider | 4 |

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "dataVersion": 12,
   "releaseId": "2026-10-26.2",
-  "updatedAt": "2026-10-26T08:22:23Z",
+  "updatedAt": "2026-10-26T08:29:52Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -167,8 +167,8 @@
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "9b41535800a5af6088ba7a7395714741c57001eebd2cd599fe468e584032e4c8",
-      "bytes": 37765
+      "sha256": "5ea2d8d3ea09586258508a26daa8a3a9e5a93a0d78dd0186d5aa5b0b08300251",
+      "bytes": 38692
     },
     {
       "path": "training/templates/cow.json",
@@ -182,8 +182,8 @@
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "9d74ce47d61fb5165dda3f6675b76b57b2be5b48e00f132fecd871de761aa5b5",
-      "bytes": 24630
+      "sha256": "5aa20708a4857b4d2073cf3df6a5c2a2821eaa7e4cd8c74222b8fcbaadc574c6",
+      "bytes": 26686
     },
     {
       "path": "training/templates/fish.json",
@@ -192,13 +192,13 @@
     },
     {
       "path": "training/templates/snake.json",
-      "sha256": "b2ba7bae0bf2420c28eb7c1bd93c26e8942bf27e5c6c5b9b831eaee3995c10ea",
-      "bytes": 10443
+      "sha256": "4da1eb4929634597325bf3b25f53f6914fdf80f85dc7d5adaf18a75c81d01998",
+      "bytes": 13608
     },
     {
       "path": "training/templates/spider.json",
-      "sha256": "4302212d6b6067641389fbbf803fc24e4ed8b534bc78f5a199762874a827cc4b",
-      "bytes": 7029
+      "sha256": "8bda405d1e1cedc2923cf092135e77a36b47b58f68c21bfb5d588fe098e111d3",
+      "bytes": 9467
     },
     {
       "path": "training/templates/other.json",
@@ -272,13 +272,23 @@
     },
     {
       "path": "training/assets/rabbit/index.json",
-      "bytes": 9989,
-      "sha256": "6b6fbfe79fb3200044de4f3f8f57ae9735b30ef9bafcca93252b56b820901ab7"
+      "bytes": 11203,
+      "sha256": "0105ec8e4ae8b31284a6dd01f56137a49f48a1abd1c5640c36e2b2c67a91db78"
     },
     {
       "path": "training/assets/rodent/index.json",
-      "bytes": 5732,
-      "sha256": "f43397ef7c9bcc812568782bccf3031dc4d7edd153ae268fe31b2f8344aafaaa"
+      "bytes": 8371,
+      "sha256": "d8685ae3ddcb71cac67ab6f34667f4a56d1c3127fc2f6aa597b2c962bd3aa23c"
+    },
+    {
+      "path": "training/assets/snake/index.json",
+      "bytes": 4168,
+      "sha256": "cc4f5b9ec77070bb61560c7222ecdfeaf8f0129644fa473d6c79e052064711b7"
+    },
+    {
+      "path": "training/assets/spider/index.json",
+      "bytes": 3178,
+      "sha256": "9e3fba810cbc0484e6b544e9a8fd75bc77d56f48368556d98a01986d944be204"
     }
   ]
 }

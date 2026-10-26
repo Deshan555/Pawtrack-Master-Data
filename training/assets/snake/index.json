@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "format": "png-cover-webp-lessons",
+  "assetCount": 6,
+  "assets": [
+    {
+      "id": "snake_enclosure_approach_cue_cover",
+      "templateId": "snake_enclosure_approach_cue",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/snake/handdrawn/snake_enclosure_approach_cue/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Corn snake rests within a spacious secure planted terrarium with bark hide and water dish; caregiver holds blank lavender cue card OUTSIDE glass and watches without tapping.",
+      "width": 512,
+      "height": 512,
+      "bytes": 425673,
+      "sha256": "e7c8ff6861edb953fc7a6c43665cd2cf503689a34e1c3224507cf098bc2af64a",
+      "illustrationOnly": true
+    },
+    {
+      "id": "snake_enclosure_approach_cue_lesson_01",
+      "templateId": "snake_enclosure_approach_cue",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/snake/handdrawn/snake_enclosure_approach_cue/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Corn snake rests within a spacious secure planted terrarium with bark hide and water dish; caregiver holds blank lavender cue card OUTSIDE glass and watches without tapping.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 491286,
+      "sha256": "bafdfded8671fd7c0d32b0695e4aac624a23e8d3fb4eea3c3bd7303d92e15b16",
+      "illustrationOnly": true
+    },
+    {
+      "id": "snake_target_guided_movement_cover",
+      "templateId": "snake_target_guided_movement",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/snake/handdrawn/snake_target_guided_movement/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Corn snake calmly orients toward a lavender target disk positioned OUTSIDE the glass of a spacious secure terrarium. Entire continuous snake visible inside, no handling.",
+      "width": 576,
+      "height": 576,
+      "bytes": 468721,
+      "sha256": "9ce8df6bc5c478c4cd3bb0f5d152c81ba0a4effc94a187292c9940996d77c0d1",
+      "illustrationOnly": true
+    },
+    {
+      "id": "snake_target_guided_movement_lesson_01",
+      "templateId": "snake_target_guided_movement",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/snake/handdrawn/snake_target_guided_movement/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Corn snake calmly orients toward a lavender target disk positioned OUTSIDE the glass of a spacious secure terrarium. Entire continuous snake visible inside, no handling.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 452564,
+      "sha256": "e39c58b4def38c9925d32f5b13db0f084f28be7168f360d002634b0481cc1769",
+      "illustrationOnly": true
+    },
+    {
+      "id": "snake_voluntary_shift_box_entry_cover",
+      "templateId": "snake_voluntary_shift_box_entry",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/snake/handdrawn/snake_voluntary_shift_box_entry/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Corn snake voluntarily approaches an open roomy lavender shift shelter INSIDE a spacious secure terrarium; uninterrupted body visible outside shelter, no handling or forcing.",
+      "width": 512,
+      "height": 512,
+      "bytes": 440578,
+      "sha256": "4c7729b9375d05ece4d9162f18b9994d080058116e11657c6684fb2727ebf2f9",
+      "illustrationOnly": true
+    },
+    {
+      "id": "snake_voluntary_shift_box_entry_lesson_01",
+      "templateId": "snake_voluntary_shift_box_entry",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/snake/handdrawn/snake_voluntary_shift_box_entry/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Corn snake voluntarily approaches an open roomy lavender shift shelter INSIDE a spacious secure terrarium; uninterrupted body visible outside shelter, no handling or forcing.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 473966,
+      "sha256": "0145285fa765497b77b1c88ce3b84c0da974733a0aa6ab21800b17a4187f3fff",
+      "illustrationOnly": true
+    }
+  ]
+}

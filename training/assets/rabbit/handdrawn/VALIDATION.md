@@ -20,3 +20,5 @@ Checked decoding, dimensions, SHA-256, JSON references, PNG alpha and strict fil
 | training/assets/rabbit/handdrawn/rabbit_gentle_brushing/lesson_01.webp | 436544 | 1536 × 1024 |
 | training/assets/rabbit/handdrawn/rabbit_voluntary_hand_approach/cover.png | 428900 | 640 × 640 |
 | training/assets/rabbit/handdrawn/rabbit_voluntary_hand_approach/lesson_01.webp | 497754 | 1536 × 1024 |
+| training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/cover.png | 422072 | 576 × 576 |
+| training/assets/rabbit/handdrawn/rabbit_foraging_puzzle/lesson_01.webp | 459222 | 1536 × 1024 |
