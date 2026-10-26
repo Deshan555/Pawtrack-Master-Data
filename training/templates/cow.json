@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_target_touch_cover",
+          "cow_target_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_target_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Four-legged cow gently touches a lavender target paddle with its nose.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_target_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Calm full-body cow gently touches a broad smooth lavender target paddle with nose while caregiver stands beside shoulder, clear space, no restraint.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_halter_familiarity_cover",
+          "cow_halter_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_halter_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Calm cow freely sniffs a loose flat lavender halter held OPEN well in front of nose by caregiver standing beside shoulder; halter not on cow yet, no pulling.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_halter_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Calm cow freely sniffs a loose flat lavender halter held OPEN well in front of nose by caregiver standing beside shoulder; halter not on cow yet, no pulling.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_calm_leading_cover",
+          "cow_calm_leading_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_calm_leading/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cow walks quietly alongside caregiver at shoulder in secure level paddock, correctly fitted flat halter with noseband ABOVE nostrils, visibly loose curved slack lead, never tied or attached to neck.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_calm_leading/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cow walks quietly alongside caregiver at shoulder in secure level paddock, correctly fitted flat halter with noseband ABOVE nostrils, visibly loose curved slack lead, never tied or attached to neck.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -334,15 +388,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_stand_for_health_check_cover",
+          "cow_stand_for_health_check_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_stand_for_health_check/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cow stands freely on a level nonslip barn floor while caregiver standing at shoulder briefly rests an open hand on shoulder; no restraint needles or forced head holding.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_stand_for_health_check/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cow stands freely on a level nonslip barn floor while caregiver standing at shoulder briefly rests an open hand on shoulder; no restraint needles or forced head holding.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -425,15 +497,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_voluntary_weighing_cover",
+          "cow_voluntary_weighing_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_voluntary_weighing/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cow stands fully on a broad flush-to-floor livestock weighing platform in a level wide passage with clear free exit, caregiver beside shoulder; blank display, no tight chute or restraints.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_voluntary_weighing/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cow stands fully on a broad flush-to-floor livestock weighing platform in a level wide passage with clear free exit, caregiver beside shoulder; blank display, no tight chute or restraints.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -516,15 +606,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_grooming_familiarity_cover",
+          "cow_grooming_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_grooming_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cow stands freely while caregiver at shoulder holds a clearly visible soft brush and gently touches shoulder coat once, no gripping or tying.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_grooming_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cow stands freely while caregiver at shoulder holds a clearly visible soft brush and gently touches shoulder coat once, no gripping or tying.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -607,15 +715,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "cow_gate_transition_cover",
+          "cow_gate_transition_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/cow/handdrawn/cow_gate_transition/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Cow waits calmly completely BEFORE a wide fully open farm gate, caregiver at shoulder gives a relaxed open-hand cue; secure fenced pasture on both sides, no road or pushing, cow does not intersect gate.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/cow/handdrawn/cow_gate_transition/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Cow waits calmly completely BEFORE a wide fully open farm gate, caregiver at shoulder gives a relaxed open-hand cue; secure fenced pasture on both sides, no road or pushing, cow does not intersect gate.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "format": "png-cover-webp-lessons",
+  "assetCount": 4,
+  "assets": [
+    {
+      "id": "spider_low_disturbance_feeding_routine_cover",
+      "templateId": "spider_low_disturbance_feeding_routine",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/spider/handdrawn/spider_low_disturbance_feeding_routine/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Brown tarantula rests inside spacious secure substrate-filled terrarium beside bark hide and shallow water dish; closed opaque food container and long tongs lie OUTSIDE; caregiver watches without touching; no prey or feeding action.",
+      "width": 576,
+      "height": 576,
+      "bytes": 497881,
+      "sha256": "55544827fcd21da70ed07361fe2513aba1bfb26154449297be81a077d26af007",
+      "illustrationOnly": true
+    },
+    {
+      "id": "spider_low_disturbance_feeding_routine_lesson_01",
+      "templateId": "spider_low_disturbance_feeding_routine",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/spider/handdrawn/spider_low_disturbance_feeding_routine/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Brown tarantula rests inside spacious secure substrate-filled terrarium beside bark hide and shallow water dish; closed opaque food container and long tongs lie OUTSIDE; caregiver watches without touching; no prey or feeding action.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 434538,
+      "sha256": "b53bab53614e3fff12143303d6558bb9d01aed60150231665bb3a4d28373fdfb",
+      "illustrationOnly": true
+    },
+    {
+      "id": "spider_low_stress_enclosure_maintenance_cover",
+      "templateId": "spider_low_stress_enclosure_maintenance",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/spider/handdrawn/spider_low_stress_enclosure_maintenance/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Brown tarantula rests just inside broad bark hide on one side of spacious secure terrarium, all legs visible; shallow water dish on opposite side; folded towel and tongs OUTSIDE; caregiver observes without handling spraying or prodding.",
+      "width": 512,
+      "height": 512,
+      "bytes": 406561,
+      "sha256": "827188d2e1556fa1aadd58c7fff8656034015ae20ec16eaf1e9ffc168bffcef8",
+      "illustrationOnly": true
+    },
+    {
+      "id": "spider_low_stress_enclosure_maintenance_lesson_01",
+      "templateId": "spider_low_stress_enclosure_maintenance",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/spider/handdrawn/spider_low_stress_enclosure_maintenance/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Brown tarantula rests just inside broad bark hide on one side of spacious secure terrarium, all legs visible; shallow water dish on opposite side; folded towel and tongs OUTSIDE; caregiver observes without handling spraying or prodding.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 445280,
+      "sha256": "240d2b2ff7a55596eb5c810719fa77715e38f45e6137a719eeb9f55c1ca6587b",
+      "illustrationOnly": true
+    }
+  ]
+}

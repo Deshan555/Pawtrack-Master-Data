@@ -61,15 +61,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_target_touch_cover",
+          "pig_target_touch_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_target_touch/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig voluntarily touches a broad smooth lavender target paddle with snout, caregiver seated to side holds target still, no pulling or restraint.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_target_touch/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig voluntarily touches a broad smooth lavender target paddle with snout, caregiver seated to side holds target still, no pulling or restraint.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -152,15 +170,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_come_when_called_cover",
+          "pig_come_when_called_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_come_when_called/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig voluntarily walks a few steps toward caregiver seated nearby with a tiny reward ready, clear level nonslip route in secure pen, no chasing.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_come_when_called/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig voluntarily walks a few steps toward caregiver seated nearby with a tiny reward ready, clear level nonslip route in secure pen, no chasing.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -243,15 +279,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_station_on_mat_cover",
+          "pig_station_on_mat_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_station_on_mat/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig voluntarily stands with all four hooves on a broad lavender nonslip mat while caregiver sits nearby with small reward, easy exit and no restraint.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_station_on_mat/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig voluntarily stands with all four hooves on a broad lavender nonslip mat while caregiver sits nearby with small reward, easy exit and no restraint.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -334,15 +388,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_hoof_care_cooperation_cover",
+          "pig_hoof_care_cooperation_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_hoof_care_cooperation/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig stands freely on level nonslip ground while caregiver seated BESIDE shoulder rests open palm near one front hoof without grabbing or lifting pig; closed hoof tool lies well away, no clipping or flipping animal.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_hoof_care_cooperation/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig stands freely on level nonslip ground while caregiver seated BESIDE shoulder rests open palm near one front hoof without grabbing or lifting pig; closed hoof tool lies well away, no clipping or flipping animal.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -425,15 +497,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_harness_familiarity_cover",
+          "pig_harness_familiarity_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_harness_familiarity/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig voluntarily sniffs a lavender Y-shaped chest harness laid flat on mat, caregiver seated nearby, harness NOT being forced on, no neck leash or tether.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_harness_familiarity/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig voluntarily sniffs a lavender Y-shaped chest harness laid flat on mat, caregiver seated nearby, harness NOT being forced on, no neck leash or tether.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -516,15 +606,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_foraging_puzzle_cover",
+          "pig_foraging_puzzle_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_foraging_puzzle/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig freely explores a broad shallow sturdy foraging tray with visible small rewards in easy open wells, no tiny detachable pieces or strings, caregiver watches at distance.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_foraging_puzzle/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig freely explores a broad shallow sturdy foraging tray with visible small rewards in easy open wells, no tiny detachable pieces or strings, caregiver watches at distance.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -607,15 +715,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "pig_calm_vet_handling_cover",
+          "pig_calm_vet_handling_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/pig/handdrawn/pig_calm_vet_handling/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Pig stands freely on nonslip mat while caregiver seated to side gently rests open hand briefly on shoulder and offers tiny reward; no flipping restraint needles or forced mouth opening.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/pig/handdrawn/pig_calm_vet_handling/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Pig stands freely on nonslip mat while caregiver seated to side gently rests open hand briefly on shoulder and offers tiny reward; no flipping restraint needles or forced mouth opening.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

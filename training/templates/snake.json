@@ -62,15 +62,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "snake_enclosure_approach_cue_cover",
+          "snake_enclosure_approach_cue_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/snake/handdrawn/snake_enclosure_approach_cue/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Corn snake rests within a spacious secure planted terrarium with bark hide and water dish; caregiver holds blank lavender cue card OUTSIDE glass and watches without tapping.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/snake/handdrawn/snake_enclosure_approach_cue/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Corn snake rests within a spacious secure planted terrarium with bark hide and water dish; caregiver holds blank lavender cue card OUTSIDE glass and watches without tapping.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -154,15 +172,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "snake_target_guided_movement_cover",
+          "snake_target_guided_movement_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/snake/handdrawn/snake_target_guided_movement/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Corn snake calmly orients toward a lavender target disk positioned OUTSIDE the glass of a spacious secure terrarium. Entire continuous snake visible inside, no handling.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/snake/handdrawn/snake_target_guided_movement/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Corn snake calmly orients toward a lavender target disk positioned OUTSIDE the glass of a spacious secure terrarium. Entire continuous snake visible inside, no handling.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -246,15 +282,33 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "snake_voluntary_shift_box_entry_cover",
+          "snake_voluntary_shift_box_entry_lesson_01"
+        ],
         "imageSearchKeywords": [],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": null,
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/snake/handdrawn/snake_voluntary_shift_box_entry/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Corn snake voluntarily approaches an open roomy lavender shift shelter INSIDE a spacious secure terrarium; uninterrupted body visible outside shelter, no handling or forcing.",
+          "width": 512,
+          "height": 512
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/snake/handdrawn/snake_voluntary_shift_box_entry/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Corn snake voluntarily approaches an open roomy lavender shift shelter INSIDE a spacious secure terrarium; uninterrupted body visible outside shelter, no handling or forcing.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
