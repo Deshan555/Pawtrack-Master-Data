@@ -128,17 +128,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_sit_cover",
+          "dog_sit_lesson_01",
+          "dog_sit_lesson_02",
+          "dog_sit_lesson_03",
+          "dog_sit_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog sit positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_sit/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Hand-drawn Golden Retriever sitting comfortably, isolated on a transparent background.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Relaxed Golden Retriever standing on a nonslip rug near a seated trainer with a reward.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Seated Golden Retriever offered a small reward at mouth height after sitting voluntarily.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Golden Retriever sitting on a familiar nonslip rug during quiet cue and reward practice.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_sit/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Golden Retriever comfortably sitting for a reward in a quiet fenced garden.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -329,17 +374,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_stay_cover",
+          "dog_stay_lesson_01",
+          "dog_stay_lesson_02",
+          "dog_stay_lesson_03",
+          "dog_stay_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog stay positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_stay/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Calm dog seated with front paws grounded watching a trainer's open palm held at a distance; no paw contact.",
+          "width": 768,
+          "height": 768
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_stay/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Relaxed standing dog on sage nonslip rug, trainer sits sideways at a distance with treats at her knee; calm quiet cream room lavender sofa.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_stay/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sits still on sage rug, trainer calmly offers tiny reward at mouth height for one moment of stillness, other hand on thigh.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_stay/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sits on rug while trainer takes ONE SMALL STEP back, slack arms no raised stop hand, reward pouch at waist; room safe and clear.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_stay/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly holds a short sit on a sage mat in quiet fenced garden while trainer stands one small step away with tiny reward ready.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -526,17 +616,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_come_when_called_cover",
+          "dog_come_when_called_lesson_01",
+          "dog_come_when_called_lesson_02",
+          "dog_come_when_called_lesson_03",
+          "dog_come_when_called_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog come when called positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_come_when_called/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog happily trotting toward trainer's low inviting hand, no airborne exaggerated leap.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_come_when_called/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog and trainer at short distance in quiet enclosed cream room, trainer with reward ready and dog standing freely.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_come_when_called/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog moving a short distance toward kneeling trainer giving a quiet recall cue, tiny reward at low hand.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_come_when_called/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog trots toward trainer across secure fenced garden on visibly SLACK long line attached to well-fitted Y harness, no collar attachment, no tangled line.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_come_when_called/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog arriving at trainer in a quiet fenced garden, wearing a Y harness with a slack long line attached to its back ring, accepting a small reward.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -719,17 +854,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_down_cover",
+          "dog_down_lesson_01",
+          "dog_down_lesson_02",
+          "dog_down_lesson_03",
+          "dog_down_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog down positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_down/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog lying naturally on belly and chest, forelegs forward on a sage mat, head raised relaxed.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_down/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing next to a comfortable sage rug, trainer seated sideways with small food reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_down/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily lowering chest toward nonslip rug following tiny reward held low near floor, no hand pressure or touch on body.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_down/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog fully lying comfortably with elbows chest and hips on soft rug, trainer gives small food reward at muzzle height.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_down/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog lying relaxed on a portable sage mat in quiet fenced garden, trainer offers reward at low muzzle height.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -913,17 +1093,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_loose_leash_walking_cover",
+          "dog_loose_leash_walking_lesson_01",
+          "dog_loose_leash_walking_lesson_02",
+          "dog_loose_leash_walking_lesson_03",
+          "dog_loose_leash_walking_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog loose leash walking positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog walking beside trainer's lower legs with clearly U-shaped SLACK leash attached to a well-fitted Y harness; no collar tension.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing beside trainer with fitted Y harness and slack loose leash, calm enclosed yard, small reward pouch.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog walking beside trainer's knee on nonslip rug in quiet cream room, trainer offers tiny reward by her leg. Leash slack and attached to Y-harness ring.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer calmly turning left with dog following beside her, leash hangs loosely U shaped on Y harness no pulling jerking arrows or duplicated dog.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_loose_leash_walking/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog walking beside trainer on level path INSIDE quiet fenced garden. Leash slack and attached to Y-harness ring.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1106,17 +1331,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_leave_it_cover",
+          "dog_leave_it_lesson_01",
+          "dog_leave_it_lesson_02",
+          "dog_leave_it_lesson_03",
+          "dog_leave_it_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog leave it positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog turns head away from a safe covered wooden toy toward tiny reward in trainer's OTHER hand.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Calm standing dog on nonslip rug, trainer sits nearby, safe plain wooden toy inside transparent closed container well away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog disengages nose from trainer's closed hand hiding low-value food; trainer offers different tiny reward in OTHER open hand away from closed fist.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Safe plain wooden block under transparent container on floor; dog looking away at trainer's reward hand, no hazardous items.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_leave_it/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sitting calmly looking at trainer rather than a covered safe toy on patio; trainer rewards disengagement, quiet fenced garden.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1299,17 +1569,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_drop_it_cover",
+          "dog_drop_it_lesson_01",
+          "dog_drop_it_lesson_02",
+          "dog_drop_it_lesson_03",
+          "dog_drop_it_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog drop it positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog releases soft fabric toy onto floor while trainer offers tiny reward with open hand, no tugging.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Relaxed dog near low-value soft cloth toy on rug, trainer seated sideways with tiny reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Soft toy just released onto rug below dog's open relaxed mouth, trainer offers tiny reward without touching toy or mouth.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands relaxed over familiar released fabric toy while trainer rewards with small treat; no grabbing chasing or tugging.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_drop_it/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly trades safe soft toy for tiny reward on sage mat in quiet fenced garden; toy rests on ground.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1492,17 +1807,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_wait_at_doorways_cover",
+          "dog_wait_at_doorways_lesson_01",
+          "dog_wait_at_doorways_lesson_02",
+          "dog_wait_at_doorways_lesson_03",
+          "dog_wait_at_doorways_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog wait at doorways positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly pauses with four paws INSIDE a doorway while trainer stands beside, door leads to fenced garden.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands on nonslip mat inside CLOSED front door, trainer at comfortable side position with tiny treats.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly waits near CLOSED door with paws on ground while trainer gives tiny food reward, no door pressure.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer opens door into visibly secure FENCED garden, dog calmly stepping across threshold after invitation, no traffic road or danger.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_wait_at_doorways/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog pauses inside another open patio doorway facing fenced secure garden while trainer waits beside with reward.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1685,17 +2045,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_settle_on_mat_cover",
+          "dog_settle_on_mat_lesson_01",
+          "dog_settle_on_mat_lesson_02",
+          "dog_settle_on_mat_lesson_03",
+          "dog_settle_on_mat_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog settle on mat positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog lying calmly on rectangular sage mat with head relaxed and natural paws, whole tail visible.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer places comfortable sage nonslip mat on floor while dog stands freely at distance; quiet room.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily puts one front paw onto sage mat and looks calmly at trainer offering tiny treat; no force.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog lying on same sage mat in another quiet corner of room, trainer calmly offers small reward at low muzzle height.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_settle_on_mat/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog comfortably resting on same portable sage mat on safe shaded fenced patio, calm nearby trainer.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -1878,17 +2283,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_crate_comfort_cover",
+          "dog_crate_comfort_lesson_01",
+          "dog_crate_comfort_lesson_02",
+          "dog_crate_comfort_lesson_03",
+          "dog_crate_comfort_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog crate comfort positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog standing entirely OUTSIDE beside a large empty crate with WIDE OPEN doorway, calmly looking toward its soft bedding, no body part inside crate. No person needed. Crate big enough to stand and turn. Isolated transparent square illustration.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing at comfortable distance from large wire crate with wide OPEN door and soft bedding, trainer seated away, no confinement.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing ENTIRELY OUTSIDE a large open crate, nose gently investigating the unobstructed FRONT doorway and soft bedding, all four paws remain OUTSIDE on rug. Trainer sits away with reward ready. Empty roomy crate, door WIDE OPEN.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "A spacious crate seen STRAIGHT THROUGH its WIDE OPEN FRONT doorway. Small dog lies FULLY INSIDE on sage bedding, with tail tucked INSIDE beside hindquarters, no body part protruding through bars. Trainer seated BESIDE exterior, hand lightly on OPEN door's outer edge, no hand reaching through bars. Door remains mostly OPEN.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_crate_comfort/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "A large roomy crate seen STRAIGHT THROUGH its WIDE OPEN FRONT doorway in another quiet room corner. Dog lies FULLY INSIDE on sage bedding, tail curled INSIDE alongside body, all paws INSIDE the crate, no body part crosses side walls or bars. Trainer sits calmly at a distance, no contact.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2072,17 +2522,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_toilet_routine_cover",
+          "dog_toilet_routine_lesson_01",
+          "dog_toilet_routine_lesson_02",
+          "dog_toilet_routine_lesson_03",
+          "dog_toilet_routine_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog toilet routine positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly sniffing designated grass toilet patch while trainer stands nearby with reward ready, no graphic waste.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer beside relaxed dog near door to fenced yard, slack leash on Y harness, designated grass patch visible beyond.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing suitable grass toilet spot in quiet secure yard on slack harness leash, trainer waits patiently no scolding.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing calmly at designated grass patch, trainer offers small reward after toilet visit, no graphic waste no visible text record.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_toilet_routine/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog returns with trainer to same quiet grass toilet patch on slack harness leash, calm routine no graphic waste.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2265,17 +2760,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_name_response_cover",
+          "dog_name_response_lesson_01",
+          "dog_name_response_lesson_02",
+          "dog_name_response_lesson_03",
+          "dog_name_response_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog name response positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_name_response/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog turns head attentively toward trainer who speaks softly, whole dog shown.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog freely standing on rug at short distance from calm seated trainer with treats; quiet room.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog turning head toward seated woman with slightly open mouth saying name quietly once, small reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly making eye contact with kind smiling trainer while she gives tiny reward, no scolding or looming.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_name_response/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog orienting head toward trainer in quiet fenced garden, trainer gives small reward after attention.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2458,17 +2998,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_hand_target_cover",
+          "dog_hand_target_lesson_01",
+          "dog_hand_target_lesson_02",
+          "dog_hand_target_lesson_03",
+          "dog_hand_target_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog hand target positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog gently touches nose to trainer's EMPTY open palm held at comfortable nose height, no paw contact.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands freely on nonslip rug near calm seated trainer, hands relaxed and reward pouch beside her.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog gently nudges EMPTY open palm at nose height with nose, all four paws on floor no paw touching hand.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer holds empty open palm slightly to one side, dog takes one comfortable step to touch it with nose; no twisting or force.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_hand_target/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly touching empty open hand with nose in quiet fenced garden while other hand holds reward near trainer waist.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2651,17 +3236,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_polite_greetings_cover",
+          "dog_polite_greetings_lesson_01",
+          "dog_polite_greetings_lesson_02",
+          "dog_polite_greetings_lesson_03",
+          "dog_polite_greetings_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog polite greetings positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog calmly standing with FOUR paws on ground as friendly visitor stands sideways at comfortable distance.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer and calm dog on nonslip rug, visitor stands far enough away at interior doorway, dog has clear exit space.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Friendly adult visitor approaches sideways stopping at a distance; trainer offers reward with dog FOUR paws on ground, no jumping.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily steps sideways away from friendly visitor, trainer allows space and holds loose hands; no restraint blocking or pressure.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_polite_greetings/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly greets visitor sideways in fenced garden with all four paws on grass while trainer rewards.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -2844,17 +3474,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_cooperative_paw_handling_cover",
+          "dog_cooperative_paw_handling_lesson_01",
+          "dog_cooperative_paw_handling_lesson_02",
+          "dog_cooperative_paw_handling_lesson_03",
+          "dog_cooperative_paw_handling_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog cooperative paw handling positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Relaxed dog voluntarily places ONE front paw in trainer's open hand supported gently LOW near floor; no gripping or force.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog relaxed standing near kneeling trainer, trainer's empty open hand resting LOW on own knee, dog free to leave.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly looks at and sniffs trainer's open LOW hand, ALL four paws grounded; no paw grabbing.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Seated relaxed dog voluntarily resting ONE front paw loosely on trainer's open palm held LOW, no closed grip, other front paw grounded, trainer's other hand offers tiny treat.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_cooperative_paw_handling/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog calmly offering ONE front paw onto open low palm on sage mat in quiet patio, no squeezing nail clipping or restraint.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3037,17 +3712,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_brush_acceptance_cover",
+          "dog_brush_acceptance_lesson_01",
+          "dog_brush_acceptance_lesson_02",
+          "dog_brush_acceptance_lesson_03",
+          "dog_brush_acceptance_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog brush acceptance positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_brush_acceptance/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Trainer gently brushes dog's shoulder with soft brush while dog stands relaxed and accepts tiny food reward; brush never face.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_brush_acceptance/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog stands relaxed on nonslip rug while trainer holds soft brush at comfortable distance away from body, other hand with treat.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_brush_acceptance/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog voluntarily sniffing soft brush held below head at distance, trainer rewards calm investigation without brushing.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_brush_acceptance/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer gently makes one short soft-brush stroke on shoulder while dog stands loose relaxed, other hand offers tiny treat no holding dog.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_brush_acceptance/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Golden Retriever standing relaxed SIDE-ON on a sage nonslip mat on a quiet fenced patio; trainer beside its near shoulder holds one purple soft brush with a FULLY VISIBLE hand wrapped around its handle, bristles gently touching the shoulder; other hand offers tiny reward near nose.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3237,17 +3957,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_carrier_comfort_cover",
+          "dog_carrier_comfort_lesson_01",
+          "dog_carrier_comfort_lesson_02",
+          "dog_carrier_comfort_lesson_03",
+          "dog_carrier_comfort_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog carrier comfort positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog standing fully OUTSIDE beside a very large EMPTY soft-sided travel kennel with WIDE OPEN front flap and sage bedding, no dog body part inside; kennel tall and long enough to stand and turn.",
+          "width": 576,
+          "height": 576
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Very roomy soft-sided carrier with WIDE OPEN zip flap on floor, relaxed dog stands at distance, trainer sits nearby.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog standing fully OUTSIDE sniffing the WIDE OPEN FRONT doorway of an oversized soft-sided travel kennel; all four paws outside, no sidewall intersection, trainer seated calmly away.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "STRAIGHT FRONT VIEW through an oversized soft travel kennel doorway: dog lying FULLY INSIDE on sage bedding, all paws and tail fully inside, ample headroom; trainer outside holding front mesh flap partially lowered but still OPEN, no contact with dog.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_carrier_comfort/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "STRAIGHT FRONT VIEW into oversized soft travel kennel in another quiet room corner, front flap WIDE OPEN, dog comfortably lying FULLY INSIDE with tail curled beside body inside, all paws inside, ample room, trainer nearby at distance.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3431,17 +4196,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_recall_with_distractions_cover",
+          "dog_recall_with_distractions_lesson_01",
+          "dog_recall_with_distractions_lesson_02",
+          "dog_recall_with_distractions_lesson_03",
+          "dog_recall_with_distractions_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog recall with distractions positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog happily approaching trainer on SLACK long line attached to Y harness in fenced garden, one harmless ball far away.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Quiet fenced garden with dog on slack Y-harness long line next to trainer, harmless ball far away outside focus.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Indoor short distance recall: dog approaching kneeling trainer's low reward hand in quiet uncluttered cream room.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog trots toward trainer on clearly SLACK long line attached to Y harness in secure fenced garden, one stationary ball far away, no pulling tangles or collar attachment.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_recall_with_distractions/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog arrives at trainer on slack harness long line in fenced garden with small distant shrub, trainer offers treat for return, no active distracting animals.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3624,17 +4434,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_find_it_game_cover",
+          "dog_find_it_game_lesson_01",
+          "dog_find_it_game_lesson_02",
+          "dog_find_it_game_lesson_03",
+          "dog_find_it_game_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog find it game positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog lowering nose to sniff ONE small visible food reward on clean nonslip sage mat, natural spine and four paws.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Trainer near calm standing dog on clean nonslip rug, one small safe food reward in hand, no clutter.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "ONE small visible food reward on clean rug, dog gently lowers head and nose to find it while trainer watches calmly.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing accessible tiny treats beside LOW open cardboard boxes on floor, no closed traps sharp edges or high surfaces.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_find_it_game/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog sniffing ONE visible small reward on clean nonslip patio mat in fenced garden while trainer calmly watches.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {
@@ -3817,17 +4672,62 @@
         "reviewedByQualifiedExpert": false
       },
       "media": {
-        "imageAssetIds": [],
+        "imageAssetIds": [
+          "dog_spin_trick_cover",
+          "dog_spin_trick_lesson_01",
+          "dog_spin_trick_lesson_02",
+          "dog_spin_trick_lesson_03",
+          "dog_spin_trick_lesson_04"
+        ],
         "imageSearchKeywords": [
           "dog spin trick positive reinforcement training"
         ],
-        "imageStatus": "no_images_available",
-        "format": null,
-        "cover": null,
-        "lessons": [],
-        "license": "original_project_artwork",
+        "imageStatus": "ai_generated_visually_checked_not_expert_reviewed",
+        "format": "png-cover-webp-lessons",
+        "cover": {
+          "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/cover.png",
+          "rasterMimeType": "image/png",
+          "altText": "Dog standing naturally in gentle curved walking posture following tiny lure to SIDE of nose, no contorted spine lifted limbs or motion arrows.",
+          "width": 640,
+          "height": 640
+        },
+        "lessons": [
+          {
+            "lessonId": "lesson_01",
+            "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_01.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog relaxed standing with all four paws on spacious nonslip rug, trainer kneels to side with tiny reward ready.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_02",
+            "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_02.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog STANDING with all four paws grounded on nonslip rug, gently turns head just 15 degrees toward tiny lure at SAME NOSE HEIGHT to one SIDE. Woman kneels beside at comfortable distance; hand lateral to nose, never above head. No sit, no lowered hindquarters, no raised head.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_03",
+            "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_03.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Dog takes gentle shallow curved steps following tiny reward at nose height, body relaxed no extreme twisting, ONE dog no repeated poses or arrows.",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "lessonId": "lesson_04",
+            "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_04.webp",
+            "rasterMimeType": "image/webp",
+            "altText": "Slightly elevated three-quarter view of whole STANDING dog taking ONE SMALL NATURAL curved step on spacious sage nonslip patio mat toward tiny treat held to the SIDE at nose height by kneeling trainer. Only gentle body curvature, no crossing/tangling legs or twisting neck. Quiet fenced patio. No symbols or motion graphics.",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "license": "ai_generated_project_artwork",
         "directStandaloneSvgUrlsAvailable": false,
-        "preferredFormat": null
+        "preferredFormat": "raster"
       },
       "lessonEvidence": [
         {

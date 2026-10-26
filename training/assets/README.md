@@ -1,3 +1,3 @@
 # PawTrack Training Assets
 
-Training SVG artwork was removed from the research branch. Dog and cat asset indexes are empty and template media entries explicitly indicate that no images are available. Training lessons and evidence metadata remain intact. The app should display its standard empty-image state until replacement artwork is integrated.
+Dog training uses hand-drawn raster artwork in dog/handdrawn/<templateId>/: transparent PNG covers and opaque WebP lessons, each below 500,000 bytes. Resolve rasterPath against the repository base URL. See dog/handdrawn/EXPANSION_VALIDATION.md and dog_sit/VALIDATION.md for prompts, checks and limitations. Cat index remains empty. Previous SVG artwork remains removed.
