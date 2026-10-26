@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "format": "png-cover-webp-lessons",
-  "assetCount": 95,
+  "assetCount": 100,
   "assets": [
     {
       "id": "dog_sit_cover",
@@ -140,7 +140,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 446426,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "265137fcf30177b9d5e2aa34fdbee97eea86f722e10da8e35f6dcdc8cdd0c7f8",
       "illustrationOnly": true
     },
     {
@@ -196,7 +196,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 473426,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "84239051ae9cbbd5284efa3be9b651bcff179b2fe47a196c6213a39901b5c0b7",
       "illustrationOnly": true
     },
     {
@@ -406,7 +406,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 260800,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "5ef0ed92e60bbb228c85f640028c6fbc9ec930ac1cd4609f17d12c127c8dced6",
       "illustrationOnly": true
     },
     {
@@ -462,7 +462,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 318030,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "4eec375450f903abc94aff76404f8401975988c3226f584ff27806b7cd6bf204",
       "illustrationOnly": true
     },
     {
@@ -518,7 +518,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 267048,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "bd27b00705d8edba25e44724086fb98d590e4f611ce9a7ba2de425b62f8eee72",
       "illustrationOnly": true
     },
     {
@@ -658,7 +658,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 423486,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "266ad21ca38da6fc0154a966d8b5dc7b6509c486d2b18e27c12c00ae21f597cb",
       "illustrationOnly": true
     },
     {
@@ -686,7 +686,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 430842,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "cba2e2f106a809d18da515035f42d704f125630da929caece5effb36346a0183",
       "illustrationOnly": true
     },
     {
@@ -896,7 +896,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 319352,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "47118e5a9cb4101be224406071acfab0e4e1b2684651235b9c0e81542ac77318",
       "illustrationOnly": true
     },
     {
@@ -1036,7 +1036,7 @@
       "width": 1536,
       "height": 1024,
       "bytes": 416378,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e229da5808eeb3c63d01c948dfd14c47418bf9a12e360974fc5eab4bc1d1536e",
       "illustrationOnly": true
     },
     {
@@ -1064,7 +1064,7 @@
       "width": 640,
       "height": 640,
       "bytes": 492446,
-      "sha256": "ab30b42927a30a16a4b70e385421a9fbdec0eb9751f9195787d1d9380659d717",
+      "sha256": "667924aa03ba85f8d1679712b0a2013af97f30bfefd44dc29f15a92f1aed8453",
       "illustrationOnly": true
     },
     {
@@ -1331,6 +1331,76 @@
       "height": 1024,
       "bytes": 406728,
       "sha256": "f8e7fc0cb8eed9500b33e7198ffbb3e15f15409ade17b1291124e15bfe02292e",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_spin_trick_cover",
+      "templateId": "dog_spin_trick",
+      "lessonId": null,
+      "kind": "cover",
+      "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/cover.png",
+      "rasterMimeType": "image/png",
+      "altText": "Dog standing naturally in gentle curved walking posture following tiny lure to SIDE of nose, no contorted spine lifted limbs or motion arrows.",
+      "width": 640,
+      "height": 640,
+      "bytes": 366745,
+      "sha256": "c2ef15f00445891139e64ac7b0f16c2c0b2f37c9b201a5795752bb290234f64c",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_spin_trick_lesson_01",
+      "templateId": "dog_spin_trick",
+      "lessonId": "lesson_01",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_01.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog relaxed standing with all four paws on spacious nonslip rug, trainer kneels to side with tiny reward ready.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 423052,
+      "sha256": "3c403cae816dcb706c0cd575addac73b6ab765a5679b5b5b6de12808c8e7b68d",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_spin_trick_lesson_02",
+      "templateId": "dog_spin_trick",
+      "lessonId": "lesson_02",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_02.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog STANDING with all four paws grounded on nonslip rug, gently turns head just 15 degrees toward tiny lure at SAME NOSE HEIGHT to one SIDE. Woman kneels beside at comfortable distance; hand lateral to nose, never above head. No sit, no lowered hindquarters, no raised head.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 376004,
+      "sha256": "72870137b6228c895f3e54efd2756cbab254f399f3686793a3cab184b3fd54cc",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_spin_trick_lesson_03",
+      "templateId": "dog_spin_trick",
+      "lessonId": "lesson_03",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_03.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Dog takes gentle shallow curved steps following tiny reward at nose height, body relaxed no extreme twisting, ONE dog no repeated poses or arrows.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 375992,
+      "sha256": "8c9c4a6b2d5329af0c334c6b97a574fde685a1215d1a934e956d0b7d67b43473",
+      "illustrationOnly": true
+    },
+    {
+      "id": "dog_spin_trick_lesson_04",
+      "templateId": "dog_spin_trick",
+      "lessonId": "lesson_04",
+      "kind": "lesson",
+      "rasterPath": "training/assets/dog/handdrawn/dog_spin_trick/lesson_04.webp",
+      "rasterMimeType": "image/webp",
+      "altText": "Slightly elevated three-quarter view of whole STANDING dog taking ONE SMALL NATURAL curved step on spacious sage nonslip patio mat toward tiny treat held to the SIDE at nose height by kneeling trainer. Only gentle body curvature, no crossing/tangling legs or twisting neck. Quiet fenced patio. No symbols or motion graphics.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 432778,
+      "sha256": "2af5fe5ef505a91ec07ca4ed9f8d088bc235aaf1095c7c70add16b630db8dd01",
       "illustrationOnly": true
     }
   ]
