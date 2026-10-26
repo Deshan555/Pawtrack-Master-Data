@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 10,
-  "releaseId": "2026-10-25.1",
-  "updatedAt": "2026-10-25T09:00:00Z",
+  "dataVersion": 11,
+  "releaseId": "2026-10-26.1",
+  "updatedAt": "2026-10-26T05:35:52Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -152,8 +152,8 @@
     },
     {
       "path": "training/templates/cat.json",
-      "sha256": "03f3a90a0422c339739509dfa30b130020ffa610a8a04fac6bf28dd25afa9655",
-      "bytes": 119850
+      "sha256": "81945ed066a41d0b7fafaba58fab5bf0aafb31c4ba4a2df17f519ca787e7d762",
+      "bytes": 154019
     },
     {
       "path": "training/templates/bird.json",
@@ -217,8 +217,8 @@
     },
     {
       "path": "training/assets/cat/index.json",
-      "sha256": "41e92d880f84c3a8d6269ca7a2b59660f8e32efbd7d06bb34bbc37324a1ba23b",
-      "bytes": 78
+      "sha256": "a649be69ca85d1aeb1add8db8390f5cd626cf6e7f4e0fc0381a345dfc681949c",
+      "bytes": 46150
     },
     {
       "path": "training/assets/dog/index.json",
