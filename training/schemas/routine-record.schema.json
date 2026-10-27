@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PawTrack private pet routine v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "routineId",
+    "ownerId",
+    "petId",
+    "templateIds",
+    "enabled",
+    "timeZone",
+    "weekdays",
+    "localTime",
+    "createdAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "routineId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ownerId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "petId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "templateIds": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "timeZone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "weekdays": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 7
+      },
+      "description": "ISO weekdays: Monday=1 through Sunday=7. Empty means unscheduled."
+    },
+    "localTime": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -24,3 +24,9 @@ jobs:
 
       - name: Validate JSON and checksums
         run: python scripts/validate_manifest.py
+
+      - name: Validate evaluation and engagement contracts
+        run: python scripts/validate_training_evaluation.py
+
+      - name: Test evaluation behavior
+        run: python scripts/test_training_evaluation.py

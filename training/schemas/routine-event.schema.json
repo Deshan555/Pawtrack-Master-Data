@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PawTrack private routine-event v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "eventId",
+    "routineId",
+    "ownerId",
+    "petId",
+    "localDate",
+    "timeZone",
+    "status",
+    "sessionIds"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "eventId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "routineId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ownerId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "petId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "localDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "timeZone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "rest",
+        "skipped"
+      ]
+    },
+    "sessionIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "completed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "sessionIds": {
+            "minItems": 1
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "sessionIds": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

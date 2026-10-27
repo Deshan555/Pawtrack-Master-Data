@@ -3,7 +3,7 @@
 Offline-first species and breed/classification seed data for 12 PawTrack animal groups. This is a **curated starter catalog, not an exhaustive or veterinary-authoritative taxonomy**. Review classifications before production release.
 
 ## Files
-- `manifest.json` — release metadata and SHA-256 checksums for the 13 data files.
+- `manifest.json` — release metadata and SHA-256 checksums for all versioned data files.
 - `species/species.json` — 12 species/category definitions, SVG paths, UI labels.
 - `breeds/*.json` — one catalog per animal group.
 
