@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "dataVersion": 14,
   "releaseId": "2026-10-27.2",
-  "updatedAt": "2026-10-27T08:41:35Z",
+  "updatedAt": "2026-10-27T08:44:43Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -254,11 +254,6 @@
       "path": "training/schemas/routine-record.schema.json",
       "bytes": 1385,
       "sha256": "3a36be465fa7be4383f6fa7ce30e19f176e8bc41a384b03d3ffd9793e9a912e0"
-    },
-    {
-      "path": "training/schemas/session-record-v1.schema.json",
-      "sha256": "3816117872351ff487930853466e3713c8930b2a5d7ccd2b1c21a4270c3196e4",
-      "bytes": 1890
     },
     {
       "path": "training/schemas/session-record.schema.json",
