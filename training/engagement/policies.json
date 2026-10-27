@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 1,
+  "policyVersion": 2,
   "rewards": [
     {
       "id": "practice_xp_v1",
@@ -33,7 +33,11 @@
       "awardAuthority": "trusted_application_transaction",
       "badgeIds": [
         "first_practice_log",
-        "steady_week"
+        "steady_week",
+        "practice_partner",
+        "growing_together",
+        "routine_starter",
+        "routine_companion"
       ],
       "ledgerRecordSchemaPath": "training/schemas/reward-ledger.schema.json",
       "sessionAwardUniquenessFields": [
@@ -63,6 +67,54 @@
         "type": "distinct_practice_days",
         "minimum": 3,
         "windowDays": 7
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "practice_partner",
+      "title": "Practice Partner",
+      "rule": {
+        "type": "distinct_practice_days",
+        "minimum": 10,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "growing_together",
+      "title": "Growing Together",
+      "rule": {
+        "type": "distinct_practice_days",
+        "minimum": 30,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "routine_starter",
+      "title": "Routine Starter",
+      "rule": {
+        "type": "distinct_routine_practice_days",
+        "minimum": 1,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "routine_companion",
+      "title": "Routine Companion",
+      "rule": {
+        "type": "distinct_routine_practice_days",
+        "minimum": 7,
+        "period": "all_time"
       },
       "extraXp": 0,
       "scope": "owner_pet",
@@ -127,5 +179,34 @@
       },
       "publishMethod": "platform_share_sheet"
     }
-  ]
+  ],
+  "badgeEvaluation": {
+    "version": 1,
+    "practiceDaySource": "reward_ledger_entries_with_positive_xp",
+    "routineDaySource": "positive_xp_session_linked_to_valid_completed_routine_occurrence",
+    "dateField": "localRewardDate",
+    "scope": "owner_pet",
+    "deduplicateBy": "local_calendar_date",
+    "routineAggregation": "across_all_routines",
+    "requiresConsecutiveDays": false,
+    "restOrSkippedPenalty": 0,
+    "recheckOn": [
+      "session_accepted",
+      "routine_session_linked"
+    ],
+    "retroactiveEvaluation": "evaluate_existing_valid_history_without_reissuing_xp",
+    "awardUniquenessFields": [
+      "ownerId",
+      "petId",
+      "badgeId"
+    ],
+    "awardTransaction": "atomically_attach_new_badge_ids_to_triggering_session_ledger_entry",
+    "routineLinkMustMatch": [
+      "ownerId",
+      "petId",
+      "sessionId",
+      "templateId_in_routine"
+    ],
+    "unknownRuleBehavior": "disable_badge_award_and_show_recoverable_error"
+  }
 }

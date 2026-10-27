@@ -22,6 +22,15 @@ def check():
   for rule in p['validationRules']:assert rule['type']=='require_value_when' and rule['fieldId'] in ids and rule['when']['fieldId'] in ids
   if s['type']=='independent_success_rate':assert s['numeratorValues']==['independent'] and s['denominatorValues']==['independent','assisted','not_yet'] and s['zeroDenominator']=='null' and s['scale']==100
   else:assert s['type'] in ['duration_summary','milestone_summary','observation_summary'] and s['score']=='null'
+ assert policies['policyVersion']==2
+ assert len(policies['badges'])==6 and len({b['id'] for b in policies['badges']})==6
+ for b in policies['badges']:
+  assert b['extraXp']==0 and b['scope']=='owner_pet' and b['awardOnce']
+  assert b['rule']['type'] in ['eligible_session_count','distinct_practice_days','distinct_routine_practice_days'] and b['rule']['minimum']>0
+ assert policies['badgeEvaluation']['practiceDaySource']=='reward_ledger_entries_with_positive_xp'
+ assert policies['badgeEvaluation']['requiresConsecutiveDays'] is False
+ ledger=read('training/schemas/reward-ledger.schema.json')
+ assert set(ledger['properties']['badgeIds']['items']['enum'])=={b['id'] for b in policies['badges']}
  reward={p['id']:p for p in policies['rewards']};routines={p['id']:p for p in policies['routines']};sharing={p['id']:p for p in policies['sharing']};badges={p['id'] for p in policies['badges']}
  for r in reward.values():assert not r['performanceScoreAffectsXp'] and r['stoppedSessionPenalty']==0 and r['xpPerEligibleSession']==10 and set(r['badgeIds'])<=badges and r['cap']['maxRewardedSessionsPerRolling24Hours']==1 and r['cap']['maxRewardedSessions']==1
  for s in sharing.values():assert s['requiresExplicitUserAction'] and s['requiresPreview'] and not s['autoPost'] and not set(s['allowedFields'])&set(s['excludedFields']) and not s['claims']['allowAutomaticMasteryClaim']

@@ -106,7 +106,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -264,17 +264,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -388,7 +388,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -551,17 +551,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -668,7 +668,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -826,17 +826,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -943,7 +943,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -1101,17 +1101,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -1219,7 +1219,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -1377,17 +1377,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -1494,7 +1494,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -1652,17 +1652,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -1769,7 +1769,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -1927,17 +1927,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -2044,7 +2044,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -2202,17 +2202,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -2319,7 +2319,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -2477,17 +2477,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -2594,7 +2594,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -2752,17 +2752,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -2870,7 +2870,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -3028,17 +3028,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -3145,7 +3145,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -3303,17 +3303,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -3420,7 +3420,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -3578,17 +3578,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -3695,7 +3695,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -3853,17 +3853,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -3970,7 +3970,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -4128,17 +4128,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -4245,7 +4245,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -4403,17 +4403,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -4527,7 +4527,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -4685,17 +4685,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -4803,7 +4803,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -4961,17 +4961,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -5078,7 +5078,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -5236,17 +5236,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -5353,7 +5353,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 5,
         "suggestedMaxMinutes": 10,
-        "evidenceBasis": "Dogs Trust general guidance: 5–10 minute training sessions. Not a hard cap.",
+        "evidenceBasis": "Dogs Trust general guidance: 5\u201310 minute training sessions. Not a hard cap.",
         "evidenceSourceIds": [
           "DOG_GENERAL"
         ],
@@ -5511,17 +5511,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     }
   ]

@@ -136,17 +136,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -283,17 +283,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     },
     {
@@ -430,17 +430,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 2
       }
     }
   ]

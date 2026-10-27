@@ -41,7 +41,10 @@
       "const": "practice_xp_v1"
     },
     "policyVersion": {
-      "const": 1
+      "enum": [
+        1,
+        2
+      ]
     },
     "acceptedAt": {
       "type": "string",
@@ -67,7 +70,11 @@
       "items": {
         "enum": [
           "first_practice_log",
-          "steady_week"
+          "steady_week",
+          "practice_partner",
+          "growing_together",
+          "routine_starter",
+          "routine_companion"
         ]
       }
     }
