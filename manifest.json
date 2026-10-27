@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 15,
-  "releaseId": "2026-10-27.3",
-  "updatedAt": "2026-10-27T09:24:42Z",
+  "dataVersion": 16,
+  "releaseId": "2026-10-27.4",
+  "updatedAt": "2026-10-27T09:33:44Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "training/engagement/policies.json",
-      "bytes": 5581,
-      "sha256": "6b40904a15bd8e677f2840682e78da5be71f2788ef52c12e71fa9f74e3ce8b54"
+      "bytes": 7618,
+      "sha256": "961d627937850ff5af03cbe3d8cabd4fa3dae1554426c7e7d03fbebf0483fe90"
     },
     {
       "path": "training/evaluation/profiles.json",
@@ -242,8 +242,8 @@
     },
     {
       "path": "training/schemas/reward-ledger.schema.json",
-      "bytes": 1493,
-      "sha256": "067774ebad83d5a7fda49aac69738a2e6e2489b844227d5a26554f6b0fe9aa34"
+      "bytes": 1504,
+      "sha256": "c5a6545370863df7d015fabe5f7eed0e3e82c707cade9245f58183b795fc72f6"
     },
     {
       "path": "training/schemas/routine-event.schema.json",
@@ -262,62 +262,62 @@
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "4718bf64407a36a9a7261d027406cabd1160c7d2b3cf6176111e7e975a85fb1e",
+      "sha256": "8c79c42f9b53d23624bf953eea1adda1452b761f9993b83f7c19ef17da9ba2ee",
       "bytes": 67120
     },
     {
       "path": "training/templates/cat.json",
-      "sha256": "a24e5d0395080fc070460d0fa289d691a8b47db435691adc1ac9cdf7dde7751c",
+      "sha256": "0ab863f77d5cd5959834e2f67935e3b3196888b9977238fda679134bf16c38fd",
       "bytes": 172663
     },
     {
       "path": "training/templates/cow.json",
-      "sha256": "7419e90c0a2c013216955d046549701b2ba43f2b5a8c0765c3bc8388c89ea108",
+      "sha256": "d1f4fac4327a60957995c99330d064fd9a56a101bbd6a9efcd9a8a6b5d21f907",
       "bytes": 39184
     },
     {
       "path": "training/templates/dog.json",
-      "sha256": "f8ebf3d957011cfe7abdd7d1f93f01c65ed9862ebc9e7cbcfe58aa92f8096d3d",
+      "sha256": "f2349ca269b42b3394ff3b6358ed4bead6dca2455e28f343c4067c383c5cf947",
       "bytes": 222841
     },
     {
       "path": "training/templates/fish.json",
-      "sha256": "a7c15fc413561f98b7ef68718c4198089183ed4d0f2a7069a829b1051850e753",
+      "sha256": "f401059bca5059020c706d770c8820b92f3b7996de98bc2cc298f1e82954f2b9",
       "bytes": 28841
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "39259b1905a9db121bdcade3b303364e9a8e0b5a339a093f01eb65ce661046a5",
+      "sha256": "e8f76ba5107fe701d932a9a462c1c5e86b37b603d7e5bf7c5e0199db1393f3b6",
       "bytes": 67686
     },
     {
       "path": "training/templates/other.json",
-      "sha256": "9d7e4f433d5124029bd770edbb7667a7bdea098d4cd10cf64b34e328b2469163",
+      "sha256": "eaf89b1343e4bfe6ad41f8f410dd90daf5a5684a9100baf28ec8df3005accc01",
       "bytes": 11997
     },
     {
       "path": "training/templates/pig.json",
-      "sha256": "7a3c23f4f91eaaf2c57a8235050519f61ddfae2401144c36e10d900c8949e1ee",
+      "sha256": "23d85efc1dc96dd7e5530f5060c22d03f440a5b9cf923f2f8a84504d21bd54ec",
       "bytes": 39150
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "a91ba016cd453beb2d9dd2dbd47e0d2ba95a3e423b3dfb33797d964a1f2ac8c2",
+      "sha256": "cc31450228fc2f1250d0f5cfca2ad879502ca8c753b7d4235efebca5c89a01c0",
       "bytes": 49841
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "36c4f060ac63a5a7624715d350b00a5440c05713a4e254a668620279179ed6d9",
+      "sha256": "197dd29ff6b01e7b6a34976fac8f74a49e47cfb1cb28fc1ebc20c46ab9b306a5",
       "bytes": 34132
     },
     {
       "path": "training/templates/snake.json",
-      "sha256": "23f5586d23034a0797510ffbd68520778e3e95196fd1d60288296afdfbbd1905",
+      "sha256": "f6523b5c0ab0f51d91cbabb317533c3f3b80a832913774bee76766b4e5c797c8",
       "bytes": 17355
     },
     {
       "path": "training/templates/spider.json",
-      "sha256": "79580978f23762a201b56c3ed5b970c6e848e39e04d221ee6ba46ce4d70393ff",
+      "sha256": "4c443f87781d664a8120137c3898cec7e3d49563bf9e9f63a36a98ed5f81c307",
       "bytes": 11982
     }
   ]

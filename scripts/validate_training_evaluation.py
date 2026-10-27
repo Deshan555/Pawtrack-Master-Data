@@ -22,7 +22,12 @@ def check():
   for rule in p['validationRules']:assert rule['type']=='require_value_when' and rule['fieldId'] in ids and rule['when']['fieldId'] in ids
   if s['type']=='independent_success_rate':assert s['numeratorValues']==['independent'] and s['denominatorValues']==['independent','assisted','not_yet'] and s['zeroDenominator']=='null' and s['scale']==100
   else:assert s['type'] in ['duration_summary','milestone_summary','observation_summary'] and s['score']=='null'
- assert policies['policyVersion']==2
+ assert policies['policyVersion']==3
+ ranks=policies['ranks']
+ assert [x['minimumTotalXp'] for x in ranks]==[0,50,150,350,700,1200]
+ assert [x['order'] for x in ranks]==list(range(6)) and len({x['id'] for x in ranks})==6
+ assert [x['tier'] for x in ranks]==['starter','bronze','silver','gold','platinum','diamond']
+ rp=policies['rankProgression'];assert rp['schemaVersion']==1 and rp['scope']=='owner_pet' and rp['extraXpOnUpgrade']==0 and rp['includeAllPolicyVersions'] and rp['inactivityXpDeduction']==0 and rp['restOrSkippedPenalty']==0
  assert len(policies['badges'])==6 and len({b['id'] for b in policies['badges']})==6
  for b in policies['badges']:
   assert b['extraXp']==0 and b['scope']=='owner_pet' and b['awardOnce']

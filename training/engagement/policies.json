@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 2,
+  "policyVersion": 3,
   "rewards": [
     {
       "id": "practice_xp_v1",
@@ -45,7 +45,8 @@
         "sessionId"
       ],
       "sessionEditsCanAwardAgain": false,
-      "policyUpgradeCanReaward": false
+      "policyUpgradeCanReaward": false,
+      "rankProgressionPath": "rankProgression"
     }
   ],
   "badges": [
@@ -208,5 +209,87 @@
       "templateId_in_routine"
     ],
     "unknownRuleBehavior": "disable_badge_award_and_show_recoverable_error"
+  },
+  "ranks": [
+    {
+      "id": "little_explorer",
+      "tier": "starter",
+      "title": "Little Explorer",
+      "minimumTotalXp": 0,
+      "order": 0
+    },
+    {
+      "id": "budding_buddy",
+      "tier": "bronze",
+      "title": "Budding Buddy",
+      "minimumTotalXp": 50,
+      "order": 1
+    },
+    {
+      "id": "clever_companion",
+      "tier": "silver",
+      "title": "Clever Companion",
+      "minimumTotalXp": 150,
+      "order": 2
+    },
+    {
+      "id": "super_pet",
+      "tier": "gold",
+      "title": "Super Pet",
+      "minimumTotalXp": 350,
+      "order": 3
+    },
+    {
+      "id": "paw_hero",
+      "tier": "platinum",
+      "title": "Paw Hero",
+      "minimumTotalXp": 700,
+      "order": 4
+    },
+    {
+      "id": "paw_legend",
+      "tier": "diamond",
+      "title": "Paw Legend",
+      "minimumTotalXp": 1200,
+      "order": 5
+    }
+  ],
+  "rankProgression": {
+    "schemaVersion": 1,
+    "scope": "owner_pet",
+    "xpSource": "sum_persisted_reward_ledger_xpAwarded",
+    "includeAllPolicyVersions": true,
+    "deduplicateBy": [
+      "ownerId",
+      "sessionId"
+    ],
+    "selection": "highest_minimumTotalXp_not_exceeding_totalXp",
+    "nextRank": "next_order_or_null_at_maximum",
+    "progressMetric": "xp_within_current_tier",
+    "progressFormula": "(totalXp-current.minimumTotalXp)/(next.minimumTotalXp-current.minimumTotalXp)",
+    "progressRange": [
+      0,
+      1
+    ],
+    "maximumRankProgress": 1,
+    "maximumRankRemainingXp": 0,
+    "extraXpOnUpgrade": 0,
+    "requiresConsecutiveDays": false,
+    "inactivityXpDeduction": 0,
+    "restOrSkippedPenalty": 0,
+    "sessionDeletionChangesXp": false,
+    "recomputeOn": [
+      "reward_ledger_updated",
+      "backup_restored",
+      "policy_activated"
+    ],
+    "notAnAssessmentOf": [
+      "intelligence",
+      "obedience",
+      "health",
+      "mastery"
+    ],
+    "displayLabel": "Practice journey rank",
+    "unknownVersionBehavior": "disable_rank_display_and_show_recoverable_error"
   }
 }
