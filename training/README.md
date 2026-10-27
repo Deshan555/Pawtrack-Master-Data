@@ -14,3 +14,5 @@ The 65 templates outside dog/cat retain their existing single lesson and instruc
 Every template now declares `evaluation`, `rewards`, `routine`, and `sharing`. Existing template schemaVersion 2 and catalog schemaVersion 1 remain unchanged because existing fields are preserved. The new nested evaluation contract has its own schemaVersion 1. Strict clients must add support before enabling these features. Image paths and all existing training/evidence metadata are preserved.
 
 See [EVALUATION_CONTRACT.md](EVALUATION_CONTRACT.md) for the renderer contract, formulas, reward caps, routine records, sharing and private record schemas. Load `evaluation.profileRegistryPath` and the policy paths through manifest-verified files. User records and reward balances belong in the application database, never this public repository.
+
+Evaluation v2 uses one `evaluation.form` per exercise session, not `lessonForms`. Lessons are guidance only. See EVALUATION_CONTRACT.md for the breaking migration and historical v1 record schema.

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 13,
-  "releaseId": "2026-10-27.1",
-  "updatedAt": "2026-10-27T03:25:37Z",
+  "dataVersion": 14,
+  "releaseId": "2026-10-27.2",
+  "updatedAt": "2026-10-27T08:41:35Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -126,9 +126,9 @@
       "bytes": 293
     },
     {
-      "path": "species/species.json",
-      "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
-      "bytes": 3112
+      "path": "nutrition/dog_cat_guidance.json",
+      "sha256": "b9731a4bdc3c62e7805bd49855efa2ab53199fdc080a5c97fd3fd247988216a8",
+      "bytes": 7873
     },
     {
       "path": "nutrition/meal_templates.json",
@@ -136,109 +136,9 @@
       "bytes": 8647
     },
     {
-      "path": "nutrition/dog_cat_guidance.json",
-      "sha256": "b9731a4bdc3c62e7805bd49855efa2ab53199fdc080a5c97fd3fd247988216a8",
-      "bytes": 7873
-    },
-    {
-      "path": "training/categories.json",
-      "sha256": "28d282837ba966978095eef1b8de14564843e4f57e19f20feb68e8357425cc2c",
-      "bytes": 569
-    },
-    {
-      "path": "training/templates/dog.json",
-      "sha256": "36215970dc6d190ff881a27ac8f81f19938943e4748df0f4b9de0eb84ed27a1f",
-      "bytes": 245603
-    },
-    {
-      "path": "training/templates/cat.json",
-      "sha256": "37324403d508f711c1650991b5a74918a32e70a233c08f27cd3c0eccb59a67fc",
-      "bytes": 189923
-    },
-    {
-      "path": "training/templates/bird.json",
-      "sha256": "ad2d9909137d1488a04225656d4121b3dfebc6fc578c308134197f1d99e4eeaf",
-      "bytes": 68440
-    },
-    {
-      "path": "training/templates/horse.json",
-      "sha256": "c1a45ed4b01fd8bd00274a2c280c1bc83884294ae98e8ea8be591946d80b3743",
-      "bytes": 69006
-    },
-    {
-      "path": "training/templates/rabbit.json",
-      "sha256": "3926654cffc50fd462b41bcecf3da1b202af4d27a493b5cf5676fdb15e675183",
-      "bytes": 50831
-    },
-    {
-      "path": "training/templates/cow.json",
-      "sha256": "38041bd2088314bc1d5ed09af495b8c29296962aa5f61053662bd5f2199c9925",
-      "bytes": 39954
-    },
-    {
-      "path": "training/templates/pig.json",
-      "sha256": "3ed5d4d6030cf495f386f80427c511067d816b0af244c945c791fb8a13ac7059",
-      "bytes": 39920
-    },
-    {
-      "path": "training/templates/rodent.json",
-      "sha256": "de3c0ea97382ff1a91405c2bbd9d25006d3c70eb63792f8e97caae10b95914e8",
-      "bytes": 34792
-    },
-    {
-      "path": "training/templates/fish.json",
-      "sha256": "6397a99615d818645cb9fea4308f60a3fde2c53e0b278c9e7fa52d2eb1059626",
-      "bytes": 29391
-    },
-    {
-      "path": "training/templates/snake.json",
-      "sha256": "838f57731cddf125d3118584d2782bbe894a99e0e2b3e4c71c4f7b4d0b5edae3",
-      "bytes": 17685
-    },
-    {
-      "path": "training/templates/spider.json",
-      "sha256": "c4f93c1d414c171e07c4a1e318015b5bb635193b7801b2d9b0115d33f5fcdda0",
-      "bytes": 12202
-    },
-    {
-      "path": "training/templates/other.json",
-      "sha256": "02e6140b3fef9e72cb424464e9706656c7f77b304f86ed3f4fc7e90b40e93bd2",
-      "bytes": 12217
-    },
-    {
-      "path": "training/programs/beginner.json",
-      "sha256": "ea898b113d3c3de18be0a35b3a152d2c6d8e3d7255af3cc7403508ac17070ad0",
-      "bytes": 432
-    },
-    {
-      "path": "training/programs/enrichment.json",
-      "sha256": "9ff54b93730ab38907ed6281f5abcaa06345975e7126771a702d5119d46ebd7d",
-      "bytes": 1219
-    },
-    {
-      "path": "training/assets/cat/index.json",
-      "sha256": "a649be69ca85d1aeb1add8db8390f5cd626cf6e7f4e0fc0381a345dfc681949c",
-      "bytes": 46150
-    },
-    {
-      "path": "training/assets/dog/index.json",
-      "sha256": "ae30e7de451b7c7e07c38c99df2957ec0beceb04ae743bf4a398fa76543e9449",
-      "bytes": 60643
-    },
-    {
-      "path": "training/research/dog_cat_evidence_audit.json",
-      "sha256": "8f0876e69813796bf34254a19c4358e9ba1935e9ed08d6017198a0aca784a5bd",
-      "bytes": 4688
-    },
-    {
-      "path": "training/research/evidence_registry.json",
-      "sha256": "38caa6b119b0d8798d5b40d13b85ea4716679afa6fda457f7731a0aa8ff1d085",
-      "bytes": 3869
-    },
-    {
-      "path": "training/research/image_assets.json",
-      "sha256": "4a0fce58ea8ed7f0f9569df67823183998fca17db038e1ad34014f6adcb7b4fa",
-      "bytes": 990
+      "path": "species/species.json",
+      "sha256": "0af701b7938a55b7b6028fc84d7ffd6b6e30856fa285488e5dcf53f285565940",
+      "bytes": 3112
     },
     {
       "path": "training/assets/bird/index.json",
@@ -246,9 +146,19 @@
       "sha256": "0eb2e47557f4a691622ca1bcb1ffc261154593771b0ac843d4e261b4c7514850"
     },
     {
+      "path": "training/assets/cat/index.json",
+      "sha256": "a649be69ca85d1aeb1add8db8390f5cd626cf6e7f4e0fc0381a345dfc681949c",
+      "bytes": 46150
+    },
+    {
       "path": "training/assets/cow/index.json",
       "bytes": 9137,
       "sha256": "500cbaf98a1f498933673cff55654b04bb4377535225a0b7022f83c0d5b287b6"
+    },
+    {
+      "path": "training/assets/dog/index.json",
+      "sha256": "ae30e7de451b7c7e07c38c99df2957ec0beceb04ae743bf4a398fa76543e9449",
+      "bytes": 60643
     },
     {
       "path": "training/assets/fish/index.json",
@@ -291,6 +201,11 @@
       "sha256": "9e3fba810cbc0484e6b544e9a8fd75bc77d56f48368556d98a01986d944be204"
     },
     {
+      "path": "training/categories.json",
+      "sha256": "28d282837ba966978095eef1b8de14564843e4f57e19f20feb68e8357425cc2c",
+      "bytes": 569
+    },
+    {
       "path": "training/engagement/policies.json",
       "bytes": 3400,
       "sha256": "a524e111dedc84e545804374766d07eebbea76a8101b1eae5f7aa96d1172a1f9"
@@ -301,14 +216,29 @@
       "sha256": "c526b3c92c25b5abd3d99d8696a42ee3a33a4d5ab93528e540604d1603943d17"
     },
     {
-      "path": "training/schemas/routine-record.schema.json",
-      "bytes": 1385,
-      "sha256": "3a36be465fa7be4383f6fa7ce30e19f176e8bc41a384b03d3ffd9793e9a912e0"
+      "path": "training/programs/beginner.json",
+      "sha256": "ea898b113d3c3de18be0a35b3a152d2c6d8e3d7255af3cc7403508ac17070ad0",
+      "bytes": 432
     },
     {
-      "path": "training/schemas/session-record.schema.json",
-      "bytes": 1890,
-      "sha256": "3816117872351ff487930853466e3713c8930b2a5d7ccd2b1c21a4270c3196e4"
+      "path": "training/programs/enrichment.json",
+      "sha256": "9ff54b93730ab38907ed6281f5abcaa06345975e7126771a702d5119d46ebd7d",
+      "bytes": 1219
+    },
+    {
+      "path": "training/research/dog_cat_evidence_audit.json",
+      "sha256": "8f0876e69813796bf34254a19c4358e9ba1935e9ed08d6017198a0aca784a5bd",
+      "bytes": 4688
+    },
+    {
+      "path": "training/research/evidence_registry.json",
+      "sha256": "38caa6b119b0d8798d5b40d13b85ea4716679afa6fda457f7731a0aa8ff1d085",
+      "bytes": 3869
+    },
+    {
+      "path": "training/research/image_assets.json",
+      "sha256": "4a0fce58ea8ed7f0f9569df67823183998fca17db038e1ad34014f6adcb7b4fa",
+      "bytes": 990
     },
     {
       "path": "training/schemas/reward-ledger.schema.json",
@@ -319,6 +249,81 @@
       "path": "training/schemas/routine-event.schema.json",
       "bytes": 1490,
       "sha256": "dca0f91b28e2e8c991b6074607dc8d54375154d8962683b68cc16d0e0a81654d"
+    },
+    {
+      "path": "training/schemas/routine-record.schema.json",
+      "bytes": 1385,
+      "sha256": "3a36be465fa7be4383f6fa7ce30e19f176e8bc41a384b03d3ffd9793e9a912e0"
+    },
+    {
+      "path": "training/schemas/session-record-v1.schema.json",
+      "sha256": "3816117872351ff487930853466e3713c8930b2a5d7ccd2b1c21a4270c3196e4",
+      "bytes": 1890
+    },
+    {
+      "path": "training/schemas/session-record.schema.json",
+      "bytes": 2111,
+      "sha256": "eefa6232440ca8039d0b0dc9f9eff580d75e1d9f23c56b986437614ac654731d"
+    },
+    {
+      "path": "training/templates/bird.json",
+      "sha256": "bb20364079ce0a457bcc25fc9f7a703c309dd7bc30ef8b445634576210fa64d3",
+      "bytes": 67120
+    },
+    {
+      "path": "training/templates/cat.json",
+      "sha256": "91726e771c9cbb315cb00ad572f4c1eb85dbdd93db3e86a48c952fedcf4d790f",
+      "bytes": 172618
+    },
+    {
+      "path": "training/templates/cow.json",
+      "sha256": "93f216f53a97d89f3f9d07d680d5c8e2c777e0a9aca9a16016c52d1135737fa7",
+      "bytes": 39184
+    },
+    {
+      "path": "training/templates/dog.json",
+      "sha256": "4005195070b020e10ddc1fd2fd08f46591425b68c39a050a58cb19f964149723",
+      "bytes": 222781
+    },
+    {
+      "path": "training/templates/fish.json",
+      "sha256": "db09c554b72463a09499072af3211ca246fbf708507763b4783abbbd247ccfc1",
+      "bytes": 28841
+    },
+    {
+      "path": "training/templates/horse.json",
+      "sha256": "9f4aea14edf1da0ba5915b3e2618eba16e556b412c6f2f05c28c40f1bcea0e2f",
+      "bytes": 67686
+    },
+    {
+      "path": "training/templates/other.json",
+      "sha256": "688f45f3021f3f22dc9a97f0299f494c521bd3683cb3e90bdeb21b9b5be00605",
+      "bytes": 11997
+    },
+    {
+      "path": "training/templates/pig.json",
+      "sha256": "264364f4fec8fe683783cddba9d923f99ed0c7a2f20a89f15adc7e0167c8f1f5",
+      "bytes": 39150
+    },
+    {
+      "path": "training/templates/rabbit.json",
+      "sha256": "bbb39bf123285524df48cd718a235de3814358db2d55f6da7b98d2b583798848",
+      "bytes": 49841
+    },
+    {
+      "path": "training/templates/rodent.json",
+      "sha256": "e16a006c44892ddea68fcc82ef19a9e2a9ac6b102ff52f5b38bd18dff6ba5366",
+      "bytes": 34132
+    },
+    {
+      "path": "training/templates/snake.json",
+      "sha256": "e559ca5cce1a85a68787820239de949e2f8224e2e981ec60bfc1c3fc640a86cc",
+      "bytes": 17355
+    },
+    {
+      "path": "training/templates/spider.json",
+      "sha256": "c1e0ab8d0e46fb8f65f0ee63995730606fca692c05d9d383bfe6ebcdd8f5acd3",
+      "bytes": 11982
     }
   ]
 }

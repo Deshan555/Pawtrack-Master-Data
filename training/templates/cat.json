@@ -247,63 +247,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Litter Box Habits",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Litter Box Habits",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Litter Box Habits",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Litter Box Habits",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Litter Box Habits",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -566,63 +529,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Scratching Post Use",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Scratching Post Use",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Scratching Post Use",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Scratching Post Use",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Scratching Post Use",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -890,63 +816,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Name Response",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Name Response",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Name Response",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Name Response",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Name Response",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -1214,63 +1103,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Come When Called",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Come When Called",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Come When Called",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Come When Called",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Come When Called",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -1545,63 +1397,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Carrier Comfort",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Carrier Comfort",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Carrier Comfort",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Carrier Comfort",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Carrier Comfort",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -1876,63 +1691,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Hand Target",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Hand Target",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Hand Target",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Hand Target",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Hand Target",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -2207,63 +1985,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Clicker Introduction",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Clicker Introduction",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Clicker Introduction",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Clicker Introduction",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Clicker Introduction",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -2519,63 +2260,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Harness Familiarity",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Harness Familiarity",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Harness Familiarity",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Harness Familiarity",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Harness Familiarity",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -2831,63 +2535,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Gentle Brushing",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Gentle Brushing",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Gentle Brushing",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Gentle Brushing",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Gentle Brushing",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -3144,63 +2811,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Nail Care Cooperation",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Nail Care Cooperation",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Nail Care Cooperation",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Nail Care Cooperation",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Nail Care Cooperation",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -3456,63 +3086,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Puzzle Feeder Exploration",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Puzzle Feeder Exploration",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Puzzle Feeder Exploration",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Puzzle Feeder Exploration",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Puzzle Feeder Exploration",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -3768,63 +3361,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Perch Recall",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Perch Recall",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Perch Recall",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Perch Recall",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Perch Recall",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -4085,63 +3641,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Station on Mat",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "duration_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Station on Mat",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "duration_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Station on Mat",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "duration_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Station on Mat",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "duration_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Station on Mat",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -4405,63 +3924,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Voluntary Vet Handling",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Voluntary Vet Handling",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Voluntary Vet Handling",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "milestone_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Voluntary Vet Handling",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "milestone_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Voluntary Vet Handling",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -4717,63 +4199,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Toy Retrieval",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_02",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Toy Retrieval",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_02",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_03",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Toy Retrieval",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_03",
-              "field": "successCriteria"
-            }
-          },
-          {
-            "lessonId": "lesson_04",
-            "profileId": "attempt_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Toy Retrieval",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_04",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "attempt_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Toy Retrieval",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",

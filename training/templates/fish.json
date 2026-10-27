@@ -112,30 +112,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Feeding Cue",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "observation_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Feeding Cue",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -263,30 +259,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Target Following",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "observation_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Target Following",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -414,30 +406,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Station at Feeding Area",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "observation_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Station at Feeding Area",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -565,30 +553,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Enrichment Object Exploration",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "observation_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Enrichment Object Exploration",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
@@ -716,30 +700,26 @@
         "rule": "Advance only when the individual pet is comfortable and the behavior is repeatable; no arbitrary 80% pass requirement."
       },
       "evaluation": {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "source": "user_reported",
         "profileRegistryPath": "training/evaluation/profiles.json",
         "profileRegistryVersion": 1,
-        "lessonForms": [
-          {
-            "lessonId": "lesson_01",
-            "profileId": "observation_based",
-            "profileVersion": 1,
-            "behaviorLabel": "Low Stress Maintenance Routine",
-            "criteriaSource": {
-              "path": "lessons",
-              "lessonId": "lesson_01",
-              "field": "successCriteria"
-            }
-          }
-        ],
         "masteryPolicy": {
           "type": "manual_observational_progression",
           "autoMasteryEnabled": false,
           "numericPassThreshold": null,
           "existingCriteriaField": "successCriteriaPolicy"
         },
-        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json"
+        "sessionRecordSchemaPath": "training/schemas/session-record.schema.json",
+        "scope": "exercise_session",
+        "form": {
+          "profileId": "observation_based",
+          "profileVersion": 1,
+          "behaviorLabel": "Low Stress Maintenance Routine",
+          "criteriaSource": {
+            "path": "successCriteriaPolicy"
+          }
+        }
       },
       "rewards": {
         "policyPath": "training/engagement/policies.json",
