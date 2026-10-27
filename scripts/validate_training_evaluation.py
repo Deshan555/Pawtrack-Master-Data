@@ -27,12 +27,15 @@ def check():
  for s in sharing.values():assert s['requiresExplicitUserAction'] and s['requiresPreview'] and not s['autoPost'] and not set(s['allowedFields'])&set(s['excludedFields']) and not s['claims']['allowAutomaticMasteryClaim']
  for p in (R/'training/templates').glob('*.json'):
   for t in read(p.relative_to(R))['templates']:
-   counts[0]+=1;e=t['evaluation'];assert e['schemaVersion']==1 and e['source']=='user_reported' and e['profileRegistryPath']=='training/evaluation/profiles.json' and e['profileRegistryVersion']==registry['registryVersion'];forms=e['lessonForms'];assert len(forms)==len(t['lessons']);assert {f['lessonId'] for f in forms}=={l['id'] for l in t['lessons']}
-   for f in forms:
-    counts[1]+=1;assert f['profileId'] in profiles and f['profileVersion']==profiles[f['profileId']]['version'];assert f['criteriaSource']==dict(path='lessons',lessonId=f['lessonId'],field='successCriteria')
-    if t['speciesId'] in ['fish','snake','spider','other']:assert f['profileId']=='observation_based'
+   counts[0]+=1;e=t['evaluation'];assert e['schemaVersion']==2 and e['scope']=='exercise_session' and e['source']=='user_reported' and e['profileRegistryPath']=='training/evaluation/profiles.json' and e['profileRegistryVersion']==registry['registryVersion']
+   assert 'lessonForms' not in e and all('evaluation' not in lesson for lesson in t['lessons'])
+   f=e['form'];counts[1]+=1
+   assert set(f)=={'profileId','profileVersion','behaviorLabel','criteriaSource'}
+   assert f['profileId'] in profiles and f['profileVersion']==profiles[f['profileId']]['version']
+   assert f['behaviorLabel']==t['title'] and f['criteriaSource']=={'path':'successCriteriaPolicy'}
+   if t['speciesId'] in ['fish','snake','spider','other']:assert f['profileId']=='observation_based'
    assert not e['masteryPolicy']['autoMasteryEnabled'] and e['masteryPolicy']['numericPassThreshold'] is None
    for key,lookup in [('rewards',reward),('routine',routines),('sharing',sharing)]:assert t[key]['policyPath']=='training/engagement/policies.json' and t[key]['policyVersion']==policies['policyVersion'] and t[key]['policyId'] in lookup
    assert (R/e['sessionRecordSchemaPath']).is_file()
- assert counts==[100,205];print('Validated 100 evaluation configurations, 205 lesson forms, four profiles and reward/routine/share policies.')
+ assert counts==[100,100];print('Validated 100 evaluation configurations, 100 exercise-session forms, four profiles and reward/routine/share policies.')
 if __name__=='__main__':check()

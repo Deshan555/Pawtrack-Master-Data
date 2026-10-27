@@ -4,6 +4,18 @@ from training_contract import summarize,validate_answers
 R=Path(__file__).resolve().parents[1]
 P={p['id']:p for p in json.loads((R/'training/evaluation/profiles.json').read_text())['profiles']}
 class ContractTests(unittest.TestCase):
+ def test_exercise_forms_and_v2_only_session_schema(self):
+  count=0
+  for path in (R/'training/templates').glob('*.json'):
+   for template in json.loads(path.read_text())['templates']:
+    e=template['evaluation'];self.assertEqual(e['scope'],'exercise_session');self.assertNotIn('lessonForms',e)
+    self.assertIn(e['form']['profileId'],P);self.assertEqual(e['form']['criteriaSource'],{'path':'successCriteriaPolicy'});count+=1
+  self.assertEqual(count,100)
+  current=json.loads((R/'training/schemas/session-record.schema.json').read_text())
+  self.assertFalse((R/'training/schemas/session-record-v1.schema.json').exists())
+  self.assertEqual(current['properties']['schemaVersion']['const'],2)
+  self.assertNotIn('lessonId',current['required']);self.assertNotIn('practicedLessonIds',current['required'])
+  self.assertTrue(current['properties']['practicedLessonIds']['uniqueItems'])
  def base(self):return dict(session_result='completed',comfort='comfortable')
  def test_attempt_score_denominator_and_rounding(self):
   a=self.base();a['attempts']=[dict(response=x) for x in ['independent','independent','assisted']];self.assertEqual(summarize(P['attempt_based'],a)['performanceScore'],67)

@@ -1,17 +1,17 @@
-# Dynamic exercise evaluation and engagement v1
+# Dynamic exercise evaluation and engagement v2
 
-This release configures forms for all 100 templates and 205 existing lessons. It contains no application screens, user records, media uploads, social-account connection or reward service. These are product heuristics for user-reported progress, not expert-validated assessments or veterinary advice. Existing instructions, welfare criteria, review status and artwork are unchanged.
+This release configures one exercise-session form for each of the 100 templates; 205 lessons remain instructional steps. It contains no application screens, user records, media uploads, social-account connection or reward service. These are product heuristics for user-reported progress, not expert-validated assessments or veterinary advice. Existing instructions, welfare criteria, review status and artwork are unchanged.
 
 ## Loading and compatibility
 
 1. Validate the release manifest and atomically activate the complete data set.
 2. Read `template.evaluation`; resolve `profileRegistryPath` against the data base URL.
-3. Match the selected lesson by `lessonForms[].lessonId`, never array position. Resolve its `(profileId, profileVersion)` in the pinned registry version.
-4. Render that profile's fields. Show `behaviorLabel` and the existing lesson's `successCriteria` alongside the form. `criteriaSource` is a structured reference to `template.lessons[lessonId].successCriteria`, not executable code or a filesystem JSONPath.
+3. Require evaluation schemaVersion 2 and scope `exercise_session`. Resolve `evaluation.form.(profileId, profileVersion)` in the pinned registry version. There is one form per exercise session, never one per lesson.
+4. Render that profile's fields once after practice. Show `form.behaviorLabel` and exercise-level `successCriteriaPolicy`. `form.criteriaSource.path=successCriteriaPolicy` is a bounded reference to that template property, not executable code. Lessons retain their own guidance/criteria and can be practiced selectively without creating separate evaluation forms.
 5. Resolve reward/routine/share references by policy path, ID and policyVersion. Pin the release dataVersion and policy/profile versions in saved records.
 6. Unknown versions, field kinds, rule kinds or missing references must disable evaluation/rewards for that exercise and show a recoverable message. Existing exercise instructions can still display. Never silently switch profile or award points from an unknown policy.
 
-Templates retain schemaVersion 2 and catalog envelopes retain schemaVersion 1; the additions are optional for existing clients that ignore unknown fields. New nested contracts each declare schemaVersion 1. Strict deserializers need an application update. Do not generate new lessons or replace the existing success criteria to fit a form.
+Templates retain schemaVersion 2 and catalog envelopes retain schemaVersion 1; the additions are optional for existing clients that ignore unknown fields. Evaluation and session records now declare schemaVersion 2; other nested contracts retain their existing versions. This is a breaking evaluation change. Clients supporting only v1 must disable evaluation on v2 rather than fall back to lesson forms. Only exercise-session v2 records are supported by this release; no legacy v1 record schema is provided. Strict deserializers need an application update. Do not generate new lessons or replace the existing success criteria to fit a form.
 
 ## Bounded form vocabulary
 
@@ -32,9 +32,9 @@ Conditions inspect sibling answers using exactly one operator: `equals` or `inVa
 
 `assisted` and `not_yet` remain in the attempt denominator. Three independent, one assisted and one not-yet response give 60, not 75. Zero attempts produce null, never zero percent. Stopped sessions and comfort values unsure/discomfort/not_observed exclude performance scoring. Preserve the descriptive record but do not turn it into a failure or mastery claim. No score automatically advances a lesson, unlocks a harder task or marks mastery.
 
-Dog/Cat preparation lessons use observation forms. Other lesson mappings vary by exercise. Fish, Snake, Spider and generic Other templates use observation forms throughout. Duration is an observation, not a countdown target. Existing observational progression criteria remain authoritative; the generic milestone labels do not replace them. Users may return to an easier lesson or stop at any time.
+Dog/Cat exercise forms use the main exercise measurement profile; preparation steps do not require separate observation submissions. Profiles vary by exercise. Fish, Snake, Spider and generic Other templates use observation forms throughout. Duration is an observation, not a countdown target. Existing observational progression criteria remain authoritative; the generic milestone labels do not replace them. Users may return to an easier lesson or stop at any time.
 
-`scripts/training_contract.py` is a dependency-free reference for answer validation and summaries. It is not the production reward backend. Applications should reproduce its tested behavior and validate private records against the supplied Draft 2020-12 JSON Schemas with format checking enabled. Additional semantic checks include valid calendar dates/IANA zones, endedAt >= startedAt, pet ownership, lesson/template membership and matching pinned profile. Answers must also pass profile validation; JSON Schema alone does not resolve that dynamic relationship.
+`scripts/training_contract.py` is a dependency-free reference for answer validation and summaries. It is not the production reward backend. Applications should reproduce its tested behavior and validate private records against the supplied Draft 2020-12 JSON Schemas with format checking enabled. Additional semantic checks include valid calendar dates/IANA zones, endedAt >= startedAt, pet ownership, exercise/template membership, optional practicedLessonIds membership and matching pinned exercise profile. Answers must also pass profile validation; JSON Schema alone does not resolve that dynamic relationship.
 
 ## XP and badges
 
@@ -70,3 +70,7 @@ Do not commit actual user records, pet identities, balances, photos or videos to
 ## Verification
 
 Run `python scripts/validate_manifest.py`, `python scripts/validate_training_evaluation.py`, and `python scripts/test_training_evaluation.py`. CI runs the same checks. Mobile rendering, persistence, ownership enforcement, XP transactions, scheduling and sharing must be implemented and tested in the application repository.
+
+## Exercise-session integration
+
+Select an exercise, follow any appropriate lessons, then submit one evaluation for the whole practice session. `templateId` identifies the exercise. Optional `practicedLessonIds` records context only; omit it when not needed. No lesson is required to save a session. Do not multiply forms, XP or routine events by the number of lessons. One saved session has one sessionId and one idempotent reward decision, subject to the existing cross-exercise caps. For preparation-only practice, the user may stop safely or choose an appropriate descriptive result; never fabricate attempts or measurements to satisfy a form. Existing profile validation remains mandatory.

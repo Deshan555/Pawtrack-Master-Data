@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "PawTrack private exercise session record v1",
+  "title": "PawTrack private exercise session record v2",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -9,7 +9,6 @@
     "ownerId",
     "petId",
     "templateId",
-    "lessonId",
     "profileId",
     "profileVersion",
     "dataVersion",
@@ -21,7 +20,7 @@
   ],
   "properties": {
     "schemaVersion": {
-      "const": 1
+      "const": 2
     },
     "sessionId": {
       "type": "string",
@@ -36,10 +35,6 @@
       "minLength": 1
     },
     "templateId": {
-      "type": "string",
-      "minLength": 1
-    },
-    "lessonId": {
       "type": "string",
       "minLength": 1
     },
@@ -85,6 +80,15 @@
         "null"
       ],
       "description": "Recomputed by application; never accept client score or XP as authoritative."
+    },
+    "practicedLessonIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Optional context only: IDs of practiced lessons belonging to templateId. Never creates separate forms, sessions or rewards."
     }
   }
 }
