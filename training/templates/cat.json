@@ -113,7 +113,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -271,17 +271,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -395,7 +395,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -553,17 +553,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -677,7 +677,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -840,17 +840,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -964,7 +964,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -1127,17 +1127,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -1258,7 +1258,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -1421,17 +1421,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -1552,7 +1552,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -1715,17 +1715,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -1846,7 +1846,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -2009,17 +2009,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -2126,7 +2126,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -2284,17 +2284,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -2401,7 +2401,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -2559,17 +2559,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -2677,7 +2677,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -2835,17 +2835,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -2952,7 +2952,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -3110,17 +3110,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -3227,7 +3227,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -3385,17 +3385,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -3502,7 +3502,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -3665,17 +3665,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -3790,7 +3790,7 @@
         "mode": "event_based",
         "suggestedMinMinutes": null,
         "suggestedMaxMinutes": null,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -3948,17 +3948,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     },
     {
@@ -4065,7 +4065,7 @@
         "mode": "flexible",
         "suggestedMinMinutes": 2,
         "suggestedMaxMinutes": 3,
-        "evidenceBasis": "Ontario SPCA clicker guidance: 2–3 minutes. Not a hard cap.",
+        "evidenceBasis": "Ontario SPCA clicker guidance: 2\u20133 minutes. Not a hard cap.",
         "evidenceSourceIds": [
           "CAT_SHORT"
         ],
@@ -4223,17 +4223,17 @@
       "rewards": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_xp_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "routine": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "pet_routine_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       },
       "sharing": {
         "policyPath": "training/engagement/policies.json",
         "policyId": "practice_card_v1",
-        "policyVersion": 1
+        "policyVersion": 3
       }
     }
   ]

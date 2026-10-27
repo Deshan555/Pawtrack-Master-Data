@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 1,
+  "policyVersion": 3,
   "rewards": [
     {
       "id": "practice_xp_v1",
@@ -33,7 +33,11 @@
       "awardAuthority": "trusted_application_transaction",
       "badgeIds": [
         "first_practice_log",
-        "steady_week"
+        "steady_week",
+        "practice_partner",
+        "growing_together",
+        "routine_starter",
+        "routine_companion"
       ],
       "ledgerRecordSchemaPath": "training/schemas/reward-ledger.schema.json",
       "sessionAwardUniquenessFields": [
@@ -41,7 +45,8 @@
         "sessionId"
       ],
       "sessionEditsCanAwardAgain": false,
-      "policyUpgradeCanReaward": false
+      "policyUpgradeCanReaward": false,
+      "rankProgressionPath": "rankProgression"
     }
   ],
   "badges": [
@@ -63,6 +68,54 @@
         "type": "distinct_practice_days",
         "minimum": 3,
         "windowDays": 7
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "practice_partner",
+      "title": "Practice Partner",
+      "rule": {
+        "type": "distinct_practice_days",
+        "minimum": 10,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "growing_together",
+      "title": "Growing Together",
+      "rule": {
+        "type": "distinct_practice_days",
+        "minimum": 30,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "routine_starter",
+      "title": "Routine Starter",
+      "rule": {
+        "type": "distinct_routine_practice_days",
+        "minimum": 1,
+        "period": "all_time"
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "routine_companion",
+      "title": "Routine Companion",
+      "rule": {
+        "type": "distinct_routine_practice_days",
+        "minimum": 7,
+        "period": "all_time"
       },
       "extraXp": 0,
       "scope": "owner_pet",
@@ -127,5 +180,182 @@
       },
       "publishMethod": "platform_share_sheet"
     }
-  ]
+  ],
+  "badgeEvaluation": {
+    "version": 1,
+    "practiceDaySource": "reward_ledger_entries_with_positive_xp",
+    "routineDaySource": "positive_xp_session_linked_to_valid_completed_routine_occurrence",
+    "dateField": "localRewardDate",
+    "scope": "owner_pet",
+    "deduplicateBy": "local_calendar_date",
+    "routineAggregation": "across_all_routines",
+    "requiresConsecutiveDays": false,
+    "restOrSkippedPenalty": 0,
+    "recheckOn": [
+      "session_accepted",
+      "routine_session_linked"
+    ],
+    "retroactiveEvaluation": "evaluate_existing_valid_history_without_reissuing_xp",
+    "awardUniquenessFields": [
+      "ownerId",
+      "petId",
+      "badgeId"
+    ],
+    "awardTransaction": "atomically_attach_new_badge_ids_to_triggering_session_ledger_entry",
+    "routineLinkMustMatch": [
+      "ownerId",
+      "petId",
+      "sessionId",
+      "templateId_in_routine"
+    ],
+    "unknownRuleBehavior": "disable_badge_award_and_show_recoverable_error"
+  },
+  "ranks": [
+    {
+      "id": "little_explorer",
+      "tier": "starter",
+      "title": "Little Explorer",
+      "minimumTotalXp": 0,
+      "order": 0,
+      "artwork": {
+        "path": "training/assets/ranks/little_explorer.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 20158,
+        "sha256": "45f71ca3d2a393cb5a44932a6cea2e6e110b6a988578e6fd2f61d64ccca78416",
+        "altText": "Little Explorer starter rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    },
+    {
+      "id": "budding_buddy",
+      "tier": "bronze",
+      "title": "Budding Buddy",
+      "minimumTotalXp": 50,
+      "order": 1,
+      "artwork": {
+        "path": "training/assets/ranks/budding_buddy.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 19642,
+        "sha256": "acaaf6dcb90fd47c46a2962c4f38e7dc23b6f3368aa37d9b6f741682159e517f",
+        "altText": "Budding Buddy bronze rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    },
+    {
+      "id": "clever_companion",
+      "tier": "silver",
+      "title": "Clever Companion",
+      "minimumTotalXp": 150,
+      "order": 2,
+      "artwork": {
+        "path": "training/assets/ranks/clever_companion.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 19274,
+        "sha256": "32c375671d693ec4be300775f7b1edf808b399b623b54783320c32e30ee2e9ab",
+        "altText": "Clever Companion silver rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    },
+    {
+      "id": "super_pet",
+      "tier": "gold",
+      "title": "Super Pet",
+      "minimumTotalXp": 350,
+      "order": 3,
+      "artwork": {
+        "path": "training/assets/ranks/super_pet.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 21190,
+        "sha256": "015bb621553bed9e6548d727d76db9ccc45edf79d1dd6e005fa1e629f5aa0717",
+        "altText": "Super Pet gold rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    },
+    {
+      "id": "paw_hero",
+      "tier": "platinum",
+      "title": "Paw Hero",
+      "minimumTotalXp": 700,
+      "order": 4,
+      "artwork": {
+        "path": "training/assets/ranks/paw_hero.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 26164,
+        "sha256": "ad226894ea262eec0b6a3fae8d59f031569d16a665eb6f3b8cf3082abe27ce0a",
+        "altText": "Paw Hero platinum rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    },
+    {
+      "id": "paw_legend",
+      "tier": "diamond",
+      "title": "Paw Legend",
+      "minimumTotalXp": 1200,
+      "order": 5,
+      "artwork": {
+        "path": "training/assets/ranks/paw_legend.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 21176,
+        "sha256": "b5c0beec2888a75819e4d4eb18ca81c592fe49b919a085215b89ffcba24306ec",
+        "altText": "Paw Legend diamond rank badge",
+        "style": "minimal_3d",
+        "transparent": true
+      }
+    }
+  ],
+  "rankProgression": {
+    "schemaVersion": 1,
+    "scope": "owner_pet",
+    "xpSource": "sum_persisted_reward_ledger_xpAwarded",
+    "includeAllPolicyVersions": true,
+    "deduplicateBy": [
+      "ownerId",
+      "sessionId"
+    ],
+    "selection": "highest_minimumTotalXp_not_exceeding_totalXp",
+    "nextRank": "next_order_or_null_at_maximum",
+    "progressMetric": "xp_within_current_tier",
+    "progressFormula": "(totalXp-current.minimumTotalXp)/(next.minimumTotalXp-current.minimumTotalXp)",
+    "progressRange": [
+      0,
+      1
+    ],
+    "maximumRankProgress": 1,
+    "maximumRankRemainingXp": 0,
+    "extraXpOnUpgrade": 0,
+    "requiresConsecutiveDays": false,
+    "inactivityXpDeduction": 0,
+    "restOrSkippedPenalty": 0,
+    "sessionDeletionChangesXp": false,
+    "recomputeOn": [
+      "reward_ledger_updated",
+      "backup_restored",
+      "policy_activated"
+    ],
+    "notAnAssessmentOf": [
+      "intelligence",
+      "obedience",
+      "health",
+      "mastery"
+    ],
+    "displayLabel": "Practice journey rank",
+    "unknownVersionBehavior": "disable_rank_display_and_show_recoverable_error"
+  }
 }

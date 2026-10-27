@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 14,
-  "releaseId": "2026-10-27.2",
-  "updatedAt": "2026-10-27T08:44:43Z",
+  "dataVersion": 17,
+  "releaseId": "2026-10-27.5",
+  "updatedAt": "2026-10-27T10:34:59Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "training/engagement/policies.json",
-      "bytes": 3400,
-      "sha256": "a524e111dedc84e545804374766d07eebbea76a8101b1eae5f7aa96d1172a1f9"
+      "bytes": 9946,
+      "sha256": "3084da8ab6f5316701ded60f5db2f8fa6159b14ba276a0385190e557c245b7e3"
     },
     {
       "path": "training/evaluation/profiles.json",
@@ -242,8 +242,8 @@
     },
     {
       "path": "training/schemas/reward-ledger.schema.json",
-      "bytes": 1345,
-      "sha256": "0e9c0a4e5638bb1a7e38cfbab3049a6910ecb44cd6c3a4fff9f17ff6c4d66415"
+      "bytes": 1504,
+      "sha256": "c5a6545370863df7d015fabe5f7eed0e3e82c707cade9245f58183b795fc72f6"
     },
     {
       "path": "training/schemas/routine-event.schema.json",
@@ -262,62 +262,62 @@
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "bb20364079ce0a457bcc25fc9f7a703c309dd7bc30ef8b445634576210fa64d3",
+      "sha256": "8c79c42f9b53d23624bf953eea1adda1452b761f9993b83f7c19ef17da9ba2ee",
       "bytes": 67120
     },
     {
       "path": "training/templates/cat.json",
-      "sha256": "91726e771c9cbb315cb00ad572f4c1eb85dbdd93db3e86a48c952fedcf4d790f",
-      "bytes": 172618
+      "sha256": "0ab863f77d5cd5959834e2f67935e3b3196888b9977238fda679134bf16c38fd",
+      "bytes": 172663
     },
     {
       "path": "training/templates/cow.json",
-      "sha256": "93f216f53a97d89f3f9d07d680d5c8e2c777e0a9aca9a16016c52d1135737fa7",
+      "sha256": "d1f4fac4327a60957995c99330d064fd9a56a101bbd6a9efcd9a8a6b5d21f907",
       "bytes": 39184
     },
     {
       "path": "training/templates/dog.json",
-      "sha256": "4005195070b020e10ddc1fd2fd08f46591425b68c39a050a58cb19f964149723",
-      "bytes": 222781
+      "sha256": "f2349ca269b42b3394ff3b6358ed4bead6dca2455e28f343c4067c383c5cf947",
+      "bytes": 222841
     },
     {
       "path": "training/templates/fish.json",
-      "sha256": "db09c554b72463a09499072af3211ca246fbf708507763b4783abbbd247ccfc1",
+      "sha256": "f401059bca5059020c706d770c8820b92f3b7996de98bc2cc298f1e82954f2b9",
       "bytes": 28841
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "9f4aea14edf1da0ba5915b3e2618eba16e556b412c6f2f05c28c40f1bcea0e2f",
+      "sha256": "e8f76ba5107fe701d932a9a462c1c5e86b37b603d7e5bf7c5e0199db1393f3b6",
       "bytes": 67686
     },
     {
       "path": "training/templates/other.json",
-      "sha256": "688f45f3021f3f22dc9a97f0299f494c521bd3683cb3e90bdeb21b9b5be00605",
+      "sha256": "eaf89b1343e4bfe6ad41f8f410dd90daf5a5684a9100baf28ec8df3005accc01",
       "bytes": 11997
     },
     {
       "path": "training/templates/pig.json",
-      "sha256": "264364f4fec8fe683783cddba9d923f99ed0c7a2f20a89f15adc7e0167c8f1f5",
+      "sha256": "23d85efc1dc96dd7e5530f5060c22d03f440a5b9cf923f2f8a84504d21bd54ec",
       "bytes": 39150
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "bbb39bf123285524df48cd718a235de3814358db2d55f6da7b98d2b583798848",
+      "sha256": "cc31450228fc2f1250d0f5cfca2ad879502ca8c753b7d4235efebca5c89a01c0",
       "bytes": 49841
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "e16a006c44892ddea68fcc82ef19a9e2a9ac6b102ff52f5b38bd18dff6ba5366",
+      "sha256": "197dd29ff6b01e7b6a34976fac8f74a49e47cfb1cb28fc1ebc20c46ab9b306a5",
       "bytes": 34132
     },
     {
       "path": "training/templates/snake.json",
-      "sha256": "e559ca5cce1a85a68787820239de949e2f8224e2e981ec60bfc1c3fc640a86cc",
+      "sha256": "f6523b5c0ab0f51d91cbabb317533c3f3b80a832913774bee76766b4e5c797c8",
       "bytes": 17355
     },
     {
       "path": "training/templates/spider.json",
-      "sha256": "c1e0ab8d0e46fb8f65f0ee63995730606fca692c05d9d383bfe6ebcdd8f5acd3",
+      "sha256": "4c443f87781d664a8120137c3898cec7e3d49563bf9e9f63a36a98ed5f81c307",
       "bytes": 11982
     }
   ]
