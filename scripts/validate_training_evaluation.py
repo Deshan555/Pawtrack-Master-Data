@@ -1,5 +1,5 @@
 """Validate all template-to-form/policy references and the bounded dynamic form vocabulary."""
-import json
+import json,hashlib
 from pathlib import Path
 from training_contract import summarize
 R=Path(__file__).resolve().parents[1]
@@ -27,6 +27,11 @@ def check():
  assert [x['minimumTotalXp'] for x in ranks]==[0,50,150,350,700,1200]
  assert [x['order'] for x in ranks]==list(range(6)) and len({x['id'] for x in ranks})==6
  assert [x['tier'] for x in ranks]==['starter','bronze','silver','gold','platinum','diamond']
+ for rank in ranks:
+  art=rank['artwork'];assert art['path']=='training/assets/ranks/'+rank['id']+'.webp'
+  content=(R/art['path']).read_bytes();assert len(content)==art['bytes']<200000
+  assert hashlib.sha256(content).hexdigest()==art['sha256']
+  assert art['mimeType']=='image/webp' and art['width']==art['height']==512 and art['transparent']
  rp=policies['rankProgression'];assert rp['schemaVersion']==1 and rp['scope']=='owner_pet' and rp['extraXpOnUpgrade']==0 and rp['includeAllPolicyVersions'] and rp['inactivityXpDeduction']==0 and rp['restOrSkippedPenalty']==0
  assert len(policies['badges'])==6 and len({b['id'] for b in policies['badges']})==6
  for b in policies['badges']:

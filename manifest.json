@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 16,
-  "releaseId": "2026-10-27.4",
-  "updatedAt": "2026-10-27T09:33:44Z",
+  "dataVersion": 17,
+  "releaseId": "2026-10-27.5",
+  "updatedAt": "2026-10-27T10:34:59Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "training/engagement/policies.json",
-      "bytes": 7618,
-      "sha256": "961d627937850ff5af03cbe3d8cabd4fa3dae1554426c7e7d03fbebf0483fe90"
+      "bytes": 9946,
+      "sha256": "3084da8ab6f5316701ded60f5db2f8fa6159b14ba276a0385190e557c245b7e3"
     },
     {
       "path": "training/evaluation/profiles.json",
