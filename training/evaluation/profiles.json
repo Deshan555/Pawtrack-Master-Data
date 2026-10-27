@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": 1,
+  "supportedFieldTypes": [
+    "single_select",
+    "text",
+    "textarea",
+    "number",
+    "repeater"
+  ],
+  "supportedConditionOperators": [
+    "equals",
+    "inValues"
+  ],
+  "profiles": [
+    {
+      "id": "attempt_based",
+      "version": 1,
+      "title": "Record attempts",
+      "fields": [
+        {
+          "id": "session_result",
+          "type": "single_select",
+          "label": "Session result",
+          "required": true,
+          "options": [
+            {
+              "value": "completed",
+              "label": "Finished this session"
+            },
+            {
+              "value": "stopped",
+              "label": "Stopped early"
+            }
+          ]
+        },
+        {
+          "id": "comfort",
+          "type": "single_select",
+          "label": "Observed comfort",
+          "required": true,
+          "options": [
+            {
+              "value": "comfortable",
+              "label": "Comfortable"
+            },
+            {
+              "value": "unsure",
+              "label": "Unsure"
+            },
+            {
+              "value": "discomfort",
+              "label": "Discomfort or avoidance"
+            },
+            {
+              "value": "not_observed",
+              "label": "Not observed"
+            }
+          ]
+        },
+        {
+          "id": "stop_reason",
+          "type": "single_select",
+          "label": "Reason for stopping",
+          "required": false,
+          "visibleWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "options": [
+            {
+              "value": "disengaged",
+              "label": "Disengaged"
+            },
+            {
+              "value": "avoidance",
+              "label": "Avoidance"
+            },
+            {
+              "value": "fatigue",
+              "label": "Fatigue"
+            },
+            {
+              "value": "environment",
+              "label": "Environment or interruption"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "type": "text",
+          "label": "Practice setting",
+          "required": false,
+          "maxLength": 200
+        },
+        {
+          "id": "notes",
+          "type": "textarea",
+          "label": "Notes",
+          "required": false,
+          "maxLength": 2000
+        },
+        {
+          "id": "attempts",
+          "type": "repeater",
+          "label": "Recorded attempts",
+          "required": false,
+          "minItems": 1,
+          "maxItems": 100,
+          "fields": [
+            {
+              "id": "response",
+              "type": "single_select",
+              "label": "Response",
+              "required": true,
+              "options": [
+                {
+                  "value": "independent",
+                  "label": "Without help"
+                },
+                {
+                  "value": "assisted",
+                  "label": "With help"
+                },
+                {
+                  "value": "not_yet",
+                  "label": "Not yet"
+                }
+              ]
+            }
+          ],
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "completed"
+          }
+        }
+      ],
+      "scoring": {
+        "type": "independent_success_rate",
+        "inputField": "attempts",
+        "responseField": "response",
+        "numeratorValues": [
+          "independent"
+        ],
+        "denominatorValues": [
+          "independent",
+          "assisted",
+          "not_yet"
+        ],
+        "scale": 100,
+        "rounding": "half_up_integer",
+        "zeroDenominator": "null",
+        "excludeWhen": [
+          {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          {
+            "fieldId": "comfort",
+            "inValues": [
+              "unsure",
+              "discomfort",
+              "not_observed"
+            ]
+          }
+        ],
+        "interpretation": "Descriptive user-reported progress; not a validated assessment, diagnosis or mastery threshold."
+      },
+      "validationRules": [
+        {
+          "type": "require_value_when",
+          "when": {
+            "fieldId": "comfort",
+            "equals": "discomfort"
+          },
+          "fieldId": "session_result",
+          "equals": "stopped"
+        }
+      ]
+    },
+    {
+      "id": "duration_based",
+      "version": 1,
+      "title": "Record comfortable duration",
+      "fields": [
+        {
+          "id": "session_result",
+          "type": "single_select",
+          "label": "Session result",
+          "required": true,
+          "options": [
+            {
+              "value": "completed",
+              "label": "Finished this session"
+            },
+            {
+              "value": "stopped",
+              "label": "Stopped early"
+            }
+          ]
+        },
+        {
+          "id": "comfort",
+          "type": "single_select",
+          "label": "Observed comfort",
+          "required": true,
+          "options": [
+            {
+              "value": "comfortable",
+              "label": "Comfortable"
+            },
+            {
+              "value": "unsure",
+              "label": "Unsure"
+            },
+            {
+              "value": "discomfort",
+              "label": "Discomfort or avoidance"
+            },
+            {
+              "value": "not_observed",
+              "label": "Not observed"
+            }
+          ]
+        },
+        {
+          "id": "stop_reason",
+          "type": "single_select",
+          "label": "Reason for stopping",
+          "required": false,
+          "visibleWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "options": [
+            {
+              "value": "disengaged",
+              "label": "Disengaged"
+            },
+            {
+              "value": "avoidance",
+              "label": "Avoidance"
+            },
+            {
+              "value": "fatigue",
+              "label": "Fatigue"
+            },
+            {
+              "value": "environment",
+              "label": "Environment or interruption"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "type": "text",
+          "label": "Practice setting",
+          "required": false,
+          "maxLength": 200
+        },
+        {
+          "id": "notes",
+          "type": "textarea",
+          "label": "Notes",
+          "required": false,
+          "maxLength": 2000
+        },
+        {
+          "id": "observed_seconds",
+          "type": "number",
+          "label": "Observed comfortable duration (seconds)",
+          "required": false,
+          "minimum": 0,
+          "maximum": 86400,
+          "unit": "seconds",
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "completed"
+          }
+        }
+      ],
+      "scoring": {
+        "type": "duration_summary",
+        "inputField": "observed_seconds",
+        "score": "null",
+        "excludeWhen": [
+          {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          {
+            "fieldId": "comfort",
+            "inValues": [
+              "unsure",
+              "discomfort",
+              "not_observed"
+            ]
+          }
+        ],
+        "interpretation": "Descriptive user-reported progress; not a validated assessment, diagnosis or mastery threshold."
+      },
+      "validationRules": [
+        {
+          "type": "require_value_when",
+          "when": {
+            "fieldId": "comfort",
+            "equals": "discomfort"
+          },
+          "fieldId": "session_result",
+          "equals": "stopped"
+        }
+      ]
+    },
+    {
+      "id": "milestone_based",
+      "version": 1,
+      "title": "Record voluntary progress",
+      "fields": [
+        {
+          "id": "session_result",
+          "type": "single_select",
+          "label": "Session result",
+          "required": true,
+          "options": [
+            {
+              "value": "completed",
+              "label": "Finished this session"
+            },
+            {
+              "value": "stopped",
+              "label": "Stopped early"
+            }
+          ]
+        },
+        {
+          "id": "comfort",
+          "type": "single_select",
+          "label": "Observed comfort",
+          "required": true,
+          "options": [
+            {
+              "value": "comfortable",
+              "label": "Comfortable"
+            },
+            {
+              "value": "unsure",
+              "label": "Unsure"
+            },
+            {
+              "value": "discomfort",
+              "label": "Discomfort or avoidance"
+            },
+            {
+              "value": "not_observed",
+              "label": "Not observed"
+            }
+          ]
+        },
+        {
+          "id": "stop_reason",
+          "type": "single_select",
+          "label": "Reason for stopping",
+          "required": false,
+          "visibleWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "options": [
+            {
+              "value": "disengaged",
+              "label": "Disengaged"
+            },
+            {
+              "value": "avoidance",
+              "label": "Avoidance"
+            },
+            {
+              "value": "fatigue",
+              "label": "Fatigue"
+            },
+            {
+              "value": "environment",
+              "label": "Environment or interruption"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "type": "text",
+          "label": "Practice setting",
+          "required": false,
+          "maxLength": 200
+        },
+        {
+          "id": "notes",
+          "type": "textarea",
+          "label": "Notes",
+          "required": false,
+          "maxLength": 2000
+        },
+        {
+          "id": "milestone",
+          "type": "single_select",
+          "label": "Furthest comfortable observation",
+          "required": false,
+          "options": [
+            {
+              "value": "not_yet",
+              "label": "Not yet observed"
+            },
+            {
+              "value": "approached",
+              "label": "Approached voluntarily"
+            },
+            {
+              "value": "engaged",
+              "label": "Engaged voluntarily"
+            },
+            {
+              "value": "repeated",
+              "label": "Repeated comfortably"
+            }
+          ],
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "completed"
+          }
+        }
+      ],
+      "scoring": {
+        "type": "milestone_summary",
+        "inputField": "milestone",
+        "score": "null",
+        "excludeWhen": [
+          {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          {
+            "fieldId": "comfort",
+            "inValues": [
+              "unsure",
+              "discomfort",
+              "not_observed"
+            ]
+          }
+        ],
+        "interpretation": "Descriptive user-reported progress; not a validated assessment, diagnosis or mastery threshold."
+      },
+      "validationRules": [
+        {
+          "type": "require_value_when",
+          "when": {
+            "fieldId": "comfort",
+            "equals": "discomfort"
+          },
+          "fieldId": "session_result",
+          "equals": "stopped"
+        }
+      ]
+    },
+    {
+      "id": "observation_based",
+      "version": 1,
+      "title": "Record an observation",
+      "fields": [
+        {
+          "id": "session_result",
+          "type": "single_select",
+          "label": "Session result",
+          "required": true,
+          "options": [
+            {
+              "value": "completed",
+              "label": "Finished this session"
+            },
+            {
+              "value": "stopped",
+              "label": "Stopped early"
+            }
+          ]
+        },
+        {
+          "id": "comfort",
+          "type": "single_select",
+          "label": "Observed comfort",
+          "required": true,
+          "options": [
+            {
+              "value": "comfortable",
+              "label": "Comfortable"
+            },
+            {
+              "value": "unsure",
+              "label": "Unsure"
+            },
+            {
+              "value": "discomfort",
+              "label": "Discomfort or avoidance"
+            },
+            {
+              "value": "not_observed",
+              "label": "Not observed"
+            }
+          ]
+        },
+        {
+          "id": "stop_reason",
+          "type": "single_select",
+          "label": "Reason for stopping",
+          "required": false,
+          "visibleWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          "options": [
+            {
+              "value": "disengaged",
+              "label": "Disengaged"
+            },
+            {
+              "value": "avoidance",
+              "label": "Avoidance"
+            },
+            {
+              "value": "fatigue",
+              "label": "Fatigue"
+            },
+            {
+              "value": "environment",
+              "label": "Environment or interruption"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "type": "text",
+          "label": "Practice setting",
+          "required": false,
+          "maxLength": 200
+        },
+        {
+          "id": "notes",
+          "type": "textarea",
+          "label": "Notes",
+          "required": false,
+          "maxLength": 2000
+        },
+        {
+          "id": "participation",
+          "type": "single_select",
+          "label": "What did you observe?",
+          "required": false,
+          "options": [
+            {
+              "value": "not_observed",
+              "label": "Not observed"
+            },
+            {
+              "value": "no_change",
+              "label": "No change"
+            },
+            {
+              "value": "voluntary_interest",
+              "label": "Voluntary interest"
+            },
+            {
+              "value": "comfortable_participation",
+              "label": "Comfortable participation"
+            }
+          ],
+          "requiredWhen": {
+            "fieldId": "session_result",
+            "equals": "completed"
+          }
+        }
+      ],
+      "scoring": {
+        "type": "observation_summary",
+        "inputField": "participation",
+        "score": "null",
+        "excludeWhen": [
+          {
+            "fieldId": "session_result",
+            "equals": "stopped"
+          },
+          {
+            "fieldId": "comfort",
+            "inValues": [
+              "unsure",
+              "discomfort",
+              "not_observed"
+            ]
+          }
+        ],
+        "interpretation": "Descriptive user-reported progress; not a validated assessment, diagnosis or mastery threshold."
+      },
+      "validationRules": [
+        {
+          "type": "require_value_when",
+          "when": {
+            "fieldId": "comfort",
+            "equals": "discomfort"
+          },
+          "fieldId": "session_result",
+          "equals": "stopped"
+        }
+      ]
+    }
+  ]
+}

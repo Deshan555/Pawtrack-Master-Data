@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": 1,
+  "rewards": [
+    {
+      "id": "practice_xp_v1",
+      "label": "Practice log XP",
+      "kind": "engagement",
+      "xpPerEligibleSession": 10,
+      "eligibleSessionResults": [
+        "completed",
+        "stopped"
+      ],
+      "requiresValidEvaluation": true,
+      "requiresPetOwnership": true,
+      "cap": {
+        "scope": "owner_pet_all_exercises",
+        "period": "local_calendar_day",
+        "maxRewardedSessions": 1,
+        "timeZoneSource": "persisted_session_iana_time_zone",
+        "timeZoneChangesDoNotResetCap": true,
+        "maxRewardedSessionsPerRolling24Hours": 1,
+        "rewardDaySource": "trusted_accepted_at_in_persisted_zone"
+      },
+      "idempotencyKeyFields": [
+        "ownerId",
+        "sessionId",
+        "policyId",
+        "policyVersion"
+      ],
+      "performanceScoreAffectsXp": false,
+      "stoppedSessionPenalty": 0,
+      "awardAuthority": "trusted_application_transaction",
+      "badgeIds": [
+        "first_practice_log",
+        "steady_week"
+      ],
+      "ledgerRecordSchemaPath": "training/schemas/reward-ledger.schema.json",
+      "sessionAwardUniquenessFields": [
+        "ownerId",
+        "sessionId"
+      ],
+      "sessionEditsCanAwardAgain": false,
+      "policyUpgradeCanReaward": false
+    }
+  ],
+  "badges": [
+    {
+      "id": "first_practice_log",
+      "title": "First practice log",
+      "rule": {
+        "type": "eligible_session_count",
+        "minimum": 1
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    },
+    {
+      "id": "steady_week",
+      "title": "Steady week",
+      "rule": {
+        "type": "distinct_practice_days",
+        "minimum": 3,
+        "windowDays": 7
+      },
+      "extraXp": 0,
+      "scope": "owner_pet",
+      "awardOnce": true
+    }
+  ],
+  "routines": [
+    {
+      "id": "pet_routine_v1",
+      "enabledByDefault": false,
+      "scheduleSource": "user_selected",
+      "frequencyRecommendation": null,
+      "allowRestDays": true,
+      "allowSkippedDays": true,
+      "missedDayPenalty": 0,
+      "streakResetPenalty": 0,
+      "progressMetric": "distinct_practice_days_per_week",
+      "recordSchemaPath": "training/schemas/routine-record.schema.json",
+      "eventRecordSchemaPath": "training/schemas/routine-event.schema.json"
+    }
+  ],
+  "sharing": [
+    {
+      "id": "practice_card_v1",
+      "enabled": true,
+      "requiresExplicitUserAction": true,
+      "requiresPreview": true,
+      "autoPost": false,
+      "defaultVisibility": "private",
+      "formats": [
+        "progress_card"
+      ],
+      "allowedFields": [
+        "petDisplayName",
+        "exerciseTitle",
+        "sessionDate",
+        "recordedAttemptCount",
+        "independentAttemptCount",
+        "observedSeconds",
+        "milestoneLabel",
+        "participationLabel",
+        "badgeTitles",
+        "userEditedCaption"
+      ],
+      "optionalMedia": {
+        "enabled": true,
+        "requiresExplicitSelection": true,
+        "stripLocationMetadata": true
+      },
+      "excludedFields": [
+        "ownerId",
+        "petId",
+        "sessionId",
+        "location",
+        "privateNotes",
+        "comfort",
+        "stopReason"
+      ],
+      "claims": {
+        "allowAutomaticMasteryClaim": false,
+        "allowExpertReviewedClaim": false
+      },
+      "publishMethod": "platform_share_sheet"
+    }
+  ]
+}

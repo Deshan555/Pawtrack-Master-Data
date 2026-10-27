@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 12,
-  "releaseId": "2026-10-26.2",
-  "updatedAt": "2026-10-26T08:29:52Z",
+  "dataVersion": 13,
+  "releaseId": "2026-10-27.1",
+  "updatedAt": "2026-10-27T03:25:37Z",
   "minimumAppVersion": "1.0.0",
   "files": [
     {
@@ -147,63 +147,63 @@
     },
     {
       "path": "training/templates/dog.json",
-      "sha256": "7f978d82f4281b645bcfba9f3f96539247d409b5c539647c7ff81909ba7ad431",
-      "bytes": 198069
+      "sha256": "36215970dc6d190ff881a27ac8f81f19938943e4748df0f4b9de0eb84ed27a1f",
+      "bytes": 245603
     },
     {
       "path": "training/templates/cat.json",
-      "sha256": "81945ed066a41d0b7fafaba58fab5bf0aafb31c4ba4a2df17f519ca787e7d762",
-      "bytes": 154019
+      "sha256": "37324403d508f711c1650991b5a74918a32e70a233c08f27cd3c0eccb59a67fc",
+      "bytes": 189923
     },
     {
       "path": "training/templates/bird.json",
-      "sha256": "73daa2e14c0a0323a39991017ecdc854f91b99a604b0a8ac3126ede32fdfc76a",
-      "bytes": 52248
+      "sha256": "ad2d9909137d1488a04225656d4121b3dfebc6fc578c308134197f1d99e4eeaf",
+      "bytes": 68440
     },
     {
       "path": "training/templates/horse.json",
-      "sha256": "117349abb8f7b37b5024c56ec270abc8ee7db92b52f49906a7153586a733fc28",
-      "bytes": 52801
+      "sha256": "c1a45ed4b01fd8bd00274a2c280c1bc83884294ae98e8ea8be591946d80b3743",
+      "bytes": 69006
     },
     {
       "path": "training/templates/rabbit.json",
-      "sha256": "5ea2d8d3ea09586258508a26daa8a3a9e5a93a0d78dd0186d5aa5b0b08300251",
-      "bytes": 38692
+      "sha256": "3926654cffc50fd462b41bcecf3da1b202af4d27a493b5cf5676fdb15e675183",
+      "bytes": 50831
     },
     {
       "path": "training/templates/cow.json",
-      "sha256": "7d18ad008fd0d5ccb7f3bf231684c58b3ac7e0f9e30a8ae2a14421a4cc9c1574",
-      "bytes": 30505
+      "sha256": "38041bd2088314bc1d5ed09af495b8c29296962aa5f61053662bd5f2199c9925",
+      "bytes": 39954
     },
     {
       "path": "training/templates/pig.json",
-      "sha256": "8977440c1fec5810a6081d41d0031aa8eb39cc39051010ec2aa72cb6283789bb",
-      "bytes": 30473
+      "sha256": "3ed5d4d6030cf495f386f80427c511067d816b0af244c945c791fb8a13ac7059",
+      "bytes": 39920
     },
     {
       "path": "training/templates/rodent.json",
-      "sha256": "5aa20708a4857b4d2073cf3df6a5c2a2821eaa7e4cd8c74222b8fcbaadc574c6",
-      "bytes": 26686
+      "sha256": "de3c0ea97382ff1a91405c2bbd9d25006d3c70eb63792f8e97caae10b95914e8",
+      "bytes": 34792
     },
     {
       "path": "training/templates/fish.json",
-      "sha256": "8464147a437411f618828fe87732cc97e7df3210c368417e32c5d578edaa932b",
-      "bytes": 22602
+      "sha256": "6397a99615d818645cb9fea4308f60a3fde2c53e0b278c9e7fa52d2eb1059626",
+      "bytes": 29391
     },
     {
       "path": "training/templates/snake.json",
-      "sha256": "4da1eb4929634597325bf3b25f53f6914fdf80f85dc7d5adaf18a75c81d01998",
-      "bytes": 13608
+      "sha256": "838f57731cddf125d3118584d2782bbe894a99e0e2b3e4c71c4f7b4d0b5edae3",
+      "bytes": 17685
     },
     {
       "path": "training/templates/spider.json",
-      "sha256": "8bda405d1e1cedc2923cf092135e77a36b47b58f68c21bfb5d588fe098e111d3",
-      "bytes": 9467
+      "sha256": "c4f93c1d414c171e07c4a1e318015b5bb635193b7801b2d9b0115d33f5fcdda0",
+      "bytes": 12202
     },
     {
       "path": "training/templates/other.json",
-      "sha256": "76c86cbc0a9ef3c858b85332a1f318cf88a36ff8cb31a1dd39ddafbef2945571",
-      "bytes": 9491
+      "sha256": "02e6140b3fef9e72cb424464e9706656c7f77b304f86ed3f4fc7e90b40e93bd2",
+      "bytes": 12217
     },
     {
       "path": "training/programs/beginner.json",
@@ -289,6 +289,36 @@
       "path": "training/assets/spider/index.json",
       "bytes": 3178,
       "sha256": "9e3fba810cbc0484e6b544e9a8fd75bc77d56f48368556d98a01986d944be204"
+    },
+    {
+      "path": "training/engagement/policies.json",
+      "bytes": 3400,
+      "sha256": "a524e111dedc84e545804374766d07eebbea76a8101b1eae5f7aa96d1172a1f9"
+    },
+    {
+      "path": "training/evaluation/profiles.json",
+      "bytes": 16244,
+      "sha256": "c526b3c92c25b5abd3d99d8696a42ee3a33a4d5ab93528e540604d1603943d17"
+    },
+    {
+      "path": "training/schemas/routine-record.schema.json",
+      "bytes": 1385,
+      "sha256": "3a36be465fa7be4383f6fa7ce30e19f176e8bc41a384b03d3ffd9793e9a912e0"
+    },
+    {
+      "path": "training/schemas/session-record.schema.json",
+      "bytes": 1890,
+      "sha256": "3816117872351ff487930853466e3713c8930b2a5d7ccd2b1c21a4270c3196e4"
+    },
+    {
+      "path": "training/schemas/reward-ledger.schema.json",
+      "bytes": 1345,
+      "sha256": "0e9c0a4e5638bb1a7e38cfbab3049a6910ecb44cd6c3a4fff9f17ff6c4d66415"
+    },
+    {
+      "path": "training/schemas/routine-event.schema.json",
+      "bytes": 1490,
+      "sha256": "dca0f91b28e2e8c991b6074607dc8d54375154d8962683b68cc16d0e0a81654d"
     }
   ]
 }

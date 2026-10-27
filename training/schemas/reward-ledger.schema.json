@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PawTrack private reward-ledger v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "eventId",
+    "ownerId",
+    "petId",
+    "sessionId",
+    "policyId",
+    "policyVersion",
+    "acceptedAt",
+    "timeZone",
+    "localRewardDate",
+    "xpAwarded",
+    "badgeIds"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "eventId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ownerId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "petId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sessionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "policyId": {
+      "const": "practice_xp_v1"
+    },
+    "policyVersion": {
+      "const": 1
+    },
+    "acceptedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timeZone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "localRewardDate": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "xpAwarded": {
+      "enum": [
+        0,
+        10
+      ]
+    },
+    "badgeIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "first_practice_log",
+          "steady_week"
+        ]
+      }
+    }
+  }
+}
