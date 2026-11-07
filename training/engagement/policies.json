@@ -59,7 +59,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/first_practice_log.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 27954,
+        "sha256": "46dbe8071109d9c8263d0ad1a19ef55b4925e95f183993dd071a320f50021327",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     },
     {
       "id": "steady_week",
@@ -71,7 +81,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/steady_week.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 28476,
+        "sha256": "bdd451db43821090a514801fd07d45e2f70ec807012a1ede8da0dfb275a3c95d",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     },
     {
       "id": "practice_partner",
@@ -83,7 +103,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/practice_partner.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 32502,
+        "sha256": "e498c872e0cc7debd0ffb81b16225be7309ac7c4226cb8f2ef9f20404df80638",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     },
     {
       "id": "growing_together",
@@ -95,7 +125,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/growing_together.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 28692,
+        "sha256": "26ca06154fa7b3a80dd158858eee46f82e631954c811c40bcd7ed68eb4fc4483",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     },
     {
       "id": "routine_starter",
@@ -107,7 +147,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/routine_starter.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 30194,
+        "sha256": "f2ec00b5a9572d9dd68e0bdf1cbe1720c9f84c1ad087eab39aec9fb1d95a72e7",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     },
     {
       "id": "routine_companion",
@@ -119,7 +169,17 @@
       },
       "extraXp": 0,
       "scope": "owner_pet",
-      "awardOnce": true
+      "awardOnce": true,
+      "artwork": {
+        "path": "training/assets/achievements/routine_companion.webp",
+        "mimeType": "image/webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 30952,
+        "sha256": "d64304926c5286c6cbafb96ffb3b2d875b2bf96ca901637b3b452736fbc689e0",
+        "transparent": true,
+        "style": "glossy_cartoon_3d"
+      }
     }
   ],
   "routines": [
@@ -222,10 +282,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 20158,
-        "sha256": "45f71ca3d2a393cb5a44932a6cea2e6e110b6a988578e6fd2f61d64ccca78416",
+        "bytes": 24626,
+        "sha256": "4cfc24df873d9e3905fc3b3be9dcb35e72dc3d0335bc776a6fa074c73d2dbdcc",
         "altText": "Little Explorer starter rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     },
@@ -240,10 +300,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 19642,
-        "sha256": "acaaf6dcb90fd47c46a2962c4f38e7dc23b6f3368aa37d9b6f741682159e517f",
+        "bytes": 20326,
+        "sha256": "3950658d5d0f2952c30da0d39ddcda8745363e90280838f3b57ca10af3b48faf",
         "altText": "Budding Buddy bronze rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     },
@@ -258,10 +318,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 19274,
-        "sha256": "32c375671d693ec4be300775f7b1edf808b399b623b54783320c32e30ee2e9ab",
+        "bytes": 19678,
+        "sha256": "522b5fcc46ffad9ddc9a1cd4d44587c8188dd04d9b528b6b773bc9bbcc21fc83",
         "altText": "Clever Companion silver rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     },
@@ -276,10 +336,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 21190,
-        "sha256": "015bb621553bed9e6548d727d76db9ccc45edf79d1dd6e005fa1e629f5aa0717",
+        "bytes": 21098,
+        "sha256": "2f47b0010653b8d9e8f1ab4a6a7b7428a7e7027d4b84c4f460546e7a39e6123f",
         "altText": "Super Pet gold rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     },
@@ -294,10 +354,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 26164,
-        "sha256": "ad226894ea262eec0b6a3fae8d59f031569d16a665eb6f3b8cf3082abe27ce0a",
+        "bytes": 24460,
+        "sha256": "7a0e20db5a4a26a8cb90353b9f8f0bd3c5802c52a50c88e07bbb24cd9020ff95",
         "altText": "Paw Hero platinum rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     },
@@ -312,10 +372,10 @@
         "mimeType": "image/webp",
         "width": 512,
         "height": 512,
-        "bytes": 21176,
-        "sha256": "b5c0beec2888a75819e4d4eb18ca81c592fe49b919a085215b89ffcba24306ec",
+        "bytes": 28100,
+        "sha256": "f7e3e066b0fbe35e6b639fd20d0885f776c42f420f23c8f27560ebb0db8be84c",
         "altText": "Paw Legend diamond rank badge",
-        "style": "minimal_3d",
+        "style": "glossy_cartoon_3d",
         "transparent": true
       }
     }
